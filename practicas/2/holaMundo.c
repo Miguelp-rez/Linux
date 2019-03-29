@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf( "Hola mundo." );
+    printf( "Hola mundo." );/*Hola mundo en c*/
     getch();
     return 0;
 }
