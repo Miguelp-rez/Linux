@@ -1,6 +1,7 @@
 # Práctica 2: Manejo de Ramas en Git
 ````
-Entrega: 27/03/2019
+Entrega: 31/03/2019
+Hora límite: 23:59
 ````
 El objetivo de esta práctica es impulsarlos a crear proyectos que se ramifican y combinan a menudo. Las personas que comprenden y dominan las ramas poseen una herramienta única y poderosa, que puede cambiar por completo la forma en que se desarrolla.
 
