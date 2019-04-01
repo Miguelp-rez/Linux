@@ -1,0 +1,519 @@
+Script iniciado (mié 27 mar 2019 13:23:18 CST
+)[sofia@scl ~]$ #Impr[K[K[K[KEcho [K[K[K[K[Kecho ""S"e"r"i"e" "d"e" "e"j"e"r"c"i"c"i"o"s" "0"1"[C mostrada[K[Kra en la pamtalla[K[K[K[K[K[Knyta[K[K[Ktallla [K[K[K[Ka[Kla [K[K[K[K[K[K[K[K[K[K terminal el texto ""S"e"r"i"e" "d"e" "e"j"e"r"c"i"c"i"o"n" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ""0"1"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C el comando echo mo[Kie[K[Kuestra en [K o[Kla pantakka¡[K[K[K[Klla el texto que se le mande como argumento
+[sofia@scl ~]$ echo ""\"\"[D[K[K[K[K[K[K""S"e"r"i"e" "d"e" "e"j"e"r"c"i"c"i"o"s" "0"1"
+Serie de ejercicios 01
+[sofia@scl ~]$ #cd sirve para movernos dentro de[K[K[K[K[K[K[K[K[Kpo[K[Ken los direcc[Ktori[K[K[K[Ktorios del arb ol[K[K[Ki[Kol [K[K[K[K[K[K[K[K[K[K, [K[Ke[Kdel arbol, em es[K[K[K[K[Kn[Ken este s[Kcaso, c[K[K[K creo queno[K[K no pasae[Kra  nada al solo ejecutar cd 
+[sofia@scl ~]$ cd
+[sofia@scl ~]$ #pwd nos da la ruta de n[Kdonde nos encontran[Kmos, en este caso nos dira que /home/sofia/
+[sofia@scl ~]$ pwd
+/home/sofia
+[sofia@scl ~]$ #touch sssssssssir[K[K[K[K[K[K[K[K[K[Kirve para modificar la d[Kfcha[K[K[Keca[Kha  h [K[K[K[K y  ka hora de modificacion[K[Kón de los archivos [K, tamb ién se usa para [K[K[K[K[K[K incorrectamente para crear archivos, tocuh[K[K[Kuch ""[C[K[Karchivo_de_prueba.txt  [Kcreare au[K[K[K[Ka un archivo co [Kn el  nombre archib[Kvo_prie[K[Kieba[K[K[K[Kueba [K[K[K[K[K[K[Kde_prueba.txt
+[sofia@scl ~]$ touch archivo_de_prueba.txt
+[sofia@scl ~]$ 
+[sofia@scl ~]$ 
+[sofia@scl ~]$ #[Kls
+archivo_de_prueba.txt  ColinSofia_Ejercicio1  [0m[01;34mdescargar[0m  [01;34mdocumentos[0m  [01;34mescritorio[0m
+[sofia@scl ~]$ #cp siv[Krve para copiar archivos o direcc[Ktorios [K, cp archivo_d[Ke[Kde_prueva[K[Kba.txt prueba [K.doc cop iara el[Kl archivo arv[Kcvh[K[Khivo.[K_de_prueba.txt con el nombre prueba.dox[Kc [K, al final tendremos los de[Kos archivos
+[sofia@scl ~]$ cp archivo:_[K_de[K[K[K[K[Ko_de_prueba.tx[Kxt prueba.co[K[Kdoc
+[sofia@scl ~]$ ls
+archivo_de_prueba.txt  ColinSofia_Ejercicio1  [0m[01;34mdescargar[0m  [01;34mdocumentos[0m  [01;34mescritorio[0m  prueba.doc
+[sofia@scl ~]$ #rm sirve a[Kpara eleme[Kinanr[K[Kr r[Karchivos y direcct[K[Ktorios [K, rm archivo_de_prueba.txt bora[Krará e [Kl a rciu[Khivo[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca rci[Khivo archivo:[K_de_prueba.txt
+[sofia@scl ~]$ rm archivo_de_prueba.txt
+[sofia@scl ~]$ ls
+ColinSofia_Ejercicio1  [0m[01;34mdescargar[0m  [01;34mdocumentos[0m  [01;34mescritorio[0m  prueba.doc
+[sofia@scl ~]$ #mv mueva[K[K[Keve archivos o direcc[Ktorios [K, mw p[K[K[K[Kmv pruwb[K[Keba [K.[K [K[K[K[K[K ueba Document[K[K[K[K[K[K[K[Kdocumentos [K/ marcsr[K[K[Kara [K[K[K[Kcara error porque no exs[Kis te ningun archivo con ese nombre [K [K, se supone que deberia mover un arcuho[K[K[Ki[Khivo co[K[Ka l[K[Kl directorio docm[Kumentos
+[sofia@scl ~]$ mv pru[K ueb [Ka documentos/
+mv: no se puede efectuar `stat' sobre «pr»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ueba»: No existe el fichero o el directorio
+[sofia@scl ~]$ #Pues nos dice que no existe [K nu[Kinguno de los archivos que le pedimos que moviera, el c omando correcto seria mv prueba.doc documentos/
+[sofia@scl ~]$ mc [K[Kv prueba [K.doc documentos [K/
+[sofia@scl ~]$ ls
+ColinSofia_Ejercicio1  [0m[01;34mdescargar[0m  [01;34mdocumentos[0m  [01;34mescritorio[0m
+[sofia@scl ~]$ cd co[K[K[K[K[Kcd documentos
+[sofia@scl documentos]$ ls
+prueba.doc
+[sofia@scl documentos]$ #Y ahí esa[Kta el archivo
+[sofia@scl documentos]$ cd ~
+[sofia@scl ~]$ #ls lista los cvo[K[K[Kdoc[K[K[K[K archivos u [K[Ky directorios df [K[Ke la ruta donde nos encontramos [K, -la [K[K[Kal son v[Kbander as [K, las [K[K[K[Klas cuales hacen que se listen [K[K[K[K[K[Ksye[K[K[K[K[K muestre informacion adico[Kional del [K[K[K [Ke los archi[Kv[Kivos com [Ko el inodo, el propieta ro[Kio, el fru[K[K[Kgrupu y[K[K[Ko, la fecha de creacion y [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfecha y hora de creacion y creo u[Kque los archivos ocultos
+[sofia@scl ~]$ ls -la 
+total 24
+drwx------. 6 sofia sofia  197 mar 27 13:42 [0m[01;34m.[0m
+drwxr-xr-x. 3 root  root    19 mar 25 16:03 [01;34m..[0m
+-rw-------. 1 sofia sofia  787 mar 26 16:55 .bash_history
+-rw-r--r--. 1 sofia sofia   18 oct 30 11:07 .bash_logout
+-rw-r--r--. 1 sofia sofia  193 oct 30 11:07 .bash_profile
+-rw-r--r--. 1 sofia sofia  231 oct 30 11:07 .bashrc
+-rw-rw-r--. 1 sofia sofia 4096 mar 27 13:35 ColinSofia_Ejercicio1
+drwxrwxr-x. 2 sofia sofia    6 mar 27 13:22 [01;34mdescargar[0m
+drwxrwxr-x. 2 sofia sofia   24 mar 27 13:42 [01;34mdocumentos[0m
+drwxrwxr-x. 2 sofia sofia    6 mar 27 13:21 [01;34mescritorio[0m
+-rw-------. 1 sofia sofia   38 mar 26 13:45 .lesshst
+drwxrwxr-x. 2 sofia sofia   85 mar 26 14:44 [01;34m.mexico2[0m
+[sofia@scl ~]$ ls -la Documen[K[K[K[K[K[K[Kdocumentos [K/
+total 0
+drwxrwxr-x. 2 sofia sofia  24 mar 27 13:42 [0m[01;34m.[0m
+drwx------. 6 sofia sofia 197 mar 27 13:42 [01;34m..[0m
+-rw-rw-r--. 1 sofia sofia   0 mar 27 13:35 prueba.doc
+[sofia@scl ~]$ @[K#cd docu,[K,men[K[K[K[Kmentos nos cambiara de c[Kdirec[K[K[K[K[K[K[K[Kal directorio documentos 
+[sofia@scl ~]$ cd documentos/
+[sofia@scl documentos]$ #Nos listara los archivos [K que existen en el directorio descargas, pero no co mo hay nada [K, peues[K[K[K[Kues no creo que nos muestre algo
+[sofia@scl documentos]$ ls --[K[K../descargas
+ls: no se puede acceder a ../descargas: No existe el fichero o el directorio
+[sofia@scl documentos]$ #A me [K[K[K[Kh me q[Kequivoque [K[K[K[Kque de nombr[Kre [K xD
+[sofia@scl documentos]$ #Ah me equivoque de nombre xD[14Pls ../descargas[Kr
+[sofia@scl documentos]$ mkdir directorio de [K[K[K[K_de[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#mkdir nos[K[K[Ksirve para crear directorios [K, mkdir nos crear[K[K[K[K[K[K[K[K[Kdirectorio_de_prueva [K[K[Kba nps [K[K[Ko[K[Kcreara un dr [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci rectorp[K[Krio de [K[K[K[K con el nombre directorio_de_prueba
+[sofia@scl documentos]$ mmmmmmmmmmk[K[K[K[K[K[K[K[K[K[K[Kmkdir directorio_de_prueba
+[sofia@scl documentos]$ #rm directorio_de_pruea[Kba   [K[K se[K[K[Kse supone que dec[Kberia bprr[K[K[Korra el dirc[Kectotio[K[K[Krio [K, pero no  funcin[Konara [K por que le falta el -r [K[K[K[K[K[K[K la bander[K[K[K[K[K[K[K[K[Kuna bandera [K, el coe[Kmando correcto seria [K: m[Krm directorio_de_prueba[C[C directorio_de_prueba- directorio_de_pruebar directorio_de_prueba[C directorio_de_prueba[1Pdirectorio_de_prueba[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[sofia@scl documentos]$ #Ah olvide mostrar que si se creo el [K[K[Kel directorio
+[sofia@scl documentos]$ ls [K[K[Kls ../descaraga[K[K[Kgar
+[sofia@scl documentos]$ @[K#me equivoque de nuevo xD [K
+[sofia@scl documentos]$ ls 
+[0m[01;34mdirectorio_de_prueba[0m  prueba.doc
+[sofia@scl documentos]$ rm directorio_de_prueba
+rm: no se puede borrar «directorio_de_prueba»: Es un directorio
+[sofia@scl documentos]$ #rm .[K-d ya n[Kborrara el directorio ¡, por[K[K[K[K[K[K[K, por que tiene la bandera -d
+[sofia@scl documentos]$ rm -d directorio_de_prueba
+[sofia@scl documentos]$ ls
+prueba.doc
+[sofia@scl documentos]$ #Ya y n[K[K[Kno esta _[K:O
+[sofia@scl documentos]$ #mdkit r[K[K[K[Kr [K[Kir prueba crea un directorio 
+[sofia@scl documentos]$ mkdir puev[Kbra [K[K[K[K[K[Krub[Ken[Kba 
+[sofia@scl documentos]$ ls
+[0m[01;34mprueba[0m  prueba.doc
+[sofia@scl documentos]$ to[K[K#tpuc[K[K[Kocu [K[K[Kuch P[Kpre[Kueba ¡/[K[K[K7[K/archivos[K.[K01.txt prueba/archivo02.txt creara dos archivos en a[Kel d irectpri[K[K[Korio prueba [K, [K[K
+[sofia@scl documentos]$ pr[K[Ktpu[K[Kouch prueba [K/archovpo[K[K[K[Kivo01.txt prueba[Ka&[K/archivo02.txt
+[sofia@scl documentos]$ ls ../prueba
+ls: no se puede acceder a ../prueba: No existe el fichero o el directorio
+[sofia@scl documentos]$ ls
+[0m[01;34mprueba[0m  prueba.doc
+[sofia@scl documentos]$ cd prueba
+[sofia@scl prueba]$ ls
+archivo01.txt  archivo02.txt
+[sofia@scl prueba]$ @aho [K[Ki [K[Kí estan xD
+bash: @ahí: no se encontró la orden
+[sofia@scl prueba]$ cd ~
+[sofia@scl ~]$ cd doci[Ki[Kumentos
+[sofia@scl documentos]$ rm [K[K[K#rm prueba ser [K[K p[Ksupone que debi[Kri[K[Kr[Kería mo[K[Keliminar el directorio, pero no se va a pod er por[K[K[Kpor que le falta alun[K[Kguna bandera
+[sofia@scl documentos]$ rm prueba
+rm: no se puede borrar «prueba»: Es un directorio
+[sofia@scl documentos]$ @[K#Nos[K se eleim[K[K[Kimino D:
+[sofia@scl documentos]$ #El coment[K[Ka[K[Kadom[K [K[K[Knd [Ko rm -rf prueba e[Ksi eliminara el directorio
+[sofia@scl documentos]$ rm -rf prueba
+[sofia@scl documentos]$ ls
+prueba.doc
+[sofia@scl documentos]$ #y ya  [Kno esta 
+[sofia@scl documentos]$ #cd . no se movera de directri[K[Korio por que se esta ref[Kdirigiendo a el mismo 
+[sofia@scl documentos]$ cd.[K .
+[sofia@scl documentos]$ #cd [K[K[K[K#pw d[K[Kd mostrara la ruta de s[Kdonde nos c[Kecnon[K[K[K[Kntr[K[Kcontramos 
+[sofia@scl documentos]$ pwd
+/home/sofia/documentos
+[sofia@scl documentos]$ # [Kcd -[K.. nos manda [Kra al home del usuario 
+[sofia@scl documentos]$ @[K#bueno a una car[K[K[K[K[K directo[Korio mas arrb[Kiba de n[Kdonde nos ecnontremos [K[K[K[K[K[K[K[K[K[K[K[K[K encontremos [K, en este caso a h ome del su[K[Kuauri[K[K[K[Ksuario 
+[sofia@scl documentos]$ cd -[K..
+[sofia@scl ~]$ #pwd n[Kmostarra [K[K[Kra ¡[K[K[K[Kra dond[K[K[K[K[K[K[Ka de[Konde nos encontramos[Ks, a[Ka[Khae [K[Kce ta[K[Krato estabamos en /home/sofia/doci[Kumentos/ y  ahora estarem,os en [K[K[K[K[K[K[Kos e [Kn /home [K/sofia
+[sofia@scl ~]$ pwd
+/home/sofia
+[sofia@scl ~]$ #cd /etc ns [Ko[K[Kos posicionara en el directorio ect[K[Ktc
+[sofia@scl ~]$ cd /ec[Ktc
+[sofia@scl etc]$ pwd
+/etc
+[sofia@scl etc]$ #ls -al | mr[Kore nos listara l¡t[K[K[K[Kto[K[K todos los archivos y directi[Korios de [Kl directr[Korio en donde  nos ecn[K[Kncontramos con el propo[Kietario, fr[K[Kgrupo [K, fecha y hora d emo[K[K[K[Ke modificacion y con mr[Kore nos mostrara por  partes el contenido [K,[K
+[sofia@scl etc]$ ls -al | more
+total 1052
+drwxr-xr-x. 74 root root   8192 mar 25 16:09 .
+dr-xr-xr-x. 17 root root    224 mar 25 16:03 ..
+-rw-r--r--.  1 root root     16 mar 25 16:03 adjtime
+-rw-r--r--.  1 root root   1518 jun  7  2013 aliases
+-rw-r--r--.  1 root root  12288 mar 25 16:09 aliases.db
+drwxr-xr-x.  2 root root    236 mar 25 16:01 alternatives
+-rw-------.  1 root root    541 abr 10  2018 anacrontab
+-rw-r--r--.  1 root root     55 oct 30 08:50 asound.conf
+drwxr-x---.  3 root root     43 mar 25 16:01 audisp
+drwxr-x---.  3 root root     83 mar 25 16:09 audit
+drwxr-xr-x.  2 root root     22 mar 25 16:01 bash_completion.d
+-rw-r--r--.  1 root root   2853 oct 30 13:48 bashrc
+drwxr-xr-x.  2 root root      6 oct 30 17:31 binfmt.d
+-rw-r--r--.  1 root root     38 nov 23 07:16 centos-release
+-rw-r--r--.  1 root root     51 nov 23 07:16 centos-release-upstream
+drwxr-xr-x.  2 root root      6 ago  4  2017 chkconfig.d
+drwxr-xr-x.  2 root root     21 mar 25 16:00 cron.d
+drwxr-xr-x.  2 root root     42 mar 25 16:01 cron.daily
+-rw-------.  1 root root      0 abr 10  2018 cron.deny
+drwxr-xr-x.  2 root root     22 jun  9  2014 cron.hourly
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root    451 jun  9  2014 crontab
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.weekly
+-rw-------.  1 root root      0 mar 25 16:00 crypttab
+-rw-r--r--.  1 root root   1620 oct 30 13:48 csh.cshrc
+-rw-r--r--.  1 root root    866 oct 30 13:48 csh.login
+drwxr-xr-x.  4 root root     78 mar 25 16:00 dbus-1
+drwxr-xr-x.  2 root root     44 mar 25 16:03 default
+drwxr-xr-x.  2 root root     23 mar 25 16:00 depmod.d
+drwxr-x---.  4 root root     53 mar 25 16:00 dhcp
+-rw-r--r--.  1 root root   5090 oct 30 08:37 DIR_COLORS
+-rw-r--r--.  1 root root   5725 oct 30 08:37 DIR_COLORS.256color
+-rw-r--r--.  1 root root   4669 oct 30 08:37 DIR_COLORS.lightbgcolor
+-rw-r--r--.  1 root root   1285 nov  2 11:40 dracut.conf
+drwxr-xr-x.  2 root root      6 nov  2 11:40 dracut.conf.d
+[7m--Más--[27m-rw-r--r--.  1 root root    112 oct 30 08:58 e2fsck.conf
+[7m--Más--[27m-rw-r--r--.  1 root root      0 oct 30 13:48 environment
+[7m--Más--[27m-rw-r--r--.  1 root root   1317 abr 10  2018 ethertypes
+-rw-r--r--.  1 root root      0 jun  7  2013 exports
+lrwxrwxrwx.  1 root root     56 mar 25 16:00 favicon.png -> /usr/share/icons/hicolor/16x16/apps/fedo
+ra-logo-icon.png
+-rw-r--r--.  1 root root     70 oct 30 13:48 filesystems
+drwxr-x---.  7 root root    133 mar 25 16:01 firewalld
+-rw-r--r--.  1 root root    465 mar 25 16:00 fstab
+drwxr-xr-x.  2 root root      6 ago  2  2017 gcrypt
+-rw-r--r--.  1 root root    842 oct 30 16:02 GeoIP.conf
+-rw-r--r--.  1 root root    858 oct 30 16:02 GeoIP.conf.default
+drwxr-xr-x.  2 root root      6 jul 13  2018 gnupg
+-rw-r--r--.  1 root root     94 mar 24  2017 GREP_COLORS
+drwxr-xr-x.  4 root root     40 mar 25 16:00 groff
+-rw-r--r--.  1 root root    459 mar 25 16:03 group
+-rw-r--r--.  1 root root    454 mar 25 16:03 group-
+lrwxrwxrwx.  1 root root     22 mar 25 16:00 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root    182 mar 25 16:03 grub.d
+----------.  1 root root    366 mar 25 16:03 gshadow
+----------.  1 root root    361 mar 25 16:03 gshadow-
+drwxr-xr-x.  3 root root     20 mar 25 16:00 gss
+-rw-r--r--.  1 root root      9 jun  7  2013 host.conf
+-rw-r--r--.  1 root root     10 mar 25 16:03 hostname
+-rw-r--r--.  1 root root    158 jun  7  2013 hosts
+-rw-r--r--.  1 root root    370 jun  7  2013 hosts.allow
+-rw-r--r--.  1 root root    460 jun  7  2013 hosts.deny
+lrwxrwxrwx.  1 root root     11 mar 25 16:00 init.d -> rc.d/init.d
+-rw-r--r--.  1 root root    511 oct 30 16:57 inittab
+-rw-r--r--.  1 root root    942 jun  7  2013 inputrc
+drwxr-xr-x.  2 root root    159 mar 25 16:00 iproute2
+-rw-r--r--.  1 root root     23 nov 23 07:16 issue
+-rw-r--r--.  1 root root     22 nov 23 07:16 issue.net
+-rw-r--r--.  1 root root   7265 mar 25 16:01 kdump.conf
+drwxr-xr-x.  3 root root     24 mar 25 16:01 kernel
+-rw-r--r--.  1 root root    641 oct 30 08:40 krb5.conf
+drwxr-xr-x.  2 root root      6 nov  2 10:13 krb5.conf.d
+-rw-r--r--.  1 root root  18703 mar 25 16:01 ld.so.cache
+[7m--Más--[27m-rw-r--r--.  1 root root     28 feb 27  2013 ld.so.conf
+drwxr-xr-x.  2 root root     74 mar 25 16:01 ld.so.conf.d
+-rw-r-----.  1 root root    191 jun 19  2018 libaudit.conf
+drwxr-xr-x.  2 root root     35 mar 25 16:00 libnl
+-rw-r--r--.  1 root root   2391 oct 12  2013 libuser.conf
+-rw-r--r--.  1 root root     19 mar 25 16:03 locale.conf
+lrwxrwxrwx.  1 root root     41 mar 25 16:03 localtime -> ../usr/share/zoneinfo/America/Mexico_City
+-rw-r--r--.  1 root root   2028 oct 30 08:54 login.defs
+-rw-r--r--.  1 root root    662 jul 31  2013 logrotate.conf
+drwxr-xr-x.  2 root root     68 mar 25 16:01 logrotate.d
+drwxr-xr-x.  6 root root    100 mar 25 16:01 lvm
+-r--r--r--.  1 root root     33 mar 25 16:00 machine-id
+-rw-r--r--.  1 root root    111 oct 30 12:16 magic
+-rw-r--r--.  1 root root   5122 nov  4 11:10 makedumpfile.conf.sample
+-rw-r--r--.  1 root root   5171 oct 30 14:26 man_db.conf
+-rw-r--r--.  1 root root    936 oct 30 13:03 mke2fs.conf
+drwxr-xr-x.  2 root root     81 mar 25 16:01 modprobe.d
+drwxr-xr-x.  2 root root      6 oct 30 17:31 modules-load.d
+-rw-r--r--.  1 root root      0 jun  7  2013 motd
+lrwxrwxrwx.  1 root root     17 mar 25 16:00 mtab -> /proc/self/mounts
+-rw-r--r--.  1 root root    570 ago 16  2018 my.cnf
+drwxr-xr-x.  2 root root     31 mar 25 16:00 my.cnf.d
+drwxr-xr-x.  7 root root    134 may 15  2018 NetworkManager
+-rw-r--r--.  1 root root     58 oct 30 16:57 networks
+-rw-r--r--.  1 root root   1746 mar 25 16:00 nsswitch.conf
+-rw-r--r--.  1 root root   1735 oct 30 01:53 nsswitch.conf.bak
+drwxr-xr-x.  3 root root     36 mar 25 16:00 openldap
+drwxr-xr-x.  2 root root      6 abr 10  2018 opt
+-rw-r--r--.  1 root root    393 nov 23 07:16 os-release
+drwxr-xr-x.  2 root root   4096 mar 25 16:03 pam.d
+-rw-r--r--.  1 root root    852 mar 25 16:03 passwd
+-rw-r--r--.  1 root root    852 mar 25 16:03 passwd-
+drwxr-xr-x.  3 root root     21 mar 25 16:00 pkcs11
+drwxr-xr-x. 10 root root    116 mar 25 16:01 pki
+drwxr-xr-x.  2 root root     28 mar 25 16:00 plymouth
+drwxr-xr-x.  5 root root     52 mar 25 16:00 pm
+[7m--Más--[27mdrwxr-xr-x.  5 root root     72 mar 25 16:00 polkit-1
+drwxr-xr-x.  2 root root      6 jun  9  2014 popt.d
+drwxr-xr-x.  2 root root    154 mar 25 16:01 postfix
+drwxr-xr-x.  3 root root    123 mar 25 16:00 ppp
+drwxr-xr-x.  2 root root     78 mar 25 16:00 prelink.conf.d
+-rw-r--r--.  1 root root    233 jun  7  2013 printcap
+-rw-r--r--.  1 root root   1819 oct 30 13:48 profile
+drwxr-xr-x.  2 root root    251 mar 25 16:00 profile.d
+-rw-r--r--.  1 root root   6545 oct 30 13:48 protocols
+-rw-------.  1 root root      0 mar 25 16:00 .pwd.lock
+drwxr-xr-x.  2 root root     35 mar 25 16:00 python
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root     10 mar 25 16:00 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root    127 mar 25 16:00 rc.d
+lrwxrwxrwx.  1 root root     13 mar 25 16:00 rc.local -> rc.d/rc.local
+lrwxrwxrwx.  1 root root     14 mar 25 16:00 redhat-release -> centos-release
+-rw-r--r--.  1 root root      1 mar 27 13:19 resolv.conf
+-rw-r--r--.  1 root root      1 mar 26 15:51 resolv.conf.save
+-rw-r--r--.  1 root root   1634 dic 24  2012 rpc
+drwxr-xr-x.  2 root root     25 oct 30 13:27 rpm
+-rw-r--r--.  1 root root   3232 oct 30 08:49 rsyslog.conf
+drwxr-xr-x.  2 root root     25 oct 30 17:08 rsyslog.d
+-rw-r--r--.  1 root root    966 oct 30 16:57 rwtab
+drwxr-xr-x.  2 root root     23 oct 30 16:57 rwtab.d
+drwxr-xr-x.  2 root root     24 mar 25 16:01 sasl2
+-rw-------.  1 root root    221 oct 30 13:48 securetty
+drwxr-xr-x.  6 root root   4096 mar 25 16:00 security
+drwxr-xr-x.  5 root root     81 mar 25 16:00 selinux
+-rw-r--r--.  1 root root 670293 jun  7  2013 services
+-rw-r--r--.  1 root root    216 nov  2 11:28 sestatus.conf
+----------.  1 root root    690 mar 25 16:03 shadow
+[7m--Más--[27m----------.  1 root root    695 mar 25 16:03 shadow-
+-rw-r--r--.  1 root root     44 oct 30 13:48 shells
+drwxr-xr-x.  2 root root     62 abr 10  2018 skel
+drwxr-xr-x.  2 root root    225 mar 25 16:09 ssh
+drwxr-xr-x.  2 root root     19 mar 25 16:00 ssl
+-rw-r--r--.  1 root root    212 oct 30 16:57 statetab
+drwxr-xr-x.  2 root root      6 oct 30 16:57 statetab.d
+-rw-r--r--.  1 root root      0 oct 30 13:48 subgid
+-rw-r--r--.  1 root root      0 oct 30 13:48 subuid
+-rw-r-----.  1 root root   1786 oct 30 08:38 sudo.conf
+-r--r-----.  1 root root   4328 oct 30 08:38 sudoers
+drwxr-x---.  2 root root      6 oct 30 18:36 sudoers.d
+-rw-r-----.  1 root root   3181 oct 30 08:38 sudo-ldap.conf
+drwxr-xr-x.  6 root root   4096 mar 25 16:04 sysconfig
+-rw-r--r--.  1 root root    449 oct 30 16:57 sysctl.conf
+drwxr-xr-x.  2 root root     28 mar 25 16:00 sysctl.d
+drwxr-xr-x.  4 root root    151 mar 25 16:00 systemd
+lrwxrwxrwx.  1 root root     14 mar 25 16:00 system-release -> centos-release
+-rw-r--r--.  1 root root     23 nov 23 07:16 system-release-cpe
+drwxr-xr-x.  2 root root      6 sep  6  2017 terminfo
+drwxr-xr-x.  2 root root      6 oct 30 17:31 tmpfiles.d
+drwxr-xr-x.  3 root root    109 mar 25 16:01 tuned
+drwxr-xr-x.  3 root root     54 mar 25 16:09 udev
+-rw-r--r--.  1 root root    163 mar 25 16:00 .updated
+-rw-r--r--.  1 root root     41 mar 25 16:03 vconsole.conf
+-rw-r--r--.  1 root root   1982 oct 30 13:57 virc
+drwxr-xr-x.  2 root root     33 mar 25 16:00 wpa_supplicant
+drwxr-xr-x.  5 root root     57 mar 25 16:00 X11
+drwxr-xr-x.  4 root root     38 mar 25 16:00 xdg
+drwxr-xr-x.  2 root root      6 abr 10  2018 xinetd.d
+drwxr-xr-x.  6 root root    100 mar 25 16:00 yum
+-rw-r--r--.  1 root root    970 nov  4 19:53 yum.conf
+drwxr-xr-x.  2 root root    187 nov  4 19:53 yum.repos.d
+[sofia@scl etc]$  [Kcat [K[K[K[K#cat passed nos[K[K[K[K[K[Ked no[K[K[K[K[Kwd nos p[Kmostrar[Kra el contenio[Kdo del archivo [K, [Ksi e[K[K[K[K si es que existe 
+[sofia@scl etc]$ cat oa[K[Kpasse[Kwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+sofia:x:1000:1000:Sofía Colín:/home/sofia:/bin/bash
+[sofia@scl etc]$ #si existe
+[sofia@scl etc]$ @[K#cd .[K-no[K[K nos posicionara [K[Ká [1P[1@~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cen el home del usr[Kuri[K[Kariio [K[K[Ko
+[sofia@scl etc]$ cd ~
+[sofia@scl ~]$ #
+[sofia@scl ~]$ #
+[sofia@scl ~]$ #
+[sofia@scl ~]$ #
+[sofia@scl ~]$ #EJERCIO[KCIO 3[K2
+[sofia@scl ~]$ #[Kcd d
+descargar/  documentos/ 
+[sofia@scl ~]$ cd d[K[K[K[Kcd documentos/
+[sofia@scl documentos]$ mkdir serio[Ke01
+[sofia@scl documentos]$ cd serie01/
+[sofia@scl serie01]$ touch ayer.tc[Kxt.[K hot[Ky tx[K[K[K[K.[Ky.txt
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ tpuch [K[K[K[K[Kouch -t 2000[K[K[K[K030[K[K20001011454
+touch: falta un fichero como operando
+Pruebe 'touch --help' para más información.
+[sofia@scl serie01]$ touch -t 020001011454 ayer.txt
+[sofia@scl serie01]$ ls -la
+total 0
+drwxrwxr-x. 2 sofia sofia 37 mar 27 14:16 [0m[01;34m.[0m
+drwxrwxr-x. 3 sofia sofia 39 mar 27 14:15 [01;34m..[0m
+-rw-rw-r--. 1 sofia sofia  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 sofia sofia  0 mar 27 14:16 hoy.txt
+[sofia@scl serie01]$ touch ls -r ater[K[K[Kyer.txt hot[Ky.txt
+[sofia@scl serie01]$ ls -la
+total 0
+drwxrwxr-x. 2 sofia sofia 47 mar 27 14:29 [0m[01;34m.[0m
+drwxrwxr-x. 3 sofia sofia 39 mar 27 14:15 [01;34m..[0m
+-rw-rw-r--. 1 sofia sofia  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 sofia sofia  0 ene  1  0200 hoy.txt
+-rw-rw-r--. 1 sofia sofia  0 ene  1  0200 ls
+[sofia@scl serie01]$ rm ls
+[sofia@scl serie01]$ rm lsls -latouch ls -r ayer.txt hoy.txt[1P[1P[1P
+[sofia@scl serie01]$ ls -ls
+total 0
+0 -rw-rw-r--. 1 sofia sofia 0 ene  1  0200 ayer.txt
+0 -rw-rw-r--. 1 sofia sofia 0 ene  1  0200 hoy.txt
+[sofia@scl serie01]$ mc[Kv flie[K[K[Kile [K[K[K[K[K*.txt .doc*.doc[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv ayert[K.txt ayer.di[Koc
+[sofia@scl serie01]$ mv hoy.txt hoy.doc
+[sofia@scl serie01]$ ls
+ayer.doc  hoy.doc
+[sofia@scl serie01]$ me[K[Kmv ayer.doc ayer.txt
+[sofia@scl serie01]$ mc[K[Kmv ayer.doc ayer.txt[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt .txth.txto.txty.txt[C[1P[1P[1P[1P[1@h[1@o[1@y
+[sofia@scl serie01]$ rema[K[Kname ''S'[1P'S'S'[1P'[1P's'/'\'.'t'x't'/'.'h't'm'l'[C *
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ lsrename 's/\.txt/.html' *[1P[1P[1P[1P[1@d[1@o[1@c
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ lsrename 's/\.txt/.doc' *[C[1P[1@d[1@o[1@c[1P[1P[1P[1@.
+[sofia@scl serie01]$ rename './\.txt/.doc' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ pwd
+/home/sofia/documentos/serie01
+[sofia@scl serie01]$ pwd .
+/home/sofia/documentos/serie01
+[sofia@scl serie01]$ pwd .[K[1Plsrename './\.txt/.doc' *[C[1P[1@s[1@e[1@r[1@i[1@e[1@0[1@1
+[sofia@scl serie01]$ rename 'serie01/\.txt/.doc' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd .[K[K[1Pls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ remab¡¡[K[K[K[K[Ka[Kname -v -n ''s'/'\'.'t'x't'/'\'.'o'[1P'd'o'c'[C *
+rename: opción inválida -- 'n'
+
+Usage:
+ rename [options] expression replacement file...
+
+Options:
+ -v, --verbose    explain what is being done
+ -s, --symlink    act on symlink target
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see rename(1).
+[sofia@scl serie01]$ rename -v -n 's/\.txt/\.doc' *[C[1P[1P[1P
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ lsrename -v 's/\.txt/\.doc' *[3@-n [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krename 'serie01/\.txt/.doc' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd .[K[K[1Plsrename './\.txt/.doc' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krename 's/\.txt/.doc' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krename 's/\.txt/.html' *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pmv hoy.doc hoy.txtayer.doc ayer.txt[2Phoy.doc hoy.txt && [2Payer.doc ayer.txtls[Kmv ayer.doc ayer.txt &&[C[1P[1P[1P[1@t[1@x[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P &&[C[1P &&d &&o &&c &&[C[C[C m,[Kv hoy.txt g[Khoy.doc && cp * [K.doc [K[K[K[K[K[K--backup .[K*.dc[Koc
+[sofia@scl serie01]$ ls
+ayer.doc  hoy.doc  hoy.doc~
+[sofia@scl serie01]$ lsmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup *.doc[1P.doch.doco.docy.doc[C[C[C[C ayer.c[Kdoc
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[sofia@scl serie01]$ mv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.doc ayer.doc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.doc ayer.doc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[C[C[C[C[1P[1P[1P[1@d[1@o[1@c[C[C[C[C[C[C[C[C[C[1P[1P[1@t[1P[1P[1@t[1@x[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@d[1@o[1@c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup *.doc[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktxt[C[C[C[1P hoy.txt[1P hoy.txt[1P hoy.txtd hoy.txto hoy.txtc hoy.txt[1P[1P[1P[1@t[1@c[1@t[1P[1P[1@x[1@t[C[1P[1P[1P[1@d[1@o[1@c
+[sofia@scl serie01]$ rem [K[K[Km hoy.doc~
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ lsrm hoy.doc~mv ayer.doc ayer.txt && mv hoy.doc hoy.txtdoc && cp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup *.doc[1P.docj.doc[1P.doch.doco.docy.doc[C[C[C[C ayer.doc
+[sofia@scl serie01]$ ls
+ayer.doc  ayer.doc~  hoy.doc
+[sofia@scl serie01]$ rm at[Kyer.doc{[K~
+[sofia@scl serie01]$ 
+Display all 1115 possibilities? (y or n)
+[sofia@scl serie01]$ rm ayer.doc~ls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.doc ayer.doc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm hoy.doc~mv ayer.doc ayer.txt && mv hoy.doc hoy.txt
+[sofia@scl serie01]$ ls
+ayer.txt  hoy.txt
+[sofia@scl serie01]$ lsmv ayer.doc ayer.txt && mv hoy.doc hoy.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm ayer.doc~[Kls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.doc ayer.doc[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Koc[C[1@ [1@c[1@p[C[1@ [1@-[1@-[1@b[1@a[1@k[1P[1@c[1@k[1@u[1@p[C[1@ a mv hoy.txt hoy.doc && cp --backup hoy.doc [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy mv hoy.txt hoy.doc && cp --backup hoy.docc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+cp: falta el fichero de destino después de «ayer.doc»
+Pruebe 'cp --help' para más información.
+[sofia@scl serie01]$ mv ayer.txt ayer.doc && cp --backup ayer.doc && mv hoy.txt hoy.doc && cp --backuup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C && mv hoy.txt hoy.doc && cp --back[1@u[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs && mv hoy.txt hoy.doc && cp --bac[1@k[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce && mv hoy.txt hoy.doc && cp --ba[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr && mv hoy.txt hoy.doc && cp --b[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci && mv hoy.txt hoy.doc && cp --[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce && mv hoy.txt hoy.doc && cp -[1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 && mv hoy.txt hoy.doc && cp [C[1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 && mv hoy.txt hoy.doc && cp[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C serio[Ke01
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[sofia@scl serie01]$ ls
+ayer.doc  hoy.txt
+[sofia@scl serie01]$ lsmv ayer.txt ayer.doc && cp --backup ayer.doc serie01 && mv hoy.txt hoy.doc && cpp --backup hoy.doc serie01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backu[16Pp hoy.doc[A[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.doc ayer.txt && mv hoy.doc hoy.txt
+mv: no se puede efectuar `stat' sobre «hoy.doc»: No existe el fichero o el directorio
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ 
+[sofia@scl serie01]$ mv ayer.doc ayer.txt && mv hoy.doc hoy.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc && cp --backup ayer.doc serie01 && mv hoy.txt hoy.doc && cpp --backup hoy.doc serie01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backu[16Pp hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cserie01 && mv hoy.txt hoy.doc && cp --backup hoy.doc serie01
+[sofia@scl serie01]$ ls
+ayer.doc  hoy.doc  serie01  serie01~
+[sofia@scl serie01]$ re [K[Km serie01 serie01
+rm: no se puede borrar «serie01»: No existe el fichero o el directorio
+[sofia@scl serie01]$ rm serie01 serie01~[C[1P serie01~[1P serie01~[1P serie01~[1P serie01~[1P serie01~[1P serie01~[1P serie01~[1Pserie01~
+[sofia@scl serie01]$ ls
+ayer.doc  hoy.doc
+[sofia@scl serie01]$ lsrm serie01~ serie01ls[Kmv ayer.txt ayer.doc && cp --backup ayer.doc serie01 && mv hoy.txt hoy.doc && cpp --backup hoy.doc serie01[A[C[C[C[37Pdoc ayer.txt && mv hoy.doc hoy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctxt ayer.doc && cp --backup ayer.doc serie01 && mv hoy.txt hoy.doc && cpp --backup hoy.doc serie01[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp -[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --b[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --ba[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --bac[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --back[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backu[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backup[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backup [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backup h[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co&& mv hoy.txt hoy.doc && cp --backup [1@h[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc&& mv hoy.txt hoy.doc && cp --backup[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C && mv hoy.txt hoy.doc && cp --backu[1@p[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc && cp --backup ayer.doc && mv hoy.txt hoy.doc && cp --backuup hoy.doc serie01[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C.dpc[K[Koc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup[1P hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup [1Phoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup h[1Poy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup ho[1Py.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup hoy[1P.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cyer.doc && mv hoy.txt hoy.doc && cp --backup hoy.[1Pdoc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.d[1Poc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.do[1Pc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.doc && mv hoy.txt hoy.doc && cp --backup hoy.doc[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C && mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&& mv hoy.txt hoy.doc && cp --backup hoy[1P.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca&& mv hoy.txt hoy.doc && cp --backup hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.&& mv hoy.txt hoy.doc && cp --back[1@u[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd&& mv hoy.txt hoy.doc && cp --bac[1@k[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co&& mv hoy.txt hoy.doc && cp --ba[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc&& mv hoy.txt hoy.doc && cp --b[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C && mv hoy.txt hoy.doc && cp --[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[1Phoy.doc[1Phoy.doc[1Phoy.doc[C[C[C[C[C[1Phoy.doc[C[C[C[C[1Phoy.doc[C[C[C[1Phoy.doc[C[C[1Phoy.doc[C[1Phoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cho[1Py.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Choy[1P.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C hoycopua[K[Kia.doc
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[sofia@scl serie01]$ mv ayer.txt ayer.doc && cp ayer.doc ayercopia.doc && mv hoy.txt hoy.doc && cp hooy.doc hoycopia.doc[A[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm serie01~ serie01ls[Kmv ayer.txt ayer.doc && cp --backup ayer.doc serie01 && mv hoy.txt hoy.doc && cpp --backup hoy.doc serie01[A[C[C[C[37Pdoc ayer.txt && mv hoy.doc hoy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.doc ayer.txt && mv hoy.doc hoy.txt
+[sofia@scl serie01]$ mv ayer.doc ayer.txt && mv hoy.doc hoy.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctxt ayer.doc && cp ayer.doc ayercopia.doc && mv hoy.txt hoy.doc && cp hooy.doc hoycopia.doc[A[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc && cp ayer.doc ayercopia.doc && mv hoy.txt hoy.doc && cp hooy.doc hoycopia.doc
+[sofia@scl serie01]$ ls
+ayercopia.doc  ayer.doc  hoycopia.doc  hoy.doc
+[sofia@scl serie01]$ fi[Kie [Kl[K[Kle ayer [K.doc
+ayer.doc: empty
+[sofia@scl serie01]$ file ayer.doc hoy.doc
+ayer.doc: empty
+hoy.doc:  empty
+[sofia@scl serie01]$ file ayer.doc hoy.doc [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir calificacionesLcalificacionesicalificacionesscalificacionestcalificacionesacalificaciones[C[1PalificacionesCalificaciones[C[C[C[C[C[C[C[C[C[C[C[C[C
+[sofia@scl serie01]$ cd lis[K[K[KListaCalificaciones/
+[sofia@scl ListaCalificaciones]$ touch calificacionesDePrebes.xls
+[sofia@scl ListaCalificaciones]$ ls
+calificacionesDePrebes.xls
+[sofia@scl ListaCalificaciones]$ cat<[K >>
+bash: error sintáctico cerca del elemento inesperado `newline'
+[sofia@scl ListaCalificaciones]$ cat >>[K[K<<EOF>> outputfile
+> EOF+
+> EOF
+[sofia@scl ListaCalificaciones]$ rm [K[K[Kls
+calificacionesDePrebes.xls  outputfile
+[sofia@scl ListaCalificaciones]$ rm outputfile
+[sofia@scl ListaCalificaciones]$ ls
+calificacionesDePrebes.xls
+[sofia@scl ListaCalificaciones]$ lsrm outputfilels[Kcat <<EOF>> outputfile
+EOF+
+EOF
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C>>[K
+[K
+[K
+[K[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: error sintáctico cerca del elemento inesperado `newline'
+[sofia@scl ListaCalificaciones]$ 
+[sofia@scl ListaCalificaciones]$ cat <<end>> [K[K[K[K[K[K end[K[K[K[K[K<>>e>>n>>d>> >>[1P>>[C[C[K[K[K[K[K[K calificacionesDePrebes.xls
+[sofia@scl ListaCalificaciones]$ cat < calificacionesDePrebes.xls[C[C[C[1P calificacionesDePrebes.xls< calificacionesDePrebes.xls[1P calificacionesDePrebes.xls< calificacionesDePrebes.xls[C calificacionesDePrebes.xls[1PcalificacionesDePrebes.xls[1P calificacionesDePrebes.xls< calificacionesDePrebes.xls
+[sofia@scl ListaCalificaciones]$ cat < calificacionesDePrebes.xls[1P calificacionesDePrebes.xls> calificacionesDePrebes.xls
+amadeus         Amadeus  : 5 -1  10
+Andres  : 10
+X Zinedinne: 10
+Brayan  : 20  10
+sofia  :   10
+^C
+[sofia@scl ListaCalificaciones]$ cat calificacionesDePrebes.xls
+Amadeus: 10
+Andres: 10
+Zinedinne: 10
+Brayan: 10
+sofia: 10
+[sofia@scl ListaCalificaciones]$ head -n3 calificacionesDePrebes.xls 
+Amadeus: 10
+Andres: 10
+Zinedinne: 10
+[sofia@scl ListaCalificaciones]$ head -n3 calificacionesDePrebes.xls [C[1P[1P[1P[1P[1@t[1@a[1@i[1@l[C[C[C[C[1P[1@2
+Brayan: 10
+sofia: 10
+[sofia@scl ListaCalificaciones]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 15:32:49 CST
+)
