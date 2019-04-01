@@ -1,0 +1,20 @@
+Script iniciado (dom 31 mar 2019 21:01:19 CST
+)[amadeus@GTAA ~]$ efho[K[K[Kcho $PS1
+[\u@\h \W]\$
+[amadeus@GTAA ~]$ cd /etc
+[amadeus@GTAA etc]$ pwd
+/etc
+[amadeus@GTAA etc]$ PS![K1='Ñ[K[h:[K[K/{[K[K\h:\W \a[KA]\$'
+[GTAA:etc 21:02]$#Ya se modifico el promt[Kpt solo falta el color
+[GTAA:etc 21:03]$P#Ya se modifico el prompt solo falta el color[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[27PPS1='[\h:\W \A]\$'[C\$'[\$'%\$'[1P\$'$\$'(\$'t\$'p\$'u\$'t\$' \$'s\$'e\$'t\$'a\$'f\$' \$'2\$')\$'(\$'[C[C)'('$('[C)'\'`']'[1P]'t)\]'p)\]'u)\]'t)\]' )\]'s)\]'r)\]'g)\]'0)\]'
+tput: unknown terminfo capability 'srg0'
+[GTAA:etc 21:06][32m($)#l[K[KPS1='[\h:\W \A]\[$(tput setaf 2)(\$)$(tput srg0)\]' 0)\]'
+tput: unknown terminfo capability 'srg'
+[GTAA:etc 21:07][32m($)PS1='[\h:\W \A]\[$(tput setaf 2)(\$)$(tput srg 0)\]'[C[C[C[C[C[1P 0)\]'[1P 0)\]'g 0)\]'r 0)\]'[C[1P0)\]'
+[GTAA:etc 21:07][32m($)[0;10mjbjnnjdcnkcs[K[K[K[K[K[K[K[K[K[K[K[K
+[GTAA:etc 21:07][32m($)[0;10m#Ya quedo (Sin embargo tuve cierto [Ks problemas xD)
+[GTAA:etc 21:07][32m($)[0;10mexit
+exit
+
+Script terminado (dom 31 mar 2019 21:07:54 CST
+)

@@ -1,0 +1,483 @@
+Script iniciado (mié 27 mar 2019 13:23:23 CST
+)[aamadeus@AAGT ~]$ #comen[K[K[K[K[Kecho ""S"e"r"i"e" "d"e" "e"j"e"r"c"i"c"i"o"s" "0"1"[C creara un archivo llamado ""s"e" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr""i"e" "d"e" "e"j"e"r"c"i"c"i"o"s" "1" "[1P"[1P"0"1"[C conservando el formato del tir[Ktulo
+[aamadeus@AAGT ~]$ #echo "Serie de ejercicios 01" creara un archivo llamado "seriie de ejercicios 01" conservando el formato del titulo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[1P
+Serie de ejercicios 01
+[aamadeus@AAGT ~]$ ls
+[0m[01;34mDescargas[0m  [01;34mDocumentos[0m  [01;34mEscritorio[0m  GallardoAmadeus_Ejercicio1
+[aamadeus@AAGT ~]$ #No creo ningun archivo y que me cond[Kfundincon el[K[K[K[K[K[K[K con el touch
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #cd no pasara nasac[K[K[Kds[Ka
+[aamadeus@AAGT ~]$ cd
+[aamadeus@AAGT ~]$ #No paso nada
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #pwd nos motsae[K[K[Krara la direccion donde nos encontramos es decir  /aamadeus/home
+[aamadeus@AAGT ~]$ pwd
+/home/aamadeus
+[aamadeus@AAGT ~]$ #Fue ql revez es dedir [K[K[K[Kcir /home [K/aamadeus
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #touch archivo_de_pruebs[Ka.txt genera uh [K[Kn archivo vacio con el n imbre de [K[K[K[K[K[K[K[K[Kombreb[K archivo [K_de_prueba.txt
+[aamadeus@AAGT ~]$ touch archivo_de_prueba.txt
+[aamadeus@AAGT ~]$ ls
+archivo_de_prueba.txt  [0m[01;34mDocumentos[0m  GallardoAmadeus_Ejercicio1
+[01;34mDescargas[0m              [01;34mEscritorio[0m
+[aamadeus@AAGT ~]$ #Se gener[K[K[K[K[K[K[K[K[Kcat archivo_de_prueba.txt 
+[aamadeus@AAGT ~]$ #efectivamente se creo uhnarchivo [K[K[K[K[K[K[K[K[K[Kn archivo en ba[Klanco ee [K[K[Kde este [K[K[K[K[K[K[K[Kcon el nokbre [K[K[K[K[Kmbre arc hivo_de_pruebw[Ka.txt
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #cp archivo [K_de_prueba.txt prueba.doc copia el archivo archivo  [K_de_prueba.txt en la misma e[Kirccion[K[K[K[K[K[K[Kdireccion pero c[Krenombrandolo c[Kde pruebw.[K[Ka.dox[Kc
+[aamadeus@AAGT ~]$ #cp archivo_de_prueba.txt prueba.doc copia el archivo archivo__de_prueba.txt en la misma direccion pero renombrandolo de prueba.doc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kprueba.doc[1P
+[aamadeus@AAGT ~]$ ls
+archivo_de_prueba.txt  [0m[01;34mDocumentos[0m  GallardoAmadeus_Ejercicio1
+[01;34mDescargas[0m              [01;34mEscritorio[0m  prueba.doc
+[aamadeus@AAGT ~]$ #ef[K[Ks[KSe cro [K[Keo un archivo con el mismo contenido de archivo_de_prue ba.txt
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #rm archivo [K_de_prueba.txt borra el archivo /[K(tambien funciona  para borrar directorios)
+[aamadeus@AAGT ~]$ #rm archivo_de_prueba.txt borra el archivo (tambien funciona ppara borrar directorios)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm archivo_de_prueba.txt 
+[aamadeus@AAGT ~]$ ls
+[0m[01;34mDescargas[0m  [01;34mDocumentos[0m  [01;34mEscritorio[0m  GallardoAmadeus_Ejercicio1  prueba.doc
+[aamadeus@AAGT ~]$ #Se borro el archivo
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #mv prueba.doc  [KDocumentos/ mueveo[K el archivo [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kerror[C[1P[1@ [C[1@e[1P[1@u[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kmanda uh [K[Kn error
+[aamadeus@AAGT ~]$ mv pr uebabDq[K[K[K Documentos/
+mv: no se puede efectuar `stat' sobre «pr»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ueba»: No existe el fichero o el directorio
+[aamadeus@AAGT ~]$ #Mando el eeror [K[K[K[K[Krror 
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #Mando el error mv pr ueba Documentos/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#mv pr ueba Documentos/ manda un error[K[K[K[K[K[K[K[K[K[K[K[K[Kueve archivo [Ks o direcot[K[K[Kctoria [K[Kod [K[Kw [K[Ks y en est e caso movera el archivo prueba.doc a la carpeta Documentos[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv pr ueba Documentos/ mueve archivos o directorios y en estee caso movera el archivo prueba.doc a la carpeta Documentos[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. Documentos/ mueve archivos o directorios y en est[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd Documentos/ mueve archivos o directorios y en es[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co Documentos/ mueve archivos o directorios y en e[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc Documentos/ mueve archivos o directorios y en [1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cueba.doc Documentos/ mueve archivos o directorios y en e[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[aamadeus@AAGT ~]$ #mv prueba.doc Documentos/ mueve archivos o directorios y en eeste caso movera el archivo prueba.doc a la carpeta Documentos[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cms [K[Kv prueba.doc Doq[Kcumentos/
+[aamadeus@AAGT ~]$ ls
+[0m[01;34mDescargas[0m  [01;34mDocumentos[0m  [01;34mEscritorio[0m  GallardoAmadeus_Ejercicio1
+[aamadeus@AAGT ~]$ ls Documentos/
+prueba.doc
+[aamadeus@AAGT ~]$ #Efectivamente se movio el archivo a la carpeta Docuemn[Kentos[1Pmentos
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ # [Kls -l[Kal Dom[Kcumentos/ listara todos los archivos dento[Kro de la c arpets [K[Ka Documentos/ de manera que muestre ek [K[Kl Inodo y la fecha de cread[Kciom [K[Ky[Kn y los m etodos de acceso
+[aamadeus@AAGT ~]$ ls -la Dq[Kocumentos/
+total 0
+drwxrwxr-x. 2 aamadeus aamadeus  24 mar 27 13:42 [0m[01;34m.[0m
+drwx------. 5 aamadeus aamadeus 170 mar 27 13:42 [01;34m..[0m
+-rw-rw-r--. 1 aamadeus aamadeus   0 mar 27 13:36 prueba.doc
+[aamadeus@AAGT ~]$ #hace lo que dije pero tambien muestra archivos ocua[Kltos
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #cd do[K[KDocuem[K[Kmentos/ sirve para movernos entre carpetas y u[Kocupa di recciones absolutas y relativas y en este caso nos movera a la cap[Krpeta Documento s usando la direccion relativa
+[aamadeus@AAGT ~]$ cd Doq[Kcq[Kumentos/[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+/home/aamadeus
+[aamadeus@AAGT ~]$ cd Docuq[Kmq[K[K[Kumentos/
+[aamadeus@AAGT Documentos]$ pwd
+/home/aamadeus/Documentos
+[aamadeus@AAGT Documentos]$ #ciertemehte [K[K[K[Kjte [K[K[K[Knte nos movio a la carpeta
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #ls ../Descargar [K[Ks usando[K[K[K[K[K[Klista los archivos de una carpeta u sando direcciones ac[Kbsulotas y relativas en este caso primero sale de la carpeta  y despues ingresa a la carpeta Descargas y la lista
+[aamadeus@AAGT Documentos]$ ls ../Descargas/
+[aamadeus@AAGT Documentos]$ #Si funciona pero no se muestra porque la carpeta es ta vacia
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #mkdor [K[K[K[Kdir Directorio de [K[K[K[K_de_prueba crear[K directorios y aqui  creamos un a[K[Ka carpeta /[K()d)i)r)e)c)t)o)r)i)o)[C llamado Directorio_e_[K[K_[Kde_prueba
+[aamadeus@AAGT Documentos]$ mkdir Directoriii[K[Ko_e[Kde_prueba
+[aamadeus@AAGT Documentos]$ ls
+[0m[01;34mDirectorio_de_prueba[0m  prueba.doc
+[aamadeus@AAGT Documentos]$ ##[KSE [K[Ke creo el directorio
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #rm Directorio_de_prueba no [K[K[Kmanda uhnerror [K[K[K[K[K[K[K[K[K[K[K[Kda un error que nos dice  que eso ed uh [K[K[K[K[Ks uh diref[Kci[Kr[Ktoriorm [K[K[K[Ko[1P directorion directorio
+[aamadeus@AAGT Documentos]$ rm Direq[Kctorio_de_prueba/
+rm: no se puede borrar «Directorio_de_prueba/»: Es un directorio
+[aamadeus@AAGT Documentos]$ #s[KSi nos dijo que era uh directorio[1P directorion directorio
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #rm -d Directorip[Ko_de_prueba boee[K[Krra el directorio grac ias a la bandera -d
+[aamadeus@AAGT Documentos]$ rm -d Dirq[Kectorio_de_prueba/
+[aamadeus@AAGT Documentos]$ ls
+prueba.doc
+[aamadeus@AAGT Documentos]$ #Efectivamenete [K[K[K[K[K[K[K[K[K[K[K[K[K[K[KYa no esta D:
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #mkdir Pruba [K[K[Keba crea un directorio llamado prueba
+[aamadeus@AAGT Documentos]$ mkdir Prueba [K
+[aamadeus@AAGT Documentos]$ ls
+[0m[01;34mPrueba[0m  prueba.doc
+[aamadeus@AAGT Documentos]$ #Aji [K[K[Khi esta el directorio
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #touch Orueb[K[K[K[K[KPrueba [K/archivo01.txt Prueba/archivo02.txt cra r[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce ara dos arcgivos [K[K[K[K[K[Khivos en la carpeta prueba 
+[aamadeus@AAGT Documentos]$ touch Pruq[Keba/archivo01.txt Prueba/archivo02.txt
+[aamadeus@AAGT Documentos]$ ls Pruq[Keba/
+archivo01.txt  archivo02.txt
+[aamadeus@AAGT Documentos]$ #se crearon vorrectamente[C[1Porrectamentecorrectamente
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #rm Pruab[K[Keba manda el error de que es un directorio
+[aamadeus@AAGT Documentos]$ rm Prq[Kueba/
+rm: no se puede borrar «Prueba/»: Es un directorio
+[aamadeus@AAGT Documentos]$ #el [K[K[KEl error
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #rm -rf Prueba fuerca [K[K[Kza y borrre[K[Ka [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kborra un directorio forxandolo[K[K[K[K[K[K[Kzandolo y recu rsivamente 
+[aamadeus@AAGT Documentos]$ rm -rf Prueba/
+[aamadeus@AAGT Documentos]$ ls
+prueba.doc
+[aamadeus@AAGT Documentos]$ #Ya no esta D:
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #cd . nos dire[Kige a nustra misma carpeta [K
+[aamadeus@AAGT Documentos]$ pwd
+/home/aamadeus/Documentos
+[aamadeus@AAGT Documentos]$ cd .
+[aamadeus@AAGT Documentos]$ pwd
+/home/aamadeus/Documentos
+[aamadeus@AAGT Documentos]$ #seguimos en la misma cap[Krpeta
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #pwd nos muestra la ruta actual
+[aamadeus@AAGT Documentos]$ pwd
+/home/aamadeus/Documentos
+[aamadeus@AAGT Documentos]$ #
+[aamadeus@AAGT Documentos]$ #cd .. nos regresa a la carpeta anteriro[K[Kor
+[aamadeus@AAGT Documentos]$ cd ..
+[aamadeus@AAGT ~]$ pwd
+/home/aamadeus
+[aamadeus@AAGT ~]$ #Hemos regresado a la carpeta anterir[Kor
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #Hemos regresado a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcd ..#cd .. nos regresa a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K#cd .. nos regresa a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpwd#pwd nos muestra la ruta actual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[K#pwd nos muestra la ruta actual
+[aamadeus@AAGT ~]$ #pwd nos muestra la ruta actual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K#pwd nos muestra la ruta actual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KHemos regresado a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcd ..[2Ppwd
+/home/aamadeus
+[aamadeus@AAGT ~]$ pwd#pwd nos muestra la ruta actual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KHemos regresado a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kcd ..#cd .. nos regresa a la carpeta anterior[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpwd#pwd nos muestra la ruta actual[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kseguimos en la misma carpeta[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[K[K[K[K#
+[aamadeus@AAGT ~]$ cd [K[K[K#cd /etc/[K nos lleva a la carpeta etc desde la raiz 
+[aamadeus@AAGT ~]$ cd /etc/
+[aamadeus@AAGT etc]$ pwd
+/etc
+[aamadeus@AAGT etc]$ #Ahora estamos en la carpeta etc
+[aamadeus@AAGT etc]$ #
+[aamadeus@AAGT etc]$ #ls -al | more nos muestra todos los archivos (incluso ocul tos([K) pero nos permite tener cierta movilidad
+[aamadeus@AAGT etc]$ ls -al | more
+total 1052
+drwxr-xr-x. 74 root root   8192 mar 26 12:32 .
+dr-xr-xr-x. 17 root root    224 mar 26 12:26 ..
+-rw-r--r--.  1 root root     16 mar 26 12:26 adjtime
+-rw-r--r--.  1 root root   1518 jun  7  2013 aliases
+-rw-r--r--.  1 root root  12288 mar 26 12:32 aliases.db
+drwxr-xr-x.  2 root root    236 mar 26 12:08 alternatives
+-rw-------.  1 root root    541 abr 10  2018 anacrontab
+-rw-r--r--.  1 root root     55 oct 30 08:50 asound.conf
+drwxr-x---.  3 root root     43 mar 26 12:07 audisp
+drwxr-x---.  3 root root     83 mar 26 12:32 audit
+drwxr-xr-x.  2 root root     22 mar 26 12:08 bash_completion.d
+-rw-r--r--.  1 root root   2853 oct 30 13:48 bashrc
+drwxr-xr-x.  2 root root      6 oct 30 17:31 binfmt.d
+-rw-r--r--.  1 root root     38 nov 23 07:16 centos-release
+-rw-r--r--.  1 root root     51 nov 23 07:16 centos-release-upstream
+drwxr-xr-x.  2 root root      6 ago  4  2017 chkconfig.d
+drwxr-xr-x.  2 root root     21 mar 26 12:05 cron.d
+drwxr-xr-x.  2 root root     42 mar 26 12:08 cron.daily
+-rw-------.  1 root root      0 abr 10  2018 cron.deny
+drwxr-xr-x.  2 root root     22 jun  9  2014 cron.hourly
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root    451 jun  9  2014 crontab
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.weekly
+[7m--Más--[27m-rw-------.  1 root root      0 mar 26 12:01 crypttab
+[7m--Más--[27m-rw-r--r--.  1 root root   1620 oct 30 13:48 csh.cshrc
+-rw-r--r--.  1 root root    866 oct 30 13:48 csh.login
+drwxr-xr-x.  4 root root     78 mar 26 12:05 dbus-1
+drwxr-xr-x.  2 root root     44 mar 26 12:26 default
+drwxr-xr-x.  2 root root     23 mar 26 12:05 depmod.d
+drwxr-x---.  4 root root     53 mar 26 12:05 dhcp
+-rw-r--r--.  1 root root   5090 oct 30 08:37 DIR_COLORS
+-rw-r--r--.  1 root root   5725 oct 30 08:37 DIR_COLORS.256color
+-rw-r--r--.  1 root root   4669 oct 30 08:37 DIR_COLORS.lightbgcolor
+-rw-r--r--.  1 root root   1285 nov  2 11:40 dracut.conf
+drwxr-xr-x.  2 root root      6 nov  2 11:40 dracut.conf.d
+-rw-r--r--.  1 root root    112 oct 30 08:58 e2fsck.conf
+-rw-r--r--.  1 root root      0 oct 30 13:48 environment
+-rw-r--r--.  1 root root   1317 abr 10  2018 ethertypes
+-rw-r--r--.  1 root root      0 jun  7  2013 exports
+lrwxrwxrwx.  1 root root     56 mar 26 12:04 favicon.png -> /usr/share/icons/hic
+olor/16x16/apps/fedora-logo-icon.png
+-rw-r--r--.  1 root root     70 oct 30 13:48 filesystems
+drwxr-x---.  7 root root    133 mar 26 12:07 firewalld
+-rw-r--r--.  1 root root    475 mar 26 12:01 fstab
+drwxr-xr-x.  2 root root      6 ago  2  2017 gcrypt
+-rw-r--r--.  1 root root    842 oct 30 16:02 GeoIP.conf
+-rw-r--r--.  1 root root    858 oct 30 16:02 GeoIP.conf.default
+drwxr-xr-x.  2 root root      6 jul 13  2018 gnupg
+[7m--Más--[27m-rw-r--r--.  1 root root     94 mar 24  2017 GREP_COLORS
+drwxr-xr-x.  4 root root     40 mar 26 12:03 groff
+-rw-r--r--.  1 root root    460 mar 26 12:26 group
+-rw-r--r--.  1 root root    452 mar 26 12:26 group-
+lrwxrwxrwx.  1 root root     22 mar 26 12:05 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root    182 mar 26 12:21 grub.d
+----------.  1 root root    367 mar 26 12:26 gshadow
+----------.  1 root root    359 mar 26 12:26 gshadow-
+drwxr-xr-x.  3 root root     20 mar 26 12:03 gss
+-rw-r--r--.  1 root root      9 jun  7  2013 host.conf
+-rw-r--r--.  1 root root     11 mar 26 12:26 hostname
+-rw-r--r--.  1 root root    158 jun  7  2013 hosts
+-rw-r--r--.  1 root root    370 jun  7  2013 hosts.allow
+-rw-r--r--.  1 root root    460 jun  7  2013 hosts.deny
+lrwxrwxrwx.  1 root root     11 mar 26 12:02 init.d -> rc.d/init.d
+-rw-r--r--.  1 root root    511 oct 30 16:57 inittab
+-rw-r--r--.  1 root root    942 jun  7  2013 inputrc
+drwxr-xr-x.  2 root root    159 mar 26 12:04 iproute2
+-rw-r--r--.  1 root root     23 nov 23 07:16 issue
+-rw-r--r--.  1 root root     22 nov 23 07:16 issue.net
+-rw-r--r--.  1 root root   7265 mar 26 12:07 kdump.conf
+drwxr-xr-x.  3 root root     24 mar 26 12:08 kernel
+-rw-r--r--.  1 root root    641 oct 30 08:40 krb5.conf
+drwxr-xr-x.  2 root root      6 nov  2 10:13 krb5.conf.d
+[7m--Más--[27m-rw-r--r--.  1 root root  18703 mar 26 12:08 ld.so.cache
+-rw-r--r--.  1 root root     28 feb 27  2013 ld.so.conf
+drwxr-xr-x.  2 root root     74 mar 26 12:07 ld.so.conf.d
+-rw-r-----.  1 root root    191 jun 19  2018 libaudit.conf
+drwxr-xr-x.  2 root root     35 mar 26 12:03 libnl
+-rw-r--r--.  1 root root   2391 oct 12  2013 libuser.conf
+-rw-r--r--.  1 root root     19 mar 26 12:26 locale.conf
+lrwxrwxrwx.  1 root root     41 mar 26 12:26 localtime -> ../usr/share/zoneinfo/
+America/Mexico_City
+-rw-r--r--.  1 root root   2028 oct 30 08:54 login.defs
+-rw-r--r--.  1 root root    662 jul 31  2013 logrotate.conf
+drwxr-xr-x.  2 root root     68 mar 26 12:08 logrotate.d
+drwxr-xr-x.  6 root root    100 mar 26 12:07 lvm
+-r--r--r--.  1 root root     33 mar 26 12:05 machine-id
+-rw-r--r--.  1 root root    111 oct 30 12:16 magic
+-rw-r--r--.  1 root root   5122 nov  4 11:10 makedumpfile.conf.sample
+-rw-r--r--.  1 root root   5171 oct 30 14:26 man_db.conf
+-rw-r--r--.  1 root root    936 oct 30 13:03 mke2fs.conf
+drwxr-xr-x.  2 root root     81 mar 26 12:07 modprobe.d
+drwxr-xr-x.  2 root root      6 oct 30 17:31 modules-load.d
+-rw-r--r--.  1 root root      0 jun  7  2013 motd
+lrwxrwxrwx.  1 root root     17 mar 26 12:01 mtab -> /proc/self/mounts
+-rw-r--r--.  1 root root    570 ago 16  2018 my.cnf
+drwxr-xr-x.  2 root root     31 mar 26 12:04 my.cnf.d
+[7m--Más--[27mdrwxr-xr-x.  7 root root    134 may 15  2018 NetworkManager
+-rw-r--r--.  1 root root     58 oct 30 16:57 networks
+-rw-r--r--.  1 root root   1746 mar 26 12:05 nsswitch.conf
+-rw-r--r--.  1 root root   1735 oct 30 01:53 nsswitch.conf.bak
+drwxr-xr-x.  3 root root     36 mar 26 12:04 openldap
+drwxr-xr-x.  2 root root      6 abr 10  2018 opt
+-rw-r--r--.  1 root root    393 nov 23 07:16 os-release
+drwxr-xr-x.  2 root root   4096 mar 26 12:26 pam.d
+-rw-r--r--.  1 root root    860 mar 26 12:26 passwd
+-rw-r--r--.  1 root root    860 mar 26 12:26 passwd-
+drwxr-xr-x.  3 root root     21 mar 26 12:03 pkcs11
+drwxr-xr-x. 10 root root    116 mar 26 12:08 pki
+drwxr-xr-x.  2 root root     28 mar 26 12:06 plymouth
+drwxr-xr-x.  5 root root     52 mar 26 12:02 pm
+drwxr-xr-x.  5 root root     72 mar 26 12:05 polkit-1
+drwxr-xr-x.  2 root root      6 jun  9  2014 popt.d
+drwxr-xr-x.  2 root root    154 mar 26 12:07 postfix
+drwxr-xr-x.  3 root root    123 mar 26 12:05 ppp
+drwxr-xr-x.  2 root root     78 mar 26 12:05 prelink.conf.d
+-rw-r--r--.  1 root root    233 jun  7  2013 printcap
+-rw-r--r--.  1 root root   1819 oct 30 13:48 profile
+drwxr-xr-x.  2 root root    251 mar 26 12:05 profile.d
+-rw-r--r--.  1 root root   6545 oct 30 13:48 protocols
+-rw-------.  1 root root      0 mar 26 12:05 .pwd.lock
+[7m--Más--[27mdrwxr-xr-x.  2 root root     35 mar 26 12:03 python
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root     10 mar 26 12:02 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root    127 mar 26 12:05 rc.d
+lrwxrwxrwx.  1 root root     13 mar 26 12:05 rc.local -> rc.d/rc.local
+lrwxrwxrwx.  1 root root     14 mar 26 12:03 redhat-release -> centos-release
+-rw-r--r--.  1 root root      1 mar 27 13:16 resolv.conf
+-rw-r--r--.  1 root root      1 mar 26 13:23 resolv.conf.save
+-rw-r--r--.  1 root root   1634 dic 24  2012 rpc
+drwxr-xr-x.  2 root root     25 oct 30 13:27 rpm
+-rw-r--r--.  1 root root   3232 oct 30 08:49 rsyslog.conf
+drwxr-xr-x.  2 root root     25 oct 30 17:08 rsyslog.d
+-rw-r--r--.  1 root root    966 oct 30 16:57 rwtab
+drwxr-xr-x.  2 root root     23 oct 30 16:57 rwtab.d
+drwxr-xr-x.  2 root root     24 mar 26 12:07 sasl2
+-rw-------.  1 root root    221 oct 30 13:48 securetty
+drwxr-xr-x.  6 root root   4096 mar 26 12:03 security
+drwxr-xr-x.  5 root root     81 mar 26 12:05 selinux
+-rw-r--r--.  1 root root 670293 jun  7  2013 services
+[7m--Más--[27m-rw-r--r--.  1 root root    216 nov  2 11:28 sestatus.conf
+----------.  1 root root    693 mar 26 12:26 shadow
+----------.  1 root root    698 mar 26 12:26 shadow-
+-rw-r--r--.  1 root root     44 oct 30 13:48 shells
+drwxr-xr-x.  2 root root     62 abr 10  2018 skel
+drwxr-xr-x.  2 root root    225 mar 26 12:32 ssh
+drwxr-xr-x.  2 root root     19 mar 26 12:03 ssl
+-rw-r--r--.  1 root root    212 oct 30 16:57 statetab
+drwxr-xr-x.  2 root root      6 oct 30 16:57 statetab.d
+-rw-r--r--.  1 root root      0 oct 30 13:48 subgid
+-rw-r--r--.  1 root root      0 oct 30 13:48 subuid
+-rw-r-----.  1 root root   1786 oct 30 08:38 sudo.conf
+-r--r-----.  1 root root   4328 oct 30 08:38 sudoers
+drwxr-x---.  2 root root      6 oct 30 18:36 sudoers.d
+-rw-r-----.  1 root root   3181 oct 30 08:38 sudo-ldap.conf
+drwxr-xr-x.  6 root root   4096 mar 26 12:30 sysconfig
+-rw-r--r--.  1 root root    449 oct 30 16:57 sysctl.conf
+drwxr-xr-x.  2 root root     28 mar 26 12:05 sysctl.d
+drwxr-xr-x.  4 root root    151 mar 26 12:05 systemd
+lrwxrwxrwx.  1 root root     14 mar 26 12:03 system-release -> centos-release
+-rw-r--r--.  1 root root     23 nov 23 07:16 system-release-cpe
+drwxr-xr-x.  2 root root      6 sep  6  2017 terminfo
+drwxr-xr-x.  2 root root      6 oct 30 17:31 tmpfiles.d
+drwxr-xr-x.  3 root root    109 mar 26 12:07 tuned
+[7m--Más--[27mdrwxr-xr-x.  3 root root     54 mar 26 12:32 udev
+-rw-r--r--.  1 root root    163 mar 26 12:02 .updated
+-rw-r--r--.  1 root root     40 mar 26 12:26 vconsole.conf
+-rw-r--r--.  1 root root   1982 oct 30 13:57 virc
+drwxr-xr-x.  2 root root     33 mar 26 12:05 wpa_supplicant
+drwxr-xr-x.  5 root root     57 mar 26 12:05 X11
+drwxr-xr-x.  4 root root     38 mar 26 12:05 xdg
+drwxr-xr-x.  2 root root      6 abr 10  2018 xinetd.d
+drwxr-xr-x.  6 root root    100 mar 26 12:06 yum
+-rw-r--r--.  1 root root    970 nov  4 19:53 yum.conf
+drwxr-xr-x.  2 root root    187 nov  4 19:53 yum.repos.d
+[aamadeus@AAGT etc]$  [K#Vemos todos los archivo pantalla por pantslla[K[K[K[Kalla
+[aamadeus@AAGT etc]$ #
+[aamadeus@AAGT etc]$ #cas [K[Kt Pa[K[Kpasswd nos muestra el contenido del archivo pa[Kasswd com pleto y desde ariba hacia abajo
+[aamadeus@AAGT etc]$ cat ps[Kasswd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+aamadeus:x:1000:1000:Andrés Amadeus:/home/aamadeus:/bin/bash
+[aamadeus@AAGT etc]$ #ahi [K[K[K[KAhi esta con[Kdigo que c[K[K[K[K[K[K[K[K[K[K[K[Kconenido de passwd[1P[1@t[1@e[1@n[1P
+[aamadeus@AAGT etc]$ #
+[aamadeus@AAGT etc]$ cd ~ nos lleva el [K[K[Kal home [1@#
+[aamadeus@AAGT etc]$ pwd
+/etc
+[aamadeus@AAGT etc]$ cd ~
+[aamadeus@AAGT ~]$ pwd
+/home/aamadeus
+[aamadeus@AAGT ~]$ #aho[K[K[KAhoa estamos en el homs[Ke
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #
+[aamadeus@AAGT ~]$ #actividad 2[C[C[1P[1@A
+[aamadeus@AAGT ~]$ cd Documentos/
+[aamadeus@AAGT Documentos]$ mkdir Serir[Ke=[K01
+[aamadeus@AAGT Documentos]$ cd Seq[Krie01/
+[aamadeus@AAGT Serie01]$ touch ayer.txt hoy.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"[K#Activida3d3 3
+[aamadeus@AAGT Serie01]$ touch ayer.txt hoy.txt
+[aamadeus@AAGT Serie01]$ touch ayer.txt hoy.txt[10P#Actividad 3[K4
+[aamadeus@AAGT Serie01]$ touch -t 022[K0001011454 ayer.txt 
+[aamadeus@AAGT Serie01]$ ls -lha
+total 0
+drwxrwxr-x. 2 aamadeus aamadeus 37 mar 27 14:17 [0m[01;34m.[0m
+drwxrwxr-x. 3 aamadeus aamadeus 39 mar 27 14:16 [01;34m..[0m
+-rw-rw-r--. 1 aamadeus aamadeus  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 aamadeus aamadeus  0 mar 27 14:17 hoy.txt
+[aamadeus@AAGT Serie01]$ ls -lhatouch -t 020001011454 ayer.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19P#Actividad 4[K5
+[aamadeus@AAGT Serie01]$ 
+Display all 1115 possibilities? (y or n)
+[aamadeus@AAGT Serie01]$ 
+Display all 1115 possibilities? (y or n)
+[aamadeus@AAGT Serie01]$ to
+toe    top    touch  
+[aamadeus@AAGT Serie01]$ to[K[Ktouch -r ayer.txt  [Khoy.txt 
+[aamadeus@AAGT Serie01]$ touch -r ayer.txt hoy.txt [14P#Actividad 5[5Pls -lha
+total 0
+drwxrwxr-x. 2 aamadeus aamadeus 37 mar 27 14:17 [0m[01;34m.[0m
+drwxrwxr-x. 3 aamadeus aamadeus 39 mar 27 14:16 [01;34m..[0m
+-rw-rw-r--. 1 aamadeus aamadeus  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 aamadeus aamadeus  0 ene  1  0200 hoy.txt
+[aamadeus@AAGT Serie01]$ ls -lhatouch -r ayer.txt hoy.txt [14P#Actividad 5[5Pls -lha#Actividad 5[K6
+[aamadeus@AAGT Serie01]$ mv *.txt *.doc
+mv: el objetivo «*.doc» no es un directorio
+[aamadeus@AAGT Serie01]$ mv ayer.txt ayer.doc
+[aamadeus@AAGT Serie01]$ mv hoy.txt hoy.doc
+[aamadeus@AAGT Serie01]$ ls
+ayer.doc  hoy.doc
+[aamadeus@AAGT Serie01]$ lsmv hoy.txt hoy.doc && mv [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmv hoy.doc hoy.doc [K[K[K[Ktxt
+[aamadeus@AAGT Serie01]$ mv ayer.doc ayq[Ker.doc [K[K[K[Ktxt
+[aamadeus@AAGT Serie01]$ ls
+ayer.txt  hoy.txt
+[aamadeus@AAGT Serie01]$ mv hoy.txt hoy.txt [K[K[K[Kdoc $$[K[K&& mv ayer.txt vay[K[K[Kayer.txt [K[K[K[Kdoc && cp hoy.txtt [K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdo c BU_hoy.doc $$ [K[K[K&& aye[K[K[Kcp ayeer[K[Kr.txt BU_ayer.doc[C[C[C[C[C[1P BU_ayer.doc[1P BU_ayer.doc[1P BU_ayer.docd BU_ayer.doco BU_ayer.docc BU_ayer.doc
+[aamadeus@AAGT Serie01]$ ls
+ayer.doc  BU_ayer.doc  BU_hoy.doc  hoy.doc
+[aamadeus@AAGT Serie01]$ lsmv hoy.txt hoy.doc && mv ayer.txt ayer.doc && cp hoy.docc BU_hoy.doc && cp ayer.doc BU_ayer.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.doc ayer.txt[2Phoy.doc hoy.txtls[Kmv hoy.txt hoy.docayer.txt ayer.doc[6P*.txt *.doc[2P#Actividad 6[K7
+[aamadeus@AAGT Serie01]$ cat [K[K[K[Kfile B[Kayq[Ker.doc && hoy[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#Son archivos vacio y de tipo vacio
+[aamadeus@AAGT Serie01]$ filem[K hoy.doc && ayer.doc[C[C[C ayer.docf ayer.doci ayer.docl ayer.doce ayer.doc[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[Ke ayer.doc 
+hoy.doc: empty
+ayer.doc: empty
+[aamadeus@AAGT Serie01]$ #Si e[Kson vacios
+[aamadeus@AAGT Serie01]$ #Si son vaciosfile hoy.doc && file ayer.doc [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#Son archivos vacio y de tipo vacio[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CActividad 7[K[K8
+[aamadeus@AAGT Serie01]$ mkdir ""[C[K[KListaDeCalificaciones
+[aamadeus@AAGT Serie01]$ cd ls[K[KListaDeCalificaciones/[K
+[aamadeus@AAGT ListaDeCalificaciones]$ cd ListaDeCalificaciones[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15P#Actividad 8[K9[K10
+[aamadeus@AAGT ListaDeCalificaciones]$ touch calificacionesDePrueba.xls
+[aamadeus@AAGT ListaDeCalificaciones]$ touch calificacionesDePrueba.xls[19P#Actividad 10[K1
+[aamadeus@AAGT ListaDeCalificaciones]$ cat <<end >Z[K>Kis[K[K[KLis[K[K[Kliss[Kt[K[K[K[KcalificacionesDePrueba.xls 
+> Sofio[Ka 0[K[K: 0[Ki[K10
+> Andres [K: 20[K[K10
+> Zinnedien[K[Kne [K: 10
+> Brayan [K: 10
+> Amadeus: 10
+> end
+[aamadeus@AAGT ListaDeCalificaciones]$ cat calificacionesDePrueba.xls 
+Sofia: 10
+Andres: 10
+Zinnedine: 10
+Brayan: 10
+Amadeus: 10
+[aamadeus@AAGT ListaDeCalificaciones]$ atc[K[K[Ktac calificacionesDePrueba.xls 
+Amadeus: 10
+Brayan: 10
+Zinnedine: 10
+Andres: 10
+Sofia: 10
+[aamadeus@AAGT ListaDeCalificaciones]$ tac calificacionesDePrueba.xls  -b 3[K[K[K[K[K-n [3Pcat calificacionesDePrueba.xls[C-n 3
+     1	Sofia: 10
+     2	Andres: 10
+     3	Zinnedine: 10
+     4	Brayan: 10
+     5	Amadeus: 10
+cat: 3: No existe el fichero o el directorio
+[aamadeus@AAGT ListaDeCalificaciones]$ cat calificacionesDePrueba.xls -n 3[C[C[C[C[C[C[C[C
+     1	Sofia: 10
+     2	Andres: 10
+     3	Zinnedine: 10
+     4	Brayan: 10
+     5	Amadeus: 10
+cat: 3: No existe el fichero o el directorio
+[aamadeus@AAGT ListaDeCalificaciones]$ 
+[aamadeus@AAGT ListaDeCalificaciones]$ 
+[aamadeus@AAGT ListaDeCalificaciones]$ 
+[aamadeus@AAGT ListaDeCalificaciones]$ 
+[aamadeus@AAGT ListaDeCalificaciones]$ cat calificacionesDePrueba.xls -n 3[K[K[K[K[K- calificacionesDePrueba.xlsn calificacionesDePrueba.xls[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C calificacionesDePrueba.xls3 calificacionesDePrueba.xls
+cat: 3: No existe el fichero o el directorio
+     1	Sofia: 10
+     2	Andres: 10
+     3	Zinnedine: 10
+     4	Brayan: 10
+     5	Amadeus: 10
+[aamadeus@AAGT ListaDeCalificaciones]$ cat -n 3 calificacionesDePrueba.xls[C[C[C[C[1P
+cat: opción inválida -- '3'
+Pruebe 'cat --help' para más información.
+[aamadeus@AAGT ListaDeCalificaciones]$ h[Kcat -n3 calificacionesDePrueba.xls[C[C[1P[1P[1P[1@h[1@e[1@a[1@d
+Sofia: 10
+Andres: 10
+Zinnedine: 10
+[aamadeus@AAGT ListaDeCalificaciones]$ head -n3 calificacionesDePrueba.xls[C[1P[1P[1P[1P[1@t[1@a[1@i[1@l
+Zinnedine: 10
+Brayan: 10
+Amadeus: 10
+[aamadeus@AAGT ListaDeCalificaciones]$ tail -n3 calificacionesDePrueba.xls[1P calificacionesDePrueba.xls2 calificacionesDePrueba.xls
+Brayan: 10
+Amadeus: 10
+[aamadeus@AAGT ListaDeCalificaciones]$  [Kexit
+exit
+
+Script terminado (mié 27 mar 2019 15:29:42 CST
+)
