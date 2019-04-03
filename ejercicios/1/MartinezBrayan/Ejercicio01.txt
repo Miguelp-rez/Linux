@@ -1,0 +1,25 @@
+Script iniciado (vie 29 mar 2019 13:52:24 CST
+)[root@mapq ~]# history [K
+    1  history
+[root@mapq ~]# history[Khistory[Khistory[Khistory[K[K[K[K[K[K[Kcd home[K[K[K[K[K[K[Kls
+anaconda-ks.cfg  hola2.txt  hola40.txt  hola.txt   practica1  [0m[01;34mprueba[0m
+Ejercicio01.txt  hola3.txt  hola4.txt   practica0  practica2
+[root@mapq ~]# cd prueba;ls
+practica1.sh  practica_2.txt  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[root@mapq prueba]# ls _I[1PI-I[C *[K [K* [K"" "[C*
+practica1.sh  practica_2.txt  [0m[01;35mtarea02.png[0m  tarea1.txt
+[root@mapq prueba]# ls -I *" "*[C[1P*[1P*[1P*_*
+practica1.sh  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[root@mapq prueba]# ls -I *_*[K[K[K[K[K[K*.txt
+practica_2.txt  tarea1.txt
+[root@mapq prueba]# ls *.txt[.txt[.txt[C[C[C[1Pt[K[1Pt[1Pt]t[C[K!] ][1P].]s]h]
+practica_2.txt  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[root@mapq prueba]# ls *[!.sh][K[K[K[K[K[K[Kpractica"*[K[K*
+practica1.sh  practica_2.txt  practica 3.pdf
+[root@mapq prueba]# ls practica*[1P*[1P*[1P*[1P*[1P*[1P*[1P*[1P*[C1*
+practica1.sh  tarea1.txt
+[root@mapq prueba]# exit
+exit
+
+Script terminado (vie 29 mar 2019 14:02:02 CST
+)
