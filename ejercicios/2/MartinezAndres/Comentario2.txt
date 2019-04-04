@@ -1,0 +1,1 @@
+Basicamente el script empieza arriba de la linea 9, justo al final de la "linea 8" se ve cuando uso el comando sort 
