@@ -1,0 +1,241 @@
+Script iniciado (mar 02 abr 2019 14:39:22 CST
+)[brayan@bamv 02-04-2019]$ "[K#lista ordend[Kada de l[Ktodos s[Klos usuarios del sistema en users.txt
+[brayan@bamv 02-04-2019]$ cat etc[K[K[K/etc/passwd | grep [K[K[K[K[K#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kip addr | grep 'inet ' | cut -c10-20 [K | cut -c10-20 17[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P3-5[C ' | cut -d' '-f2[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1@=[C[C[C[9@-delimiter[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -f21[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cut[Kip addr | grep 'inet ' | cut -d' ' -f12[K[3Pinet | cut -d' ' -f2[Kecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e' [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman tr[Kfind /etc | grep conf [2@*conf* | more[C[1P'conf' | more[K[8Pman findfind /etc 'conf'[8Pman findcat users.txtut -d: -f1 copia_passwd | sort  > users.txt [K[Kman cut[Krtls[Kcp /etc/passwd /home/brayan/02-04-2019/copia_passwd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kman shutdownpowering-off[9Pls /etc[3Pexitls -al[Krm *Scriptls[Kscript pruebaScript01-04-2019.txt/04/2019.txt[1Ptouch 01-04-2019.txt/04/2019.txt[1@script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pman uniqsortwc -l /etc/passwd[5Pcat got8.txt[4Pgot8.txtls[Kcat text.txt[6Pman trcat otroTexto.txttext.txt | tr -s 'e' text.txt > otroTexto.txt d a-z[K A-Z[3P[C[C[C[C[C[C[C[a-z] [a-Z]A-Z][2@prebes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctext.txt[K | tr 'e' 'E'[2@prebes[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Ptext.txtls[Kcat text.txtprebes.txt | tr 'e' 'E'[2Ptext[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kprebes.txt | tr [a-z] [A-Z][2Ptext[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca-Z][4Pa-z A-Z[3@-d [C[C[C[C[C[C[C[Ks 'e' text.txt > otroTexto.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CotroTexto.txt[K[11Pman trcat text.txtls[Kgot8.txtcat got8.txtwc -l /etc/passwd[9Pman sortuniqscript 01/04/2019.txt[1Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-04-2019.txtscript 01/04/2019.txt-04-2019.txt[2PpruebaScriptls[Krm *Scriptls[K -al[2Pexitls /etcman powering-off[4Pshutdown[8Pexitcp /etc/passwd /home/brayan/02-04-2019/copia_passwd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kman curt[1Ptcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat users.txt[Kut -d: -f1 copia_passwd | sort  > users.txt 
+[brayan@bamv 02-04-2019]$ #Lista tdo[K[Kodos los archivos de -7[K[K/etc que contengan a [K[Kla cadea[Kna ''c'o'n'f'[C en su nombre
+[brayan@bamv 02-04-2019]$ #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kip addr | grep 'inet ' | cut -c10-20 [K | cut -c10-20 17[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P3-5[C ' | cut -d' '-f2[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1@=[C[C[C[9@-delimiter[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -f21[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cut[Kip addr | grep 'inet ' | cut -d' ' -f12[K[3Pinet | cut -d' ' -f2[Kecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e' [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman tr[Kfind /etc | grep conf [2@*conf* | more[C[1P'conf' | more[K[8Pman findfind /etc 'conf'[8Pman findcat users.txtut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat users.txt[K[5Pman findfind /etc 'conf'[8Pman findfind /etc 'conf' | more*conf* | more [2P| grep conf[C
+find: ‘/etc/grub.d’: Permiso denegado
+find: ‘/etc/lvm/archive’: Permiso denegado
+find: ‘/etc/lvm/backup’: Permiso denegado
+find: ‘/etc/lvm/cache’: Permiso denegado
+find: ‘/etc/polkit-1/rules.d’: Permiso denegado
+find: ‘/etc/polkit-1/localauthority’: Permiso denegado
+find: ‘/etc/pki/CA/private’: Permiso denegado
+find: ‘/etc/pki/rsyslog’: Permiso denegado
+find: ‘/etc/dhcp’: Permiso denegado
+/etc/resolv.[01;31m[Kconf[m[K
+/etc/chk[01;31m[Kconf[m[Kig.d
+/etc/pam.d/[01;31m[Kconf[m[Kig-util
+/etc/depmod.d/dist.[01;31m[Kconf[m[K
+/etc/dracut.[01;31m[Kconf[m[K
+/etc/dracut.[01;31m[Kconf[m[K.d
+/etc/prelink.[01;31m[Kconf[m[K.d
+/etc/prelink.[01;31m[Kconf[m[K.d/nss-softokn-prelink.[01;31m[Kconf[m[K
+/etc/prelink.[01;31m[Kconf[m[K.d/fipscheck.[01;31m[Kconf[m[K
+/etc/prelink.[01;31m[Kconf[m[K.d/grub2.[01;31m[Kconf[m[K
+/etc/modprobe.d/dccp-blacklist.[01;31m[Kconf[m[K
+/etc/modprobe.d/tuned.[01;31m[Kconf[m[K
+/etc/modprobe.d/firewalld-sysctls.[01;31m[Kconf[m[K
+/etc/rsyslog.d/listen.[01;31m[Kconf[m[K
+/etc/systemd/bootchart.[01;31m[Kconf[m[K
+/etc/systemd/coredump.[01;31m[Kconf[m[K
+/etc/systemd/journald.[01;31m[Kconf[m[K
+/etc/systemd/logind.[01;31m[Kconf[m[K
+/etc/systemd/system/multi-user.target.wants/rhel-[01;31m[Kconf[m[Kigure.service
+/etc/systemd/system.[01;31m[Kconf[m[K
+/etc/systemd/user.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.hostname1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.import1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.locale1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.login1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.machine1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.systemd1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.timedate1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.PolicyKit1.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/wpa_supplicant.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/nm-dispatcher.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/nm-ifcfg-rh.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/org.freedesktop.NetworkManager.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/teamd.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/com.redhat.tuned.[01;31m[Kconf[m[K
+/etc/dbus-1/system.d/FirewallD.[01;31m[Kconf[m[K
+/etc/dbus-1/session.[01;31m[Kconf[m[K
+/etc/dbus-1/system.[01;31m[Kconf[m[K
+/etc/host.[01;31m[Kconf[m[K
+/etc/sysctl.d/99-sysctl.[01;31m[Kconf[m[K
+/etc/udev/udev.[01;31m[Kconf[m[K
+/etc/lvm/lvm.[01;31m[Kconf[m[K
+/etc/lvm/lvmlocal.[01;31m[Kconf[m[K
+/etc/nsswitch.[01;31m[Kconf[m[K.bak
+/etc/NetworkManager/NetworkManager.[01;31m[Kconf[m[K
+/etc/NetworkManager/[01;31m[Kconf[m[K.d
+/etc/polkit-1/localauthority.[01;31m[Kconf[m[K.d
+/etc/X11/xorg.[01;31m[Kconf[m[K.d
+/etc/X11/xorg.[01;31m[Kconf[m[K.d/00-keyboard.[01;31m[Kconf[m[K
+/etc/pki/ca-trust/ca-legacy.[01;31m[Kconf[m[K
+/etc/pki/nss-legacy/nss-rhel7.[01;31m[Kconf[m[Kig
+/etc/pm/[01;31m[Kconf[m[Kig.d
+/etc/sys[01;31m[Kconf[m[Kig
+/etc/sys[01;31m[Kconf[m[Kig/ip6tables-[01;31m[Kconf[m[Kig
+/etc/sys[01;31m[Kconf[m[Kig/iptables-[01;31m[Kconf[m[Kig
+/etc/sys[01;31m[Kconf[m[Kig/cbq
+/etc/sys[01;31m[Kconf[m[Kig/cbq/avpkt
+/etc/sys[01;31m[Kconf[m[Kig/cbq/cbq-0000.example
+/etc/sys[01;31m[Kconf[m[Kig/rdisc
+/etc/sys[01;31m[Kconf[m[Kig/console
+/etc/sys[01;31m[Kconf[m[Kig/init
+/etc/sys[01;31m[Kconf[m[Kig/modules
+/etc/sys[01;31m[Kconf[m[Kig/netconsole
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifcfg-lo
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-bnep
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-eth
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-ippp
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-ipv6
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-isdn
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-post
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-ppp
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-routes
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-sit
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-tunnel
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-aliases
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-bnep
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-eth
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-ippp
+find: ‘/etc/selinux/targeted/active’/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-ipv6
+: Permiso denegado
+find: /etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-isdn
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-plip
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-plusb
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-post
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-ppp
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-routes
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-sit
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-tunnel
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-wireless
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/init.ipv6-global
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/network-functions
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/network-functions-ipv6
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-Team
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifdown-TeamPort
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-Team
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifup-TeamPort
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/keys-LICEB
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifcfg-enp2s0
+/etc/sys[01;31m[Kconf[m[Kig/network-scripts/ifcfg-LICEB
+/etc/sys[01;31m[Kconf[m[Kig/readonly-root
+/etc/sys[01;31m[Kconf[m[Kig/wpa_supplicant
+‘/etc/selinux/final’: Permiso denegado
+/etc/sys[01;31m[Kconf[m[Kig/grub
+/etc/sys[01;31m[Kconf[m[Kig/crond
+/etc/sys[01;31m[Kconf[m[Kig/run-parts
+/etc/sys[01;31m[Kconf[m[Kig/selinux
+/etc/sys[01;31m[Kconf[m[Kig/ebtables-[01;31m[Kconf[m[Kig
+/etc/sys[01;31m[Kconf[m[Kig/firewalld
+/etc/sys[01;31m[Kconf[m[Kig/kdump
+/etc/sys[01;31m[Kconf[m[Kig/sshd
+/etc/sys[01;31m[Kconf[m[Kig/auth[01;31m[Kconf[m[Kig
+/etc/sys[01;31m[Kconf[m[Kig/irqbalance
+/etc/sys[01;31m[Kconf[m[Kig/rsyslog
+find: ‘/etc/firewalld’: Permiso denegado/etc/sys[01;31m[Kconf[m[Kig/man-db
+
+/etc/sys[01;31m[Kconf[m[Kig/cpupower
+/etc/sys[01;31m[Kconf[m[Kig/kernel
+find: /etc/sys[01;31m[Kconf[m[Kig/network
+‘/etc/audisp’: Permiso denegado/etc/sys[01;31m[Kconf[m[Kig/anaconda
+
+find: /etc/sys[01;31m[Kconf[m[Kig/rsyncd
+/etc/sestatus.[01;31m[Kconf[m[K
+‘/etc/audit’/etc/ld.so.[01;31m[Kconf[m[K
+: Permiso denegado
+/etc/ld.so.[01;31m[Kconf[m[K.d
+/etc/ld.so.[01;31m[Kconf[m[K.d/mariadb-x86_64.[01;31m[Kconf[m[K
+/etc/ld.so.[01;31m[Kconf[m[K.d/kernel-3.10.0-957.el7.x86_64.[01;31m[Kconf[m[K
+/etc/nsswitch.[01;31m[Kconf[m[K
+/etc/yum/protected.d/systemd.[01;31m[Kconf[m[K
+/etc/yum/plugin[01;31m[Kconf[m[K.d
+/etc/yum/plugin[01;31m[Kconf[m[K.d/fastestmirror.[01;31m[Kconf[m[K
+find: ‘/etc/sudoers.d’: Permiso denegado/etc/yum/plugin[01;31m[Kconf[m[K.d/langpacks.[01;31m[Kconf[m[K
+
+/etc/yum/version-groups.[01;31m[Kconf[m[K
+/etc/krb5.[01;31m[Kconf[m[K
+/etc/sysctl.[01;31m[Kconf[m[K
+/etc/wpa_supplicant/wpa_supplicant.[01;31m[Kconf[m[K
+/etc/krb5.[01;31m[Kconf[m[K.d
+/etc/libaudit.[01;31m[Kconf[m[K
+/etc/security/access.[01;31m[Kconf[m[K
+/etc/security/chroot.[01;31m[Kconf[m[K
+/etc/security/group.[01;31m[Kconf[m[K
+/etc/security/limits.[01;31m[Kconf[m[K
+/etc/security/limits.d/20-nproc.[01;31m[Kconf[m[K
+/etc/security/namespace.[01;31m[Kconf[m[K
+/etc/security/pam_env.[01;31m[Kconf[m[K
+/etc/security/sepermit.[01;31m[Kconf[m[K
+/etc/security/time.[01;31m[Kconf[m[K
+/etc/security/pwquality.[01;31m[Kconf[m[K
+/etc/sasl2/smtpd.[01;31m[Kconf[m[K
+/etc/openldap/ldap.[01;31m[Kconf[m[K
+/etc/GeoIP.[01;31m[Kconf[m[K.default
+/etc/libuser.[01;31m[Kconf[m[K
+/etc/logrotate.[01;31m[Kconf[m[K
+/etc/asound.[01;31m[Kconf[m[K
+/etc/ssh/sshd_[01;31m[Kconf[m[Kig
+/etc/ssh/ssh_[01;31m[Kconf[m[Kig
+/etc/GeoIP.[01;31m[Kconf[m[K
+/etc/selinux/semanage.[01;31m[Kconf[m[K
+/etc/selinux/[01;31m[Kconf[m[Kig
+/etc/selinux/targeted/contexts/users/un[01;31m[Kconf[m[Kined_u
+/etc/selinux/targeted/setrans.[01;31m[Kconf[m[K
+/etc/plymouth/plymouthd.[01;31m[Kconf[m[K
+/etc/yum.[01;31m[Kconf[m[K
+/etc/tuned/tuned-main.[01;31m[Kconf[m[K
+/etc/kdump.[01;31m[Kconf[m[K
+/etc/makedumpfile.[01;31m[Kconf[m[K.sample
+/etc/rsyslog.[01;31m[Kconf[m[K
+/etc/man_db.[01;31m[Kconf[m[K
+/etc/e2fsck.[01;31m[Kconf[m[K
+/etc/mke2fs.[01;31m[Kconf[m[K
+/etc/sudo-ldap.[01;31m[Kconf[m[K
+/etc/sudo.[01;31m[Kconf[m[K
+/etc/vconsole.[01;31m[Kconf[m[K
+/etc/locale.[01;31m[Kconf[m[K
+/etc/rsyncd.[01;31m[Kconf[m[K
+[brayan@bamv 02-04-2019]$ find /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /etc | grep conf [K[K#Remplazar los numeros 0, 3, 4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"[K#cat se[K[Kde los usuarios
+[brayan@bamv 02-04-2019]$ ls
+copia_passwd  filtros.txt  Filtros.txt  nombres  notas2.txt  poema  poemaCifrado  users.txt
+[brayan@bamv 02-04-2019]$ users.txtcusers.txtausers.txttusers.txt users.txt
+adm
+bart
+bin
+brayan
+burns
+daemon
+dbus
+flanders
+ftp
+games
+halt
+homero
+lisa
+lp
+maggie
+mail
+marge
+milhouse
+moe
+nobody
+operator
+polkitd
+postfix
+revalegria
+root
+shutdown
+sshd
+sync
+systemd-network
+[brayan@bamv 02-04-2019]$ # Remplazar los numeros 0, 3,4 4[C por ls[K[Kas[K[Klas letras o, e, a respectivamente, del siguiente mensaje
+[brayan@bamv 02-04-2019]$ #''H'0'o'[1P'l'a'[1P'[1P'4'[1P'l'4' 'm'u'n'd'0' 'c'r'u'e'l'[C[1Pl'3l'[C[C
+[brayan@bamv 02-04-2019]$ #'H0l4 mund0 cru3l' Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat users.txt[Kls[K#cat de los usuariosfind /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /etc | grep conf [K[2P#cat de los usuariosls[Kcat users.txt# Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'H0l4 mund0 cru3l'[K[K#'H0l4 mund0 cru3l' Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat users.txt[Kls[K#cat de los usuariosfind /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kip addr | grep 'inet ' | cut -c10-20 [K | cut -c10-20 17[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P3-5[C ' | cut -d' '-f2[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1@=[C[C[C[9@-delimiter[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -f21[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cut[Kip addr | grep 'inet ' | cut -d' ' -f12[K[3Pinet | cut -d' ' -f2[Kecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e' [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman tr[Kecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e' [C[K
+Hola mundo cruel
+[brayan@bamv 02-04-2019]$ $[K#De la salida del comando ip addr, mostrar solo la direccion IP
+[brayan@bamv 02-04-2019]$ #De la salida del comando ip addr, mostrar solo la direccion IP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#'H0l4 mund0 cru3l'[K Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat users.txt[Kls[K#cat de los usuariosfind /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /etc | grep conf [K#Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind /etc | grep conf [K[2P#cat de los usuariosls[Kcat users.txt# Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'H0l4 mund0 cru3l'[Kecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#De la salida del comando ip addr, mostrar solo la direccion IP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K#De la salida del comando ip addr, mostrar solo la direccion IP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#'H0l4 mund0 cru3l'[K Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat users.txt[Kls[K#cat de los usuariosfind /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kip addr | grep 'inet ' | cut -c10-20 [K | cut -c10-20 [K
+    [01;31m[Kinet [m[K127.0.0.1/8 scope host lo
+[brayan@bamv 02-04-2019]$ ip addr | grep 'inet '#De la salida del comando ip addr, mostrar solo la direccion IP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Pip addr | grep 'inet '[Kip addr | grep 'inet '#De la salida del comando ip addr, mostrar solo la direccion IP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pecho 'H0l4 mund0 cru3l' | tr '0' 'o' | tr '4' 'a' | tr '3' 'e'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#'H0l4 mund0 cru3l'[K Remplazar los numeros 0, 3, 4 por las letras o, e, a respectivamente, del siguiente mensaje[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat users.txt[Kls[K#cat de los usuariosfind /etc | grep conf #Lista todos los archivos de /etc que contengan la cadena 'conf' en su nombre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32Pcut -d: -f1 copia_passwd | sort  > users.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#lista ordenada de todos los usuarios del sistema en users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kip addr | grep 'inet ' | cut -c10-20 [K | cut -c10-20 17[C20[C[K | cut -c10-20 
+127.0.0.1/8
+[brayan@bamv 02-04-2019]$ $$[K[K-3[K[K#FIN Bra[K[K[K--Bralex
+[brayan@bamv 02-04-2019]$ exit
+exit
+
+Script terminado (mar 02 abr 2019 14:46:35 CST
+)
