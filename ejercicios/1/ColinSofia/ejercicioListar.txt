@@ -1,0 +1,27 @@
+Script iniciado (lun 01 abr 2019 02:47:12 CST
+)[scl:ejercicioListado 02:47][32m$[37m #[Kls
+archivos             practica1.sh    practica 3.pdf  [0m[01;35mtarea02.png[0m
+ejercicioListar.txt  practica_2.txt  practica.sh     tarea1.txt
+[scl:ejercicioListado 02:47][32m$[37m le[K[Kls [K[K[K@[K#[K#Lista todas las practicas
+[scl:ejercicioListado 02:47][32m$[37m ls *practica*
+practica1.sh  practica_2.txt  practica 3.pdf  practica.sh
+[scl:ejercicioListado 02:47][32m$[37m #l[Kl[KLista todos los archivos que tenganextensión .txt
+[scl:ejercicioListado 02:48][32m$[37m ls *.txt
+ejercicioListar.txt  practica_2.txt  tarea1.txt
+[scl:ejercicioListado 02:48][32m$[37m #Lista la tarea1 y la practica [K1
+[scl:ejercicioListado 02:48][32m$[37m ls *1*
+practica1.sh  tarea1.txt
+[scl:ejercicioListado 02:48][32m$[37m #Lista [Kr todos los archivos que nos[K contengan espacions[K[Ks
+[scl:ejercicioListado 02:48][32m$[37m ls -I *' ' [K*
+archivos  ejercicioListar.txt  practica1.sh  practica_2.txt  practica.sh  [0m[01;35mtarea02.png[0m  tarea1.txt
+[scl:ejercicioListado 02:48][32m$[37m #Listar todos l[Klos arci[Khivos que no contengan guiones
+[scl:ejercicioListado 02:49][32m$[37m ls -I *_*
+archivos  ejercicioListar.txt  practica1.sh  practica 3.pdf  practica.sh  [0m[01;35mtarea02.png[0m  tarea1.txt
+[scl:ejercicioListado 02:49][32m$[37m Lis[K[K[K#Listae [K[Kr todos los ari[Kchivos que no contena[Kgan extensión .sh
+[scl:ejercicioListado 02:49][32m$[37m ls *[]!].]s]h][C
+ejercicioListar.txt  practica_2.txt  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[scl:ejercicioListado 02:50][32m$[37m exit
+exit
+
+Script terminado (lun 01 abr 2019 02:50:14 CST
+)
