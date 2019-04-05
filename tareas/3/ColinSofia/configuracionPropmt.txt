@@ -1,0 +1,243 @@
+Script iniciado (dom 31 mar 2019 16:16:07 CST
+)[sofia@scl ~]$ ano[K[K[Knano ñ[K~/.bashrrr[K[Kc
+bash: nano: no se encontró la orden
+[sofia@scl ~]$ vi [K[K[Knano ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrcv ~/.bashrci ~/.bashrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 11L, 231C[1;1H# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+[1m[34m~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+[1;1H[?25l[?1c[0m[37;1H[1m-- INSERT --[0m[37;13H[K[1;1H[?25h[?0c[?25l[?1ci# .bashrci[?25h[?0c
+
+#
+i
+
+f
+
+#
+#
+
+# User specific aliases and functions[?25l[?1c[12;1H[K[12;1H[?25h[?0c[?25l[?1c#[?25h[?0c[?25l[?1c[12;1H[K[12;1H[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cx[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1c[12;10H[K[12;10H[?25h[?0c[?25l[?1c[12;9H[K[12;9H[?25h[?0c[?25l[?1c[12;8H[K[12;8H[?25h[?0c[?25l[?1cP[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1c[12;9H[K[12;9H[?25h[?0c[?25l[?1cS[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1cA[?25h[?0c[?25l[?1c1[?25h[?0c[?25l[?1c[12;21H[K[12;21H[?25h[?0c[?25l[?1c[12;20H[K[12;20H[?25h[?0c[?25l[?1c[12;19H[K[12;19H[?25h[?0c[?25l[?1c[12;18H[K[12;18H[?25h[?0c[?25l[?1c[12;17H[K[12;17H[?25h[?0c[?25l[?1c[12;16H[K[12;16H[?25h[?0c[?25l[?1c[12;15H[K[12;15H[?25h[?0c[?25l[?1c[12;14H[K[12;14H[?25h[?0c[?25l[?1c[12;13H[K[12;13H[?25h[?0c[?25l[?1c[12;12H[K[12;12H[?25h[?0c[?25l[?1c[12;11H[K[12;11H[?25h[?0c[?25l[?1c[12;10H[K[12;10H[?25h[?0c[?25l[?1c1[?25h[?0c[?25l[?1c=[?25h[?0c[?25l[?1c"[?25h[?0c[?25l[?1c"[?25h[?0c[?25l[?1c["[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1cH"[?25h[?0c[?25l[?1c"[12;16H[K[12;15H[?25h[?0c[?25l[?1ch"[?25h[?0c[?25l[?1c:"[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1cW"[?25h[?0c[?25l[?1c "[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1cA"[?25h[?0c[?25l[?1c]"[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1c4"[?25h[?0c[?25l[?1c"[12;25H[K[12;24H[?25h[?0c[?25l[?1c$"[?25h[?0c[37;1H[K[12;24H[?25l[?1c[?25h[?0c$[?25l[?1c[37;1H:[?25h[?0cwq[?25l[?1c".bashrc" 12L, 258C written[?25h[?0c
+[sofia@scl ~]$ 
+[sofia@scl ~]$ SO[K[Ksoutce[K[K[Krce ~/.bashc[Krc
+bash: i#: no se encontró la orden
+[scl:~ 16:19]$
+[scl:~ 16:19]$source ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 12L, 258C[1;1Hi# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+export PS1="[\h:\W \A]\$"
+[1m[34m~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+[?25l[?1c[0m[37;1H[1m-- INSERT --[0m[37;13H[K[2;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+[11;1H# User specific aliases and functions[?25l[?1c[12;36r[12;1H[L[1;37r[12;1H[?25h[?0c[?25l[?1c[13;36r[13;1H[L[1;37r[13;1H[?25h[?0c[12;1H[?25l[?1cr[?25h[?0c[?25l[?1c[12;1H[K[12;1H[?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cd[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1c=[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c4[?25h[?0c[?25l[?1c[12;12H[K[12;12H[?25h[?0c[?25l[?1c[12;11H[K[12;11H[?25h[?0c[?25l[?1c[12;10H[K[12;10H[?25h[?0c[?25l[?1c[12;9H[K[12;9H[?25h[?0c[?25l[?1c[12;8H[K[12;8H[?25h[?0c[?25l[?1c[12;7H[K[12;7H[?25h[?0c[?25l[?1c$[?25h[?0c[?25l[?1c([?25h[?0c[?25l[?1c)[?25h[?0c[?25l[?1ct)[?25h[?0c[?25l[?1cp)[?25h[?0c[?25l[?1cu)[?25h[?0c[?25l[?1ct)[?25h[?0c[?25l[?1c )[?25h[?0c[?25l[?1c)[12;14H[K[12;13H[?25h[?0c[?25l[?1c )[?25h[?0c[?25l[?1c )[?25h[?0c[?25l[?1cs)[?25h[?0c[?25l[?1ce)[?25h[?0c[?25l[?1ct)[?25h[?0c[?25l[?1cf)[?25h[?0c[?25l[?1c)[12;19H[K[12;18H[?25h[?0c[?25l[?1ca)[?25h[?0c[?25l[?1cf)[?25h[?0c[?25l[?1csetaf)[12;20H[K[12;14H[?25h[?0csetaf[?25l[?1c )[?25h[?0c[?25l[?1c2)[?25h[?0c)
+[14;22H][?25l[?1cv\$"[?25h[?0c[?25l[?1ce\$"[?25h[?0c[?25l[?1cr\$"[?25h[?0c[?25l[?1cd\$"[?25h[?0c[?25l[?1ce\$"[?25h[?0c[?25l[?1c(\$"[?25h[?0c\$[?25l[?1c)"[?25h[?0c[?25l[?1c$verde(\$)"[14;24H[?25h[?0c[?25l[?1c$verde(\$)"[14;25H[?25h[?0c[?25l[?1c$verde(\$)"[14;26H[?25h[?0c[?25l[?1c$verde(\$)"[14;27H[?25h[?0c[?25l[?1c$verde(\$)"[14;28H[?25h[?0c[?25l[?1c$verde(\$)"[14;29H[?25h[?0c[?25l[?1c$verde(\$)"[14;30H[?25h[?0c[?25l[?1c$verde(\$)"[14;31H[?25h[?0c[?25l[?1c$verde(\$)"[14;32H[?25h[?0c[?25l[?1c$verde(\$)"[14;33H[?25h[?0c[?25l[?1c$verde(\$)"[14;34H[?25h[?0c[?25l[?1c$verde(\$)"[14;35H[?25h[?0c[?25l[?1c$verde(\$)"[14;36H[?25h[?0c[?25l[?1cverde(\$)"[14;45H[K[14;35H[?25h[?0c[?25l[?1cverde(\$)"[14;44H[K[14;34H[?25h[?0c[?25l[?1cverde(\$)"[14;43H[K[14;33H[?25h[?0c[?25l[?1cverde(\$)"[14;42H[K[14;32H[?25h[?0c[?25l[?1cverde(\$)"[14;41H[K[14;31H[?25h[?0c[?25l[?1cverde(\$)"[14;40H[K[14;30H[?25h[?0c[?25l[?1cverde(\$)"[14;39H[K[14;29H[?25h[?0c[?25l[?1cverde(\$)"[14;38H[K[14;28H[?25h[?0c[?25l[?1cverde(\$)"[14;37H[K[14;27H[?25h[?0c[?25l[?1cverde(\$)"[14;36H[K[14;26H[?25h[?0c[?25l[?1cverde(\$)"[14;35H[K[14;25H[?25h[?0c[?25l[?1cverde(\$)"[14;34H[K[14;24H[?25h[?0c[37;1H[K[14;23H[?25l[?1c[?25h[?0c[?25l[?1c[37;1H:[?25h[?0cwq[?25l[?1c".bashrc" 14L, 289C written[?25h[?0c
+[scl:~ 16:25]$
+[scl:~ 16:25]$vi ~/.bashrc[4@source[C[C[C[C[C[C[C[C[C[C
+bash: i#: no se encontró la orden
+[scl:~ 16:25][32m($)
+[scl:~ 16:25][32m($)source ~/.bashrc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#[Kdedmlemlknemd[K[K[K[K[K[K[K[K[K[K[K[K[K#mp [K[K[Kno er [Ka lo que ese[Kperaba xD
+[scl:~ 16:26][32m($)#no era lo que esperaba xD[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psource ~/.bashrc[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[Knano ~/.bashrcexit[Ksudo root[Kecho $PS1[5Pxit$PS1 = "sofia"[\h : \W \A]\$"[9Psofia"exit[Kcho $PS1[5Psudo root[5Pexitnano ~/.bashrcexit[Ksudo root[Kecho $PS1[5Pxit$PS1 = "sofia"[\h : \W \A]\$"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pecho $PS1[5Pxitcho $PS1$PS1 = "[\h : \W \A]\$"[9Psofia"exit[Kcho $PS1[5Psudo root[5Pexitnano ~/.bashrc[Knano ~/.bashrcexit[Knano ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrc[1P ~/.bashrcv ~/.bashrci ~/.bashrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 14L, 289C[1;1Hi# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+verde=$(tput setaf 2)
+
+export PS1="[\h:\W \A]$verde(\$)"
+[1m[34m~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c[?25l[?1c[0m[37;1H[1m-- INSERT --[0m[37;13H[K[1;1H[?25h[?0c[?25l[?1cii# .bashrci[?25h[?0c
+
+#[2;1H[1;2Hi[?25l[?1c# .bashrc[1;11H[K[1;2H[?25h[?0c[?25l[?1c# .bashrc[1;10H[K[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+export PS1="[\h:\W \A]$verde(\$)[?25l[?1c"[14;33H[K[14;32H[?25h[?0c[?25l[?1c"[14;32H[K[14;31H[?25h[?0c[?25l[?1c"[14;31H[K[14;30H[?25h[?0c[?25l[?1c"[14;30H[K[14;29H[?25h[?0c[?25l[?1c"[14;29H[K[14;28H[?25h[?0c[?25l[?1c"[14;28H[K[14;27H[?25h[?0c[?25l[?1c"[14;27H[K[14;26H[?25h[?0c[?25l[?1c"[14;26H[K[14;25H[?25h[?0c[?25l[?1c"[14;25H[K[14;24H[?25h[?0c[?25l[?1c"[14;24H[K[14;23H[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1c$"[?25h[?0c[?25l[?1c\"[?25h[?0c[?25l[?1c["[?25h[?0c[?25l[?1c]"[?25h[?0c[?25l[?1ce]"[?25h[?0c[?25l[?1c\e]"[?25h[?0ce[?25l[?1c[]"[?25h[?0c[?25l[?1cm]"[?25h[?0c[?25l[?1c\]"[?25h[?0c[37;1H[K[14;31H[?25l[?1c[?25h[?0c[?25l[?1c[37;1H:[?25h[?0cq[?25l[?1c[37;2H[K[37;2H[?25h[?0cwq[?25l[?1c".bashrc" 14L, 288C written[?25h[?0c
+[scl:~ 16:30][32m($)vi ~/.bashrc[K@[K#bue[K[K[K[Knjnkndjkfndrj[K[K[K[K[K[K[K[K[K[K[K[K[Kvi ~/.bashrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 14L, 288C[1;1H# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+verde=$(tput setaf 2)
+
+export PS1="[\h:\W \A]\$\[\e[m\]"
+[1m[34m~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c[?25l[?1c[0m[37;1H[1m-- INSERT --[0m[37;13H[K[1;1H[?25h[?0c
+
+
+
+
+
+
+
+
+
+
+
+
+[13;1H[12;1Hverde=$(tput 
+[14;14H\h:\W \A]\$\[\e[m\]"[?25l[?1c"[14;33H[K[14;32H[?25h[?0c[?25l[?1c"[14;32H[K[14;31H[?25h[?0c[?25l[?1c"[14;31H[K[14;30H[?25h[?0c[?25l[?1c"[14;30H[K[14;29H[?25h[?0c[?25l[?1c"[14;29H[K[14;28H[?25h[?0c[?25l[?1c"[14;28H[K[14;27H[?25h[?0c[?25l[?1c"[14;27H[K[14;26H[?25h[?0c[?25l[?1c"[14;26H[K[14;25H[?25h[?0c[?25l[?1c"[14;25H[K[14;24H[?25h[?0c[?25l[?1c["[?25h[?0c[?25l[?1c]"[?25h[?0c[?25l[?1c$]"[?25h[?0c[?25l[?1cv]"[?25h[?0c[?25l[?1ce]"[?25h[?0c[?25l[?1cr]"[?25h[?0c[?25l[?1cd]"[?25h[?0c[?25l[?1ce]"[?25h[?0c[?25l[?1cr]"[?25h[?0c[?25l[?1c]"[14;33H[K[14;31H[?25h[?0c"[\h:\W \A]\[$verde]"[?25l[?1c$[$verde]"[14;25H[?25h[?0c[?25l[?1c\[$verde]"[14;26H[?25h[?0c[$verde[?25l[?1c\\$\[$verde]"[14;24H[?25h[?0c[?25l[?1c[\$\[$verde]"[14;25H[?25h[?0c[?25l[?1c]\$\[$verde]"[14;26H[?25h[?0c[?25l[?1c$]\$\[$verde]"[14;26H[?25h[?0c[?25l[?1cv]\$\[$verde]"[14;27H[?25h[?0c[?25l[?1ce]\$\[$verde]"[14;28H[?25h[?0c[?25l[?1cr]\$\[$verde]"[14;29H[?25h[?0c[?25l[?1cd]\$\[$verde]"[14;30H[?25h[?0c[?25l[?1ce]\$\[$verde]"[14;31H[?25h[?0c]\$\[$verde]"[?25l[?1c]"[14;43H[K[14;41H[?25h[?0c[?25l[?1c]"[14;42H[K[14;40H[?25h[?0c[?25l[?1c]"[14;41H[K[14;39H[?25h[?0c[?25l[?1c]"[14;40H[K[14;38H[?25h[?0c[?25l[?1c]"[14;39H[K[14;37H[?25h[?0c[?25l[?1cn]"[?25h[?0c[?25l[?1ce]"[?25h[?0c[?25l[?1cg]"[?25h[?0c[?25l[?1cr]"[?25h[?0c[?25l[?1co]"[?25h[?0c[?25l[?1c]"[14;43H[K[14;41H[?25h[?0c[?25l[?1c]"[14;42H[K[14;40H[?25h[?0c[?25l[?1c]"[14;41H[K[14;39H[?25h[?0c[?25l[?1c]"[14;40H[K[14;38H[?25h[?0c[?25l[?1c]"[14;39H[K[14;37H[?25h[?0c[?25l[?1cb]"[?25h[?0c[?25l[?1cl]"[?25h[?0c[?25l[?1ca]"[?25h[?0c[?25l[?1cn]"[?25h[?0c[?25l[?1cc]"[?25h[?0c[?25l[?1co]"[?25h[?0c[?25l[?1c]"[14;44H[K[14;42H[?25h[?0c[?25l[?1co]"[?25h[?0c[13;1H[12;22H[?25l[?1c[13;36r[13;1H[L[1;37r[13;1H[?25h[?0c[?25l[?1cb[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1c[13;3H[K[13;3H[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1c=[?25h[?0c[?25l[?1c"[?25h[?0c[?25l[?1c[13;8H[K[13;8H[?25h[?0c[?25l[?1c$[?25h[?0c[?25l[?1c([?25h[?0c[?25l[?1c)[?25h[?0c[?25l[?1ctblanco=$()t[?25h[?0c[?25l[?1cblanco=$()[13;11H[K[13;1H[?25h[?0cblanco=$([?25l[?1ct)[?25h[?0c[?25l[?1cp)[?25h[?0c[?25l[?1cu)[?25h[?0c[?25l[?1ct)[?25h[?0c[?25l[?1c )[?25h[?0c[?25l[?1cs)[?25h[?0c[?25l[?1ce)[?25h[?0c[?25l[?1ct)[?25h[?0c[?25l[?1ca)[?25h[?0c[?25l[?1cf)[?25h[?0c[?25l[?1c )[?25h[?0c[?25l[?1c7)[?25h[?0c[37;1H[K[13;21H[?25l[?1c[?25h[?0c[?25l[?1c[37;1H:[?25h[?0cwq[?25l[?1c".bashrc" 15L, 322C written[?25h[?0c
+[scl:~ 16:37][32m($)
+[scl:~ 16:37][32m($)ddff[K[K[K[Kvi ~/.bashrc#no era lo que esperaba xD[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psource ~/.bashrc[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C
+[scl:~ 16:37][32m]$[37m]source ~/.bashrc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi ~/.bashrc[K[K[K[K[K[K[K[K[K[K[K[K#no era lo que esperaba xD[C[C[C[C[C[C[C[C[C[C[C[C[C[10Psource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C#no era lo que esperaba xD[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Knano ~/.bashrcexit[Ksudo root[Kecho $PS1[5Pxit$PS1 = "sofia"[\h : \W \A]\$"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+[scl:~ 16:37][32m]$[37m]pwd
+/home/sofia
+[scl:~ 16:38][32m]$[37m]
+[scl:~ 16:38][32m]$[37m]pwd[1Pcd[Ksource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Knano ~/.bashrcexit[Ksudo root[Kecho $PS1[5Pxit$PS1 = "sofia"[\h : \W \A]\$"[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pecho $PS1[5Pxitmdkir Prueba && cd Prueba && touch practica1.sh practica_2.txt 'practica 3.pdf' tarea02..png tarea1.txt[Aexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupadd -g 1420 PlantaNuclear [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1Ppoweroff[5Penvcho $xset | more[3Punset xset | more[1Pecho '$x'"$x"[2P$x[1Px[3Px=5 = 5[K[K[K[K[Kde
+bash: de: no se encontró la orden
+[scl:~ 16:38][32m]$[37m]depwd[1Pcd[Ksource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.bashrc[1P.bashrc[1P.bashrc .bashrc .bashrc .bashrc .bashrc .bashrc .bashrc .bashrc .bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[1P.bashrc[C[C[C[C[C[C[C[K[K[K[K[K[K[Kvi .[K~,[K./[K\bin[K[K[K[K[K[K[K[Kvin [K[K[K[K[Kvi ~/.basg[Khrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 15L, 322C[1;1H# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+verde=$(tput setaf 2)
+blanco=$(tput setaf 7)
+
+export PS1="[\h:\W \A]\[$verde]\$\[$blanco]"
+[1m[34m~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+
+
+[5;8H
+
+
+
+
+
+
+
+
+
+[0mexport PS1="[\h:\W \A]\[$verde]\$\[$blanco][?25l[?1c[37;1H[1m-- INSERT --[0m[37;13H[K[15;43H[?25h[?0c][?25l[?1c"[15;44H[K[15;43H[?25h[?0c[?25l[?1c\$\[$blanco"[15;43H[K[15;31H[?25h[?0c[37;1H[K[15;30H[?25l[?1c[?25h[?0c[?25l[?1c[37;1H:[?25h[?0cwq[?25l[?1c".bashrc" 15L, 320C written[?25h[?0c
+[scl:~ 16:39][32m]$[37m]
+[scl:~ 16:39][32m]$[37m]vi ~/.bashrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 15L, 320C[1;1H# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+verde=$(tput setaf 2)
+blanco=$(tput setaf 7)
+
+export PS1="[\h:\W \A]\[$verde\$\[$blanco"
+[1m[34m~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+[1;1H[?25l[?1c[0m[37;1H[K[37;1H:[?25h[?0c:wq[?25l[?1c".bashrc" 15L, 320C written[?25h[?0c
+[scl:~ 16:39][32m]$[37m]
+[scl:~ 16:39][32m]$[37m]cd
+[scl:~ 16:39][32m]$[37m]
+[scl:~ 16:39][32m]$[37m]cdvi ~/.bashrcde[Kvi ~/.bashrc[C[C[1P ~/.bashrc[1P ~/.bashrcs ~/.bashrco ~/.bashrcu ~/.bashrcr ~/.bashrcc ~/.bashrce ~/.bashrc
+[scl:~ 16:39][32m$[37m
+[scl:~ 16:40][32m$[37mpwd
+/home/sofia
+[scl:~ 16:40][32m$[37m#cewo [K[K[K[K[K[Kme falt[K[K[K[K[K[K[Kpwd[K[K[K@[K###########[K[K[K[K[K[K[K[K[K[K<- Me falta un espe[Kacio
+[scl:~ 16:40][32m$[37m#<- Me falta un espacio[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Ksource ~/.bashrc[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kvi ~/.bashrc
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"~/.bashrc" 15L, 320C[1;1H# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then[5;9H. /etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+verde=$(tput setaf 2)
+blanco=$(tput setaf 7)
+
+export PS1="[\h:\W \A]\[$verde\$\[$blanco"
+[1m[34m~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c
+
+
+[5;8H
+
+
+
+
+
+
+
+
+
+[0mexport PS1="[\h:\W \A]\[$verde\$\[$blanco[?25l[?1c[37;1H[1m-- INSERT --[0m[37;13H[K[15;42H[?25h[?0c[?25l[?1c "[?25h[?0c[37;1H[K[15;42H[?25l[?1c[?25h[?0c[?25l[?1c[37;1H:[?25h[?0cwq[?25l[?1c".bashrc" 15L, 321C written[?25h[?0c
+[scl:~ 16:40][32m$[37m
+[scl:~ 16:40][32m$[37m
+[scl:~ 16:40][32m$[37m
+[scl:~ 16:40][32m$[37m
+[scl:~ 16:40][32m$[37mvi ~/.bashrc#<- Me falta un espacio[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Ksource ~/.bashrc
+[scl:~ 16:40][32m$[37m pd[Kwd
+/home/sofia
+[scl:~ 16:40][32m$[37m cd
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m 
+[scl:~ 16:40][32m$[37m ls
+2.pdf                    [0m[01;34mdocumentos[0m      practica01     [01;32mproceso.py[0m     [01;34mPrueba[0m  tarea4
+ColinSofia_Ejercicio1    ejercicio1.txt  practica02     [01;32mproceso_xD.py[0m  tarea1  tarea5
+configuracionPropmt.txt  [01;34mescritorio[0m      practica2.txt  [01;32mprocess.py[0m     tarea2  [01;34mtareas[0m
+[01;34mdescargar[0m                [01;34mhola[0m            practica.txt   [01;34mprueba[0m         tarea3  [40;33mtuberia[0m
+[scl:~ 16:41][32m$[37m pwd
+/home/sofia
+[scl:~ 16:41][32m$[37m [H[J[scl:~ 16:41][32m$[37m [H[J[scl:~ 16:41][32m$[37m #Crrrrrrrrrreo [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K#Creo que ya qued [Ko xD
+[scl:~ 16:41][32m$[37m exit
+exit
+
+Script terminado (dom 31 mar 2019 16:43:27 CST
+)

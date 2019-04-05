@@ -1,0 +1,38 @@
+Script iniciado (dom 31 mar 2019 21:19:20 CST
+)[amadeus@GTAA Archivos]$ pwd
+/home/amadeus/Archivos
+[amadeus@GTAA Archivos]$ ls -lha
+total 0
+drwxrwxr-x. 2 amadeus amadeus 134 mar 31 21:19 [0m[01;34m.[0m
+drwx------. 3 amadeus amadeus 124 mar 31 21:15 [01;34m..[0m
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:19 ejercicios1Gallardo
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:18 practica1.sh
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:18 practica_2.txt
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:18 practica 3.pdf
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:18 [01;35mtarea02.png[0m
+-rw-rw-r--. 1 amadeus amadeus   0 mar 31 21:18 tarea1.txt
+[amadeus@GTAA Archivos]$ ls [K[K[Kcd [K[K[Kls practica*[K[K[K[K[K[K[K[K[K[K[K[K#Solo practics[Kas
+[amadeus@GTAA Archivos]$ ls practicas*
+ls: no se puede acceder a practicas*: No existe el fichero o el directorio
+[amadeus@GTAA Archivos]$ ls practicas*[1P*
+practica1.sh  practica_2.txt  practica 3.pdf
+[amadeus@GTAA Archivos]$ *[K#Solo extencia[Kon .txt
+[amadeus@GTAA Archivos]$ ls *.txt
+practica_2.txt  tarea1.txt
+[amadeus@GTAA Archivos]$ *[K#Tarea y practics[Ka 1[C[1@ [1@1
+[amadeus@GTAA Archivos]$ ls #Tarea 1 y practica 1+[Kls [K[[K*[1]*
+ejercicios1Gallardo  practica1.sh  tarea1.txt
+[amadeus@GTAA Archivos]$ #No tieneb[Kn espacios
+[amadeus@GTAA Archivos]$ ls -I *? [K[K#No tienen espacios[12Pls -I *' '*
+ejercicios1Gallardo  practica1.sh  practica_2.txt  [0m[01;35mtarea02.png[0m  tarea1.txt
+[amadeus@GTAA Archivos]$ ls -I *' '*#No tienen espacios[K[K[K[K[K[K[K[K[K[Kn _
+[amadeus@GTAA Archivos]$ #No tienen _[1Pls -I *' '*#No tienen _[K#No tienen _[1Pls -I *' '*[1P*[1P*[1P*_*
+ejercicios1Gallardo  practica1.sh  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[amadeus@GTAA Archivos]$ ls *[!.sh]
+ejercicios1Gallardo  practica_2.txt  practica 3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[amadeus@GTAA Archivos]$ #Fin
+[amadeus@GTAA Archivos]$ et[Kxit
+exit
+
+Script terminado (dom 31 mar 2019 21:52:48 CST
+)

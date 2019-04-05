@@ -1,0 +1,207 @@
+Script iniciado (mié 27 mar 2019 13:30:14 CST
+)[Andres@amm ~]$ echo ""S"e"r"i"e" "d"e" "e"j"e"r"c"i"c"i"o"s" "0"1"[C #Imprime en pantalla la cadena: Serie de ejercicios 01 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K1
+Serie de ejercicios 01
+[Andres@amm ~]$ cd #Nos muebe al[K[K[K[K[Kve al directorio home, pero como[K[K[K[K[K[K[K[K[K[K[K
+[Andres@amm ~]$ pwd #Nos ues[K[K[Kmuestra el direcotiro[K[K[K[K[Ktorio actual
+/home/Andres
+[Andres@amm ~]$ touch arh[Kchivo_de_prueba.txt #M[KCrea un arh[Kchivo vacio llamado archivo_de_prueba.txt aun que segun el comnado[K[K[K[Kando touch no fue creado para eso
+[Andres@amm ~]$ cp archivo_de_prueba.txt prueba.doc #Crea una copia de arh[Kchivo_de_prueba.txt con el  nombre prueba.doc
+[Andres@amm ~]$ rm archivo_de_prueba.txt #Borra el archivo_de_prueba.txt
+[Andres@amm ~]$ mv pr ueba Documentos/ #Crea un[K[K[K[K[K[K[KMarca un error ya que no hay un archio[Kvo pr ni ub[Keba
+mv: no se puede efectuar `stat' sobre «pr»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ueba»: No existe el fichero o el directorio
+[Andres@amm ~]$ ls -al Documentos/ #Mus[Kestra los archivos escondidos y los no escondidos de [Kl director io Documentos
+total 4
+drwxrwxr-x. 2 Andres Andres    6 mar 27 13:16 [0m[01;34m.[0m
+drwx------. 9 Andres Andres 4096 mar 27 13:34 [01;34m..[0m
+[Andres@amm ~]$ cd Documentos/ #Nos movemos al direcoti[K[K[Ktorio Documentos
+[Andres@amm Documentos]$ ls ../Descargas/[K #Muestra los documentos no escondidos de Descag[Krgas ()p)r)i)m)e)r) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co)) )r)e)t)r)o)c)e)d)e) )u)n) )")")n")i")v")e")l")[C )d)e) )d)i)r)e)c)t)o)r)i)o) )()[C)o)) ))s))e))a)) ))e))n))t))r))e))[1P))a)) ))a)) ))h))o))m))e))[C )y) )l)u)e)g)o) )e)n)t)r)e)a)[1P)[1P)a) )a) )d)e)s)c)a)r)g)a)s) )y) )m)u)e)s)t)r)a) )l)o)s) )a)r) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc))h)i)v)o)s)
+[Andres@amm Documentos]$ mkdir Directorio_de_Prueba #Crea un directorio nuevo creado Directorio_de_P rueba
+[Andres@amm Documentos]$ rm Directorio_de_Prueba/ #Borra el direcot[K[Ktorio Directorio_de_Prueba
+rm: no se puede borrar «Directorio_de_Prueba/»: Es un directorio
+[Andres@amm Documentos]$ rm Directorio_de_Prueba/ #Borra el directorio Directorio_de_Prueba[C[C[C[1P[1@A[1@h[C[1@o[1@r[1@a[1@ [1@s[1@i[1@ borra el directorio Directorio_de_Prueba [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ :v
+rm: no se puede borrar «Directorio_de_Prueba/»: Es un directorio
+[Andres@amm Documentos]$ rm Directorio_de_Prueba/ #Ahora si borra el directorio Directorio_de_Prueba  :v Me falto el -d ggggg[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C Directorio_de_Prueba/ #Ahora si borra el directorio Directorio_de_Prueba[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- Directorio_de_Prueba/ #Ahora si borra el directorio Directorio_de_Prueb[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd Directorio_de_Prueba/ #Ahora si borra el directorio Directorio_de_Prue[1@b[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[Andres@amm Documentos]$ mkdir Prueba [K
+[Andres@amm Documentos]$ touch Prueba/archivo01.txt Prueba/archivo02.txt #Crea dos archivos en el di rectorio Purbea[K[K[K[K[Krueba
+[Andres@amm Documentos]$ rm Purbe[K[K[K[Krueba #No [K[K[KMar[K[Kanda un mensaje de que no se puede borrar porque es un director ios[K
+rm: no se puede borrar «Prueba»: Es un directorio
+[Andres@amm Documentos]$ rm -rf Prueba #Borra re[K[Kahora si prueba borrandole todos los archivos gracias  al -f[Kr y lo fuerza a haver[K[K[Kcerlo con -f
+[Andres@amm Documentos]$ cd . #Nos mantiene en el direcotir[K[K[K[Ktorio actual
+[Andres@amm Documentos]$ pwd #Nos muestra el directorio actual
+/home/Andres/Documentos
+[Andres@amm Documentos]$ cd .. #R[KCami[Kbia de directorio al que contiene el dr[Kirecot[K[Ktorio actual ()o) )s)a)[1P)e)a),) )e) [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn)) )e)s)t)e) )c)a)s)o),) )a) )H)o)m)e)
+[Andres@amm ~]$ pwd #Muestra el directorio actual, acabo de a[Kcaptarque [K[K[K[K que probablemente tenia que escri bir lo que creo que saldra asi que h[Kahra [K[K[Kora su ki[K[K[K[Ki k[Klo hare /home/andre[K[K[K[K[Ka[KAndres
+/home/Andres
+[Andres@amm ~]$ cd [K /etc #Accedo[Kemos a [Kl directorio etc()?)
+[Andres@amm etc]$ ls -al ![K| more #Muestra o[Klos arh[Kchivos de etc [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktodos los archivos de etc y [K[K[Kcon[K[K[K con cierta informacion y nos perm ite movernos a traves de toda la impresion con el comnado more[1P[C[1@n
+total 1052
+drwxr-xr-x. 74 root root   8192 mar 25  2018 .
+dr-xr-xr-x. 17 root root    224 mar 25  2018 ..
+-rw-r--r--.  1 root root     16 mar 25  2018 adjtime
+-rw-r--r--.  1 root root   1518 jun  7  2013 aliases
+-rw-r--r--.  1 root root  12288 mar 25  2018 aliases.db
+drwxr-xr-x.  2 root root    236 mar 25  2018 alternatives
+-rw-------.  1 root root    541 abr 10  2018 anacrontab
+-rw-r--r--.  1 root root     55 oct 30 08:50 asound.conf
+drwxr-x---.  3 root root     43 mar 25  2018 audisp
+drwxr-x---.  3 root root     83 mar 25  2018 audit
+drwxr-xr-x.  2 root root     22 mar 25  2018 bash_completion.d
+-rw-r--r--.  1 root root   2853 oct 30 13:48 bashrc
+drwxr-xr-x.  2 root root      6 oct 30 17:31 binfmt.d
+-rw-r--r--.  1 root root     38 nov 23 07:16 centos-release
+-rw-r--r--.  1 root root     51 nov 23 07:16 centos-release-upstream
+drwxr-xr-x.  2 root root      6 ago  4  2017 chkconfig.d
+drwxr-xr-x.  2 root root     21 mar 25  2018 cron.d
+drwxr-xr-x.  2 root root     42 mar 25  2018 cron.daily
+-rw-------.  1 root root      0 abr 10  2018 cron.deny
+drwxr-xr-x.  2 root root     22 jun  9  2014 cron.hourly
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root    451 jun  9  2014 crontab
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.weekly
+-rw-------.  1 root root      0 mar 25  2018 crypttab
+-rw-r--r--.  1 root root   1620 ocScript iniciado (mié 27 mar 2019 13:53:41 CST
+)[Andres@amm ~]$ /[Kcd etc/etc[C[C[C
+[Andres@amm etc]$ cat passwd [K/[K #Muestra el archivo [K[K[K[K[K[K[K[Kcontenido del archivo passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+Andres:x:1000:1000:Andres Martinez Martinez:/home/Andres:/bin/bash
+[Andres@amm etc]$ cd - #Nos manda a home
+/home/Andres
+[Andres@amm ~]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 13:54:53 CST
+)Script iniciado (mié 27 mar 2019 14:02:53 CST
+)[Andres@amm ~]$ mkd[K[K[K#[Kmkd[K[K[K"[K#2e#2c#2h#2o#2 #2"#2[C[C"
+#2
+[Andres@amm ~]$ cd Directorio[K[K[K[K[K[K[K[K[Kocumentos/
+[Andres@amm Documentos]$ mmmmk [K[K[K[K[Kkdir SER[K[K[KSerio[Ke01/
+[Andres@amm Documentos]$ cd Serie01/
+[Andres@amm Serie01]$ echo ""#"3"
+#3
+[Andres@amm Serie01]$ echo[K[K[K[Ktoc[Kuch ayer.txt[C[C[C[C[C[C[C[C hot[Ky.txt
+[Andres@amm Serie01]$ #$[K4
+[Andres@amm Serie01]$ touch -t 010102001454 ayer.txt[1P[1P[1P[1P[C[1@0[1@2[C[1@0[C[1@0
+[Andres@amm Serie01]$ ls -la
+total 0
+drwxrwxr-x. 2 Andres Andres 37 mar 27 14:07 [0m[01;34m.[0m
+drwxrwxr-x. 3 Andres Andres 21 mar 27 14:05 [01;34m..[0m
+-rw-rw-r--. 1 Andres Andres  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 Andres Andres  0 mar 27 14:07 hoy.txt
+[Andres@amm Serie01]$ ls -la[Kls -latouch -t 020001011454 ayer.txt[1P[1P[1P[1P
+[Andres@amm Serie01]$ touch -t 01011454 ayer.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[K
+total 0
+drwxrwxr-x. 2 Andres Andres 37 mar 27 14:07 [0m[01;34m.[0m
+drwxrwxr-x. 3 Andres Andres 21 mar 27 14:05 [01;34m..[0m
+-rw-rw-r--. 1 Andres Andres  0 ene  1 14:54 ayer.txt
+-rw-rw-r--. 1 Andres Andres  0 mar 27 14:07 hoy.txt
+[Andres@amm Serie01]$ ma[Kan to[K[K[K[K[K[Kexit
+exit
+
+Script terminado (mié 27 mar 2019 14:09:35 CST
+)Script iniciado (mié 27 mar 2019 14:44:59 CST
+)[Andres@amm ~]$ cd Documentos/Serie01/
+[Andres@amm Serie01]$ mv ayer.txt ayer.doc && ay[K[Khoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cp h oy .doc hoy.doc.backup && rm ayer.txt && rm hoy.tt[Kxy[Kt
+bash: hoy.txt: no se encontró la orden
+[Andres@amm Serie01]$ mv ayer.txt ayer.doc && hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cp hooy .doc hoy.doc.backup && rm ayer.txt && rm hoy.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cp h[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cp [1@h[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cp[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[Andres@amm Serie01]$ ls
+ayer.doc  hoy.txt
+[Andres@amm Serie01]$ mv ayer.doc ayer.txt
+[Andres@amm Serie01]$ mv ayer.doc ayer.txtls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cpp hoy .doc hoy.doc.backup && rm ayer.txt && rm hoy.txt
+cp: el objetivo «hoy.doc.backup» no es un directorio
+[Andres@amm Serie01]$ ls
+ayer.doc  ayer.doc.backup  hoy.doc
+[Andres@amm Serie01]$ rm ayer.doc.backup 
+[Andres@amm Serie01]$ mv ayer.doc ayer.txt
+[Andres@amm Serie01]$ mv ayer.doc ayer.txt[1Prm ayer.doc.backup ls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cpp hoy .doc hoy.doc.backup && rm ayer.txt && rm hoy.txt[1P
+mv: no se puede efectuar `stat' sobre «hoy.txt»: No existe el fichero o el directorio
+[Andres@amm Serie01]$ ls
+ayer.doc  hoy.doc
+[Andres@amm Serie01]$ ay[K[Kmv ayer.txt[K[K[Kdoc ayer.txt &&mv mv[C[C ay[K[Khoy.doc hoy.txt
+[Andres@amm Serie01]$ mv ayer.doc ayer.txt && mv hoy.doc hoy.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cpp hoy.doc hoy.doc.backup && rm ayer.txt && rm hoy.txt
+rm: no se puede borrar «ayer.txt»: No existe el fichero o el directorio
+[Andres@amm Serie01]$ ls
+ayer.doc  ayer.doc.backup  hoy.doc  hoy.doc.backup
+[Andres@amm Serie01]$ rm [K[K[Krm ayer.doc ayer.doc.backup  hoy.doc hoy.doc.backup 
+[Andres@amm Serie01]$ ls
+[Andres@amm Serie01]$ touch ayer.txt hoy.txt
+[Andres@amm Serie01]$ touch ayer.txt hoy.txtls[Krm ayer.doc ayer.doc.backup  hoy.doc hoy.doc.backup [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp ayer.doc ayer.doc.backup && cpp hoy.doc hoy.doc.backup && rm ayer.txt && rm hoy.txt[K[K[Kdoc[C[C[C[C[1P[1P[1P[1@d[1@o[1@c
+[Andres@amm Serie01]$ ls
+ayer.doc.backup  hoy.doc.backup
+[Andres@amm Serie01]$ #7
+[Andres@amm Serie01]$ #7
+[Andres@amm Serie01]$ #7
+[Andres@amm Serie01]$ #7
+[Andres@amm Serie01]$ #NO INGREG[KSAMOS CARACTERES A OS[K[KLOS ARCHIVOS POR LO QUE TENDRIA QUE [K[K[K[K[K[KIAN[K[K[KAN S[KQUE SALIR VACIOS
+[Andres@amm Serie01]$ file hoy.doc.backup 
+hoy.doc.backup: empty
+[Andres@amm Serie01]$ file ayer.doc.backup 
+ayer.doc.backup: empty
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ #8
+[Andres@amm Serie01]$ mkdr[Kir ListA[Ka[Ks[Kas[K[K[K[K[K[K""L"i"s"t"a"s" "d"e" "C"a"l"i"f"i"c"a"c"i"o"n"e"s"
+[Andres@amm Serie01]$ ls
+ayer.doc.backup  hoy.doc.backup  [0m[01;34mListas de Calificaciones[0m
+[Andres@amm Serie01]$ cd Listas\ de\ Calificaciones/
+[Andres@amm Listas de Calificaciones]$ #El anterior era el 9 gg
+[Andres@amm Listas de Calificaciones]$ #10
+[Andres@amm Listas de Calificaciones]$ #10
+[Andres@amm Listas de Calificaciones]$ #10
+[Andres@amm Listas de Calificaciones]$ touch calificacionesDePrebes.xls
+[Andres@amm Listas de Calificaciones]$ #11
+[Andres@amm Listas de Calificaciones]$ #11
+[Andres@amm Listas de Calificaciones]$ #11
+[Andres@amm Listas de Calificaciones]$ #11
+[Andres@amm Listas de Calificaciones]$ #11
+[Andres@amm Listas de Calificaciones]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 14:55:30 CST
+)Script iniciado (mié 27 mar 2019 15:11:51 CST
+)[Andres@amm ~]$ cd Documentos/Serie01/Listas\ de\ Calificaciones/
+[Andres@amm Listas de Calificaciones]$ ls
+calificacionesDePrebes.xls
+[Andres@amm Listas de Calificaciones]$ cat > calificacionesDePrebes.xls >>[K[K<< alto
+> Andres: 10
+> Sofia: 10
+> Amadeus: 10
+> Zinedine[Kne: 10
+> Btaya[K[K[K[Krayn[Kan : 10
+> alto
+[Andres@amm Listas de Calificaciones]$ cat[K[K[Khead -n 3 calificacionesDePrebes.xls 
+Andres: 10
+Sofia: 10
+Amadeus: 10
+[Andres@amm Listas de Calificaciones]$ head -n 3 calificacionesDePrebes.xls [C[1P[1@2[C[1P[1P[1P[1P[1@t[1@a[1@i[1@l
+Zinedinne: 10
+Brayan : 10
+[Andres@amm Listas de Calificaciones]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 15:13:22 CST
+)
