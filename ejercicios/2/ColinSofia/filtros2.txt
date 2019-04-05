@@ -1,0 +1,81 @@
+Script iniciado (mar 02 abr 2019 14:39:30 CST
+)[scl:~ 14:39][32m$[37m @[K#Crea in[K[Kuna ñ[Klsi[K¡[K[Kista ordena [Kda con los nolmr[K[K[Kmbres l[Kde los usuarioos[K[Ks [K[K[K[K[K[K[K[K[K[K[K[K[Ktodos los usuarios sel [K[K[K[Kdel sisit[K[K[Kstema en user.txt
+[scl:~ 14:40][32m$[37m cut -d [K: .[K-.[Kf1[K 1 |sot[K[K[K sort [K | [1@/[1@e[1@c[1@t[1P[1P[1@t[1@c[1@ [1P[1@/[1@p[1@a[1@s[1@s[1@ [1P[1@w[1@d[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[1P > [C u s u a r i o s . t c t [1P [1P x t 
+[scl:~ 14:42][32m$[37m ct[Kat usuarios.txt
+adm
+Bart
+bin
+Burns
+daemon
+dbus
+ftp
+games
+halt
+Homero
+Lisa
+lp
+Mager
+Maggie
+mail
+Milhouse
+Moe
+Nflanders
+nobody
+operator
+polkitd
+postfix
+Revlaegria
+root
+shutdown
+sofia
+sshd
+sync
+systemd-network
+[scl:~ 14:42][32m$[37m #Lista todos los archivos de /etc que contengas [K[Kn ñas [K[K[K[Kla cadena ''c'o'n'f' '[1P'[C en su nombre
+[scl:~ 14:43][32m$[37m ls /etc | grep conf
+asound.[01;31m[Kconf[m[K
+chk[01;31m[Kconf[m[Kig.d
+dracut.[01;31m[Kconf[m[K
+dracut.[01;31m[Kconf[m[K.d
+e2fsck.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K.default
+host.[01;31m[Kconf[m[K
+kdump.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K.d
+ld.so.[01;31m[Kconf[m[K
+ld.so.[01;31m[Kconf[m[K.d
+libaudit.[01;31m[Kconf[m[K
+libuser.[01;31m[Kconf[m[K
+locale.[01;31m[Kconf[m[K
+logrotate.[01;31m[Kconf[m[K
+makedumpfile.[01;31m[Kconf[m[K.sample
+man_db.[01;31m[Kconf[m[K
+mke2fs.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K.bak
+prelink.[01;31m[Kconf[m[K.d
+resolv.[01;31m[Kconf[m[K
+resolv.[01;31m[Kconf[m[K.save
+rsyncd.[01;31m[Kconf[m[K
+rsyslog.[01;31m[Kconf[m[K
+sestatus.[01;31m[Kconf[m[K
+sudo.[01;31m[Kconf[m[K
+sudo-ldap.[01;31m[Kconf[m[K
+sys[01;31m[Kconf[m[Kig
+sysctl.[01;31m[Kconf[m[K
+vconsole.[01;31m[Kconf[m[K
+yum.[01;31m[Kconf[m[K
+[scl:~ 14:43][32m$[37m #Reemplazar los números 0,3, [K4 por las lestras o,e,a respectivamente del [K[K[K[K[K[K[K[Knte, del siguiente[K[K[K[K[Kiente mens aje ''H'o'l'[1P'[1P'0'l'4' 'm'u'n'd'0' 'c'r'u'3'l'[C
+[scl:~ 14:44][32m$[37m echo ''[K[KHo[K0la[K4 [K[K[K[K[K''H'o'[1P'0'l'4' 'm'u'n'd'0' 'c'r'u'e'[1P'3'l' '[1P'[C | sed /s[K[K''/'[1P's'/'0'/'o'/'g'[C | sed ''s'/'4'/'a'/'g'[C | sed ''s'/'3'/'e'/'g'[C
+Hola mundo cruel
+[scl:~ 14:46][32m$[37m #De la salida del comendo [K[K[K[Ka[K[Kando ip addr, mostrar solo la dirección IP
+[scl:~ 14:46][32m$[37m ip addr | ge[Krep inet | cur[Kt -d "" "[C -f 6 [K | cur[Kt -d [K/ -f 1 | g[Khead -n1
+127.0.0.1
+[scl:~ 14:47][32m$[37m #Listo ._.[K[K[K:D
+[scl:~ 14:47][32m$[37m exit
+exit
+
+Script terminado (mar 02 abr 2019 14:47:34 CST
+)
