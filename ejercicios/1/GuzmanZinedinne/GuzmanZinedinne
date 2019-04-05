@@ -1,0 +1,43 @@
+Script iniciado (jue 28 mar 2019 20:02:03 CST
+)[zinedinne@localhost prueba]$ ls practica*
+practica1.sh  practica_2.txt  practica3.pdf
+[zinedinne@localhost prueba]$ #se listaron todas las practicas
+[zinedinne@localhost prueba]$ ls *.txt
+practica_2.txt  tarea1.txt
+[zinedinne@localhost prueba]$ #se listaron los archivos con extension .txt
+[zinedinne@localhost prueba]$ ls *[1]*
+ practica1.sh  tarea1.txt
+[zinedinne@localhost prueba]$ #se listaron los archivos tarea1 y practica1
+[zinedinne@localhost prueba]$ exit
+exit
+
+Script terminado (jue 28 mar 2019 20:03:32 CST
+)
+Script iniciado (jue 28 mar 2019 20:17:05 CST
+)[zinedinne@localhost prueba]$ ls *[!.sh]
+ejercicio1  practica_2.txt  practica3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[zinedinne@localhost prueba]$ #se listan los archivos que no tienen extension .s h
+[zinedinne@localhost prueba]$ #se listan los archivos que no tienen extension .shh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls *[!.sh][K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+ls: no se puede acceder a *[!.sh]exit: No existe el fichero o el directorio
+[zinedinne@localhost prueba]$ exit
+exit
+
+Script terminado (jue 28 mar 2019 20:18:21 CST
+)Script iniciado (jue 28 mar 2019 20:27:19 CST
+)[zinedinne@localhost prueba]$ ls -I *[_]*
+ejercicio1  practica1.sh  practica3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[zinedinne@localhost prueba]$ #para [K[K[K[K[K[K#se listan todos los archivos que no tengan *[K_
+[zinedinne@localhost prueba]$ exit
+exit
+
+Script terminado (jue 28 mar 2019 20:28:29 CST
+)Script iniciado (jue 28 mar 2019 20:28:44 CST
+)[zinedinne@localhost prueba]$ exit#se listan todos los archivos que no tengan _[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -I *[_]*[K[1P]* ]*
+ls: no se puede acceder a ]*: No existe el fichero o el directorio
+[zinedinne@localhost prueba]$ #exit
+[zinedinne@localhost prueba]$ #exitls -I *[ ]*[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script terminado (jue 28 mar 2019 20:29:29 CST
+)

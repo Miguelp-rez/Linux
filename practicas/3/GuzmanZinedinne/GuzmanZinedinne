@@ -1,0 +1,1082 @@
+Script iniciado (mié 27 mar 2019 13:17:30 CST
+)[zinedinne@localhost ~]$ escho "[K#hfuhuhu[K[K[K[K[K[K[K[K[K[K[K[K[Kcho "Miguel Zinedinne Guzman Sainz"
+Miguel Zinedinne Guzman Sainz
+[zinedinne@localhost ~]$ #este comando sirve para mostrar un mensaje en la salid a estandar
+[zinedinne@localhost ~]$ echo "Serie de  [Kejercicios 01"
+Serie de ejercicios 01
+[zinedinne@localhost ~]$ #si funciona
+[zinedinne@localhost ~]$ #este com[Kmando sirve para cambiar de directorio
+[zinedinne@localhost ~]$ #si se ejecuta sin argumentos redirecciona a raiz
+[zinedinne@localhost ~]$ cd
+[zinedinne@localhost ~]$ #pwd devuelve la ruta actual
+[zinedinne@localhost ~]$ pwd
+/home/zinedinne
+[zinedinne@localhost ~]$ #este comando crea un archivo
+[zinedinne@localhost ~]$ touch archivo_de_prueba.txt
+[zinedinne@localhost ~]$ #este documento[K[K[K[K[K[K[K[K[Kcomando va a copiar un archivo en otro[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kel contenido de un archivo en  otro, si el destino no existe lo crea
+[zinedinne@localhost ~]$ cp archivo_de_prueba.txt prueba.doc
+[zinedinne@localhost ~]$ #este documento[K[K[K[K[K[K[K[K[Kcomando vaa [K[K a eliminar el archivo de prueba.txt[1P prueba.txte prueba.txt[C[1Pprueba.txt_prueba.txt[C[C[1Pe_prueba.txt[1P_prueba.txt[1P_prueba.txt[C_prueba.txtd_prueba.txte_prueba.txt
+[zinedinne@localhost ~]$ rm archivo_de_prueba.txt 
+[zinedinne@localhost ~]$ ls
+[0m[01;34mdescargas[0m  [01;34mdocumentos[0m  [01;34mescritorio[0m  GuzmanZinedinne-Ejercicio1  prueba.doc
+[zinedinne@localhost ~]$ #el siguiente comando no va a funcionar porque no exist e el archivo pr ueba
+[zinedinne@localhost ~]$ #la forma correcta es la siguiente
+[zinedinne@localhost ~]$ mv prueba.doc documentos/
+[zinedinne@localhost ~]$ #el siguiente o[Kcomando va a listar todos los archivos co ntenidos en documentos
+[zinedinne@localhost ~]$ ls -la documentos/
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne  24 mar 27 13:28 [0m[01;34m.[0m
+drwx------. 5 zinedinne zinedinne 186 mar 27 13:28 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne   0 mar 27 13:25 prueba.doc
+[zinedinne@localhost ~]$ #el siguiente comando es para cambiar l[Kal directorio doc umentos
+[zinedinne@localhost ~]$ cd documentos/
+[zinedinne@localhost documentos]$ #el siguiente comando va a regresar al directo rio anterior (home) y dspue [K[K[K[K[Kespues se va a mover al directorio de descargas
+[zinedinne@localhost documentos]$ cd ../descargas/
+[zinedinne@localhost descargas]$ #el siguiente comando va a crer[K[Kear un directorio  dentro del directorio descargas
+[zinedinne@localhost descargas]$ mkdir Directorio_de_p[KPp[Krueba
+[zinedinne@localhost descargas]$ #el siguiente comando va a intentar eliminar el  directorio pero no lo va a lof[Kgrar porque tiene dos archivos ocultos que se crea n por ed[K[Kdefecto
+[zinedinne@localhost descargas]$ rm d[KDirectorio_de_Prueba/
+rm: no se puede borrar «Directorio_de_Prueba/»: Es un directorio
+[zinedinne@localhost descargas]$ #mi i[Khipotesis es que la bandera de[K[K-d le indica a  rm que va a eliminar in [K[K[Kun directorio, y entonces ahora si lo va a lograr
+[zinedinne@localhost descargas]$ rm -d Directorio_de_Prueba/
+[zinedinne@localhost descargas]$ #si [K[K[Kmi hipotesis se cumplio[K[Ke
+[zinedinne@localhost descargas]$ #El siguiente comando va a crear un directorio  de prueba en el directorio actual (descargas)
+[zinedinne@localhost descargas]$ mkdir Prueba
+[zinedinne@localhost descargas]$ #el siguiente comando va a crear dos archivos d entro del directorio prueba, a [K[Kaun sin estar posicionados en esa carpet[K[K[K[K[K[K[K[Ke directorio
+[zinedinne@localhost descargas]$ touch Prueba/archivo01.txt Prueba/archivo02.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[zinedinne@localhost descargas]$ #el siguiente comando es un intento de borrar l a carpeta [K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kel  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kr e l directorio Prueba, pero no va a ser posible porque[Ke contiene dos archivos ocult os y dos[K[K[Klos dos archivos que se crearon con el comando anterior
+[zinedinne@localhost descargas]$ rm Prueba
+rm: no se puede borrar «Prueba»: Es un directorio
+[zinedinne@localhost descargas]$ #para poder eliminar ese directorio se debe bor rar recursivamente y fr[K[Kde manera forzoza[K[K[K[Ksoza[K[K[K[Kzosa con la bandera -rf
+[zinedinne@localhost descargas]$ rm -rf Prueba/
+[zinedinne@localhost descargas]$ #ahora si se logro[Ka
+[zinedinne@localhost descargas]$ #el siguiente comando no hace nada, bue[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Knos mueve al directorio a ctual y no al home porque tiene el punto, es decir que realmente no se va a move r de directorio
+[zinedinne@localhost descargas]$ cd .
+[zinedinne@localhost descargas]$ lo com[K[K[K[K[K[K#lo comprobamos con el siguiente comando
+[zinedinne@localhost descargas]$ pwd
+/home/zinedinne/descargas
+[zinedinne@localhost descargas]$ #el siguiente comando nos direcciona a [Kl directo rio anterior
+[zinedinne@localhost descargas]$ cd ..
+[zinedinne@localhost ~]$ #lo comprobamos con el siguiente comando
+[zinedinne@localhost ~]$ pwd
+/home/zinedinne
+[zinedinne@localhost ~]$ #ahora con el siguiente comando nos vamos a mover con l a direccion absoluta al directoroi etc
+[zinedinne@localhost ~]$ cd /etc
+[zinedinne@localhost etc]$ #ahora se va a listar todo el contenido y se concaten a al comando more para poder visualizarlo mejor
+[zinedinne@localhost etc]$ ls -al | more
+total 1052
+drwxr-xr-x. 74 root root   8192 mar 25 22:45 .
+dr-xr-xr-x. 17 root root    224 mar 25 21:17 ..
+-rw-r--r--.  1 root root     16 mar 25 21:17 adjtime
+-rw-r--r--.  1 root root   1518 jun  7  2013 aliases
+-rw-r--r--.  1 root root  12288 mar 25 22:45 aliases.db
+drwxr-xr-x.  2 root root    236 mar 25 21:03 alternatives
+-rw-------.  1 root root    541 abr 10  2018 anacrontab
+-rw-r--r--.  1 root root     55 oct 30 08:50 asound.conf
+drwxr-x---.  3 root root     43 mar 25 21:02 audisp
+drwxr-x---.  3 root root     83 mar 25 22:45 audit
+drwxr-xr-x.  2 root root     22 mar 25 21:03 bash_completion.d
+-rw-r--r--.  1 root root   2853 oct 30 13:48 bashrc
+drwxr-xr-x.  2 root root      6 oct 30 17:31 binfmt.d
+-rw-r--r--.  1 root root     38 nov 23 07:16 centos-release
+-rw-r--r--.  1 root root     51 nov 23 07:16 centos-release-upstream
+drwxr-xr-x.  2 root root      6 ago  4  2017 chkconfig.d
+drwxr-xr-x.  2 root root     21 mar 25 21:00 cron.d
+drwxr-xr-x.  2 root root     42 mar 25 21:03 cron.daily
+-rw-------.  1 root root      0 abr 10  2018 cron.deny
+drwxr-xr-x.  2 root root     22 jun  9  2014 cron.hourly
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root    451 jun  9  2014 crontab
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.weekly
+[7m--Más--[27m[K[zinedinne@localhost etc]$ #el sig[K[K[K[K[K[K[Kls -al | more
+total 1052
+drwxr-xr-x. 74 root root   8192 mar 25 22:45 .
+dr-xr-xr-x. 17 root root    224 mar 25 21:17 ..
+-rw-r--r--.  1 root root     16 mar 25 21:17 adjtime
+-rw-r--r--.  1 root root   1518 jun  7  2013 aliases
+-rw-r--r--.  1 root root  12288 mar 25 22:45 aliases.db
+drwxr-xr-x.  2 root root    236 mar 25 21:03 alternatives
+-rw-------.  1 root root    541 abr 10  2018 anacrontab
+-rw-r--r--.  1 root root     55 oct 30 08:50 asound.conf
+drwxr-x---.  3 root root     43 mar 25 21:02 audisp
+drwxr-x---.  3 root root     83 mar 25 22:45 audit
+drwxr-xr-x.  2 root root     22 mar 25 21:03 bash_completion.d
+-rw-r--r--.  1 root root   2853 oct 30 13:48 bashrc
+drwxr-xr-x.  2 root root      6 oct 30 17:31 binfmt.d
+-rw-r--r--.  1 root root     38 nov 23 07:16 centos-release
+-rw-r--r--.  1 root root     51 nov 23 07:16 centos-release-upstream
+drwxr-xr-x.  2 root root      6 ago  4  2017 chkconfig.d
+drwxr-xr-x.  2 root root     21 mar 25 21:00 cron.d
+drwxr-xr-x.  2 root root     42 mar 25 21:03 cron.daily
+-rw-------.  1 root root      0 abr 10  2018 cron.deny
+drwxr-xr-x.  2 root root     22 jun  9  2014 cron.hourly
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.monthly
+-rw-r--r--.  1 root root    451 jun  9  2014 crontab
+drwxr-xr-x.  2 root root      6 jun  9  2014 cron.weekly
+[7m--Más--[27m-rw-------.  1 root root      0 mar 25 20:56 crypttab
+[7m--Más--[27m-rw-r--r--.  1 root root   1620 oct 30 13:48 csh.cshrc
+[7m--Más--[27m-rw-r--r--.  1 root root    866 oct 30 13:48 csh.login
+[7m--Más--[27mdrwxr-xr-x.  4 root root     78 mar 25 21:00 dbus-1
+[7m--Más--[27mdrwxr-xr-x.  2 root root     44 mar 25 21:16 default
+[7m--Más--[27mdrwxr-xr-x.  2 root root     23 mar 25 21:00 depmod.d
+[7m--Más--[27mdrwxr-x---.  4 root root     53 mar 25 21:00 dhcp
+[7m--Más--[27m-rw-r--r--.  1 root root   5090 oct 30 08:37 DIR_COLORS
+[7m--Más--[27m-rw-r--r--.  1 root root   5725 oct 30 08:37 DIR_COLORS.256color
+[7m--Más--[27m-rw-r--r--.  1 root root   4669 oct 30 08:37 DIR_COLORS.lightbgcolor
+[7m--Más--[27m-rw-r--r--.  1 root root   1285 nov  2 11:40 dracut.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 nov  2 11:40 dracut.conf.d
+[7m--Más--[27m-rw-r--r--.  1 root root    112 oct 30 08:58 e2fsck.conf
+[7m--Más--[27m-rw-r--r--.  1 root root      0 oct 30 13:48 environment
+[7m--Más--[27m-rw-r--r--.  1 root root   1317 abr 10  2018 ethertypes
+[7m--Más--[27m-rw-r--r--.  1 root root      0 jun  7  2013 exports
+[7m--Más--[27mlrwxrwxrwx.  1 root root     56 mar 25 20:59 favicon.png -> /usr/share/icons/hic
+[7m--Más--[27molor/16x16/apps/fedora-logo-icon.png
+[7m--Más--[27m-rw-r--r--.  1 root root     70 oct 30 13:48 filesystems
+[7m--Más--[27mdrwxr-x---.  7 root root    133 mar 25 21:02 firewalld
+[7m--Más--[27m-rw-r--r--.  1 root root    465 mar 25 20:56 fstab
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 ago  2  2017 gcrypt
+[7m--Más--[27m-rw-r--r--.  1 root root    842 oct 30 16:02 GeoIP.conf
+[7m--Más--[27m-rw-r--r--.  1 root root    858 oct 30 16:02 GeoIP.conf.default
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 jul 13  2018 gnupg
+[7m--Más--[27m-rw-r--r--.  1 root root     94 mar 24  2017 GREP_COLORS
+[7m--Más--[27mdrwxr-xr-x.  4 root root     40 mar 25 20:59 groff
+[7m--Más--[27m-rw-r--r--.  1 root root    462 mar 25 21:17 group
+[7m--Más--[27m-rw-r--r--.  1 root root    453 mar 25 21:17 group-
+[7m--Más--[27mlrwxrwxrwx.  1 root root     22 mar 25 21:00 grub2.cfg -> ../boot/grub2/grub.cfg
+[7m--Más--[27mdrwx------.  2 root root    182 mar 25 21:13 grub.d
+[7m--Más--[27m----------.  1 root root    369 mar 25 21:17 gshadow
+[7m--Más--[27m----------.  1 root root    360 mar 25 21:17 gshadow-
+[7m--Más--[27mdrwxr-xr-x.  3 root root     20 mar 25 20:58 gss
+[7m--Más--[27m-rw-r--r--.  1 root root      9 jun  7  2013 host.conf
+[7m--Más--[27m-rw-r--r--.  1 root root     22 mar 25 21:17 hostname
+[7m--Más--[27m-rw-r--r--.  1 root root    158 jun  7  2013 hosts
+[7m--Más--[27m-rw-r--r--.  1 root root    370 jun  7  2013 hosts.allow
+[7m--Más--[27m-rw-r--r--.  1 root root    460 jun  7  2013 hosts.deny
+[7m--Más--[27mlrwxrwxrwx.  1 root root     11 mar 25 20:57 init.d -> rc.d/init.d
+[7m--Más--[27m-rw-r--r--.  1 root root    511 oct 30 16:57 inittab
+[7m--Más--[27m-rw-r--r--.  1 root root    942 jun  7  2013 inputrc
+[7m--Más--[27mdrwxr-xr-x.  2 root root    159 mar 25 20:59 iproute2
+[7m--Más--[27m-rw-r--r--.  1 root root     23 nov 23 07:16 issue
+[7m--Más--[27m-rw-r--r--.  1 root root     22 nov 23 07:16 issue.net
+[7m--Más--[27m-rw-r--r--.  1 root root   7265 mar 25 21:02 kdump.conf
+[7m--Más--[27mdrwxr-xr-x.  3 root root     24 mar 25 21:03 kernel
+[7m--Más--[27m-rw-r--r--.  1 root root    641 oct 30 08:40 krb5.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 nov  2 10:13 krb5.conf.d
+[7m--Más--[27m-rw-r--r--.  1 root root  18703 mar 25 21:03 ld.so.cache
+[7m--Más--[27m-rw-r--r--.  1 root root     28 feb 27  2013 ld.so.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     74 mar 25 21:02 ld.so.conf.d
+[7m--Más--[27m-rw-r-----.  1 root root    191 jun 19  2018 libaudit.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     35 mar 25 20:58 libnl
+[7m--Más--[27m-rw-r--r--.  1 root root   2391 oct 12  2013 libuser.conf
+[7m--Más--[27m-rw-r--r--.  1 root root     19 mar 25 21:17 locale.conf
+[7m--Más--[27mlrwxrwxrwx.  1 root root     41 mar 25 21:17 localtime -> ../usr/share/zoneinfo/
+[7m--Más--[27mAmerica/Mexico_City
+[7m--Más--[27m-rw-r--r--.  1 root root   2028 oct 30 08:54 login.defs
+[7m--Más--[27m-rw-r--r--.  1 root root    662 jul 31  2013 logrotate.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     68 mar 25 21:03 logrotate.d
+[7m--Más--[27mdrwxr-xr-x.  6 root root    100 mar 25 21:02 lvm
+[7m--Más--[27m-r--r--r--.  1 root root     33 mar 25 21:00 machine-id
+[7m--Más--[27m-rw-r--r--.  1 root root    111 oct 30 12:16 magic
+[7m--Más--[27m-rw-r--r--.  1 root root   5122 nov  4 11:10 makedumpfile.conf.sample
+[7m--Más--[27m-rw-r--r--.  1 root root   5171 oct 30 14:26 man_db.conf
+[7m--Más--[27m-rw-r--r--.  1 root root    936 oct 30 13:03 mke2fs.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     81 mar 25 21:02 modprobe.d
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 oct 30 17:31 modules-load.d
+[7m--Más--[27m-rw-r--r--.  1 root root      0 jun  7  2013 motd
+[7m--Más--[27mlrwxrwxrwx.  1 root root     17 mar 25 20:56 mtab -> /proc/self/mounts
+[7m--Más--[27m-rw-r--r--.  1 root root    570 ago 16  2018 my.cnf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     31 mar 25 20:59 my.cnf.d
+[7m--Más--[27mdrwxr-xr-x.  7 root root    134 may 15  2018 NetworkManager
+[7m--Más--[27m-rw-r--r--.  1 root root     58 oct 30 16:57 networks
+[7m--Más--[27m-rw-r--r--.  1 root root   1746 mar 25 21:00 nsswitch.conf
+[7m--Más--[27m-rw-r--r--.  1 root root   1735 oct 30 01:53 nsswitch.conf.bak
+[7m--Más--[27mdrwxr-xr-x.  3 root root     36 mar 25 20:59 openldap
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 abr 10  2018 opt
+[7m--Más--[27m-rw-r--r--.  1 root root    393 nov 23 07:16 os-release
+[7m--Más--[27mdrwxr-xr-x.  2 root root   4096 mar 25 21:17 pam.d
+[7m--Más--[27m-rw-r--r--.  1 root root    856 mar 25 21:17 passwd
+[7m--Más--[27m-rw-r--r--.  1 root root    856 mar 25 21:17 passwd-
+[7m--Más--[27mdrwxr-xr-x.  3 root root     21 mar 25 20:58 pkcs11
+[7m--Más--[27mdrwxr-xr-x. 10 root root    116 mar 25 21:03 pki
+[7m--Más--[27mdrwxr-xr-x.  2 root root     28 mar 25 21:01 plymouth
+[7m--Más--[27mdrwxr-xr-x.  5 root root     52 mar 25 20:58 pm
+[7m--Más--[27mdrwxr-xr-x.  5 root root     72 mar 25 21:00 polkit-1
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 jun  9  2014 popt.d
+[7m--Más--[27mdrwxr-xr-x.  2 root root    154 mar 25 21:02 postfix
+[7m--Más--[27mdrwxr-xr-x.  3 root root    123 mar 25 21:00 ppp
+[7m--Más--[27mdrwxr-xr-x.  2 root root     78 mar 25 21:00 prelink.conf.d
+[7m--Más--[27m-rw-r--r--.  1 root root    233 jun  7  2013 printcap
+[7m--Más--[27m-rw-r--r--.  1 root root   1819 oct 30 13:48 profile
+[7m--Más--[27mdrwxr-xr-x.  2 root root    251 mar 25 21:00 profile.d
+[7m--Más--[27m-rw-r--r--.  1 root root   6545 oct 30 13:48 protocols
+[7m--Más--[27m-rw-------.  1 root root      0 mar 25 21:00 .pwd.lock
+[7m--Más--[27mdrwxr-xr-x.  2 root root     35 mar 25 20:59 python
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc0.d -> rc.d/rc0.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc1.d -> rc.d/rc1.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc2.d -> rc.d/rc2.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc3.d -> rc.d/rc3.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc4.d -> rc.d/rc4.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc5.d -> rc.d/rc5.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     10 mar 25 20:57 rc6.d -> rc.d/rc6.d
+[7m--Más--[27mdrwxr-xr-x. 10 root root    127 mar 25 21:00 rc.d
+[7m--Más--[27mlrwxrwxrwx.  1 root root     13 mar 25 21:00 rc.local -> rc.d/rc.local
+[7m--Más--[27mlrwxrwxrwx.  1 root root     14 mar 25 20:58 redhat-release -> centos-release
+[7m--Más--[27m-rw-r--r--.  1 root root      1 mar 27 13:15 resolv.conf
+[7m--Más--[27m-rw-r--r--.  1 root root      1 mar 26 13:38 resolv.conf.save
+[7m--Más--[27m-rw-r--r--.  1 root root   1634 dic 24  2012 rpc
+[7m--Más--[27mdrwxr-xr-x.  2 root root     25 oct 30 13:27 rpm
+[7m--Más--[27m-rw-r--r--.  1 root root   3232 oct 30 08:49 rsyslog.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     25 oct 30 17:08 rsyslog.d
+[7m--Más--[27m-rw-r--r--.  1 root root    966 oct 30 16:57 rwtab
+[7m--Más--[27mdrwxr-xr-x.  2 root root     23 oct 30 16:57 rwtab.d
+[7m--Más--[27mdrwxr-xr-x.  2 root root     24 mar 25 21:02 sasl2
+[7m--Más--[27m-rw-------.  1 root root    221 oct 30 13:48 securetty
+[7m--Más--[27mdrwxr-xr-x.  6 root root   4096 mar 25 20:59 security
+[7m--Más--[27mdrwxr-xr-x.  5 root root     81 mar 25 21:00 selinux
+[7m--Más--[27m-rw-r--r--.  1 root root 670293 jun  7  2013 services
+[7m--Más--[27m-rw-r--r--.  1 root root    216 nov  2 11:28 sestatus.conf
+[7m--Más--[27m----------.  1 root root    694 mar 25 21:17 shadow
+[7m--Más--[27m----------.  1 root root    699 mar 25 21:17 shadow-
+[7m--Más--[27m-rw-r--r--.  1 root root     44 oct 30 13:48 shells
+[7m--Más--[27mdrwxr-xr-x.  2 root root     62 abr 10  2018 skel
+[7m--Más--[27mdrwxr-xr-x.  2 root root    225 mar 25 22:45 ssh
+[7m--Más--[27mdrwxr-xr-x.  2 root root     19 mar 25 20:58 ssl
+[7m--Más--[27m-rw-r--r--.  1 root root    212 oct 30 16:57 statetab
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 oct 30 16:57 statetab.d
+[7m--Más--[27m-rw-r--r--.  1 root root      0 oct 30 13:48 subgid
+[7m--Más--[27m-rw-r--r--.  1 root root      0 oct 30 13:48 subuid
+[7m--Más--[27m-rw-r-----.  1 root root   1786 oct 30 08:38 sudo.conf
+[7m--Más--[27m-r--r-----.  1 root root   4328 oct 30 08:38 sudoers
+[7m--Más--[27mdrwxr-x---.  2 root root      6 oct 30 18:36 sudoers.d
+[7m--Más--[27m-rw-r-----.  1 root root   3181 oct 30 08:38 sudo-ldap.conf
+[7m--Más--[27mdrwxr-xr-x.  6 root root   4096 mar 25 21:20 sysconfig
+[7m--Más--[27m-rw-r--r--.  1 root root    449 oct 30 16:57 sysctl.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root     28 mar 25 21:00 sysctl.d
+[7m--Más--[27mdrwxr-xr-x.  4 root root    151 mar 25 21:00 systemd
+[7m--Más--[27mlrwxrwxrwx.  1 root root     14 mar 25 20:58 system-release -> centos-release
+[7m--Más--[27m-rw-r--r--.  1 root root     23 nov 23 07:16 system-release-cpe
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 sep  6  2017 terminfo
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 oct 30 17:31 tmpfiles.d
+[7m--Más--[27mdrwxr-xr-x.  3 root root    109 mar 25 21:02 tuned
+[7m--Más--[27mdrwxr-xr-x.  3 root root     54 mar 25 22:45 udev
+[7m--Más--[27m-rw-r--r--.  1 root root    163 mar 25 20:58 .updated
+[7m--Más--[27m-rw-r--r--.  1 root root     37 mar 25 21:17 vconsole.conf
+[7m--Más--[27m-rw-r--r--.  1 root root   1982 oct 30 13:57 virc
+[7m--Más--[27mdrwxr-xr-x.  2 root root     33 mar 25 21:00 wpa_supplicant
+[7m--Más--[27mdrwxr-xr-x.  5 root root     57 mar 25 21:00 X11
+[7m--Más--[27mdrwxr-xr-x.  4 root root     38 mar 25 21:00 xdg
+[7m--Más--[27mdrwxr-xr-x.  2 root root      6 abr 10  2018 xinetd.d
+[7m--Más--[27mdrwxr-xr-x.  6 root root    100 mar 25 21:01 yum
+[7m--Más--[27m-rw-r--r--.  1 root root    970 nov  4 19:53 yum.conf
+[7m--Más--[27mdrwxr-xr-x.  2 root root    187 nov  4 19:53 yum.repos.d
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ 
+[zinedinne@localhost etc]$ #con el comando anterior see [K[K pudo observar que en este  directorio esta passwd y con el siguiente comando podemos observar su contenido [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ko
+[zinedinne@localhost etc]$ car[Kt passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+zinedinne:x:1000:1000:Zinedinne:/home/zinedinne:/bin/bash
+[zinedinne@localhost etc]$ #el siguiente comando es un cambio de direccion en es pera de una v[Kbandera, asi que tal vez me direccione a mi o[Khome
+[zinedinne@localhost etc]$ #no m[K[K[K[K[Kcd -
+/home/zinedinne
+[zinedinne@localhost ~]$ #si funcio[K[K[K[K[K[Kme redirecciono [K[Ka al home y ademas primero me mo[Kuestra  la rur[Kta del o[Khome
+[zinedinne@localhost ~]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 13:57:09 CST
+)Script iniciado (mié 27 mar 2019 14:05:29 CST
+)[zinedinne@localhost ~]$ cd [K[K[Ktouch D[Kdocumentos/Serie01[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01m documentos/Serie01k documentos/Serie01d documentos/Serie01i documentos/Serie01r documentos/Serie01
+[zinedinne@localhost ~]$ mkdir documentos/Serie01[C[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01[1P documentos/Serie01c documentos/Serie01d documentos/Serie01
+[zinedinne@localhost Serie01]$ touch ayer.txt hoy,txt[1Ptxt.txt
+[zinedinne@localhost Serie01]$ touch 0101[K[K[K20001011454 ayer.txt
+[zinedinne@localhost Serie01]$ ls -la
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 57 mar 27 14:10 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:10 020001011454
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:10 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch 020001011454 ayer.txt[C[1@-[1@t[1@ 
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 57 mar 27 14:10 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:10 020001011454
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ rm 020001011454 
+[zinedinne@localhost Serie01]$ rm 020001011454 [C[1P[1@1[10Pls -latouch -t 020001011454 ayer.txt[C[1P[1@1
+[zinedinne@localhost Serie01]$ touch -t 120001011454 ayer.txt[14Prm 120001011454 [10Pls -la
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  1200 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 120001011454 ayer.txt[C[1P[1P[1P[1@9[C[1@0[C[1@0
+[zinedinne@localhost Serie01]$ touch -t 190001011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  1900 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 190001011454 ayer.txt[C[C[C[C[C[1Pls -la[Ktouch -t 19001011454 ayer.txtls -la[Ktouch -t 19001011454 ayer.txtls -la[K[Kls -latouch -t 19001011454 ayer.txt[1@8
+[zinedinne@localhost Serie01]$ touch -t 198001011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  1980 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -la[Kls -latouch -t 198001011454 ayer.txtls -la[Ktouch -t 198001011454 ayer.txt[C[C[C[C[C[Cls -la[Ktouch -t 190001011454 ayer.txt[C[1P[1P[1P[1Pls -la[K^[[2~
+ls: opción inválida -- ''
+Pruebe 'ls --help' para más información.
+[zinedinne@localhost Serie01]$ ls -la^[[2~[Ktouch -t 198001011454 ayer.txtls -la[K^[[2~[Ktouch -t 198001011454 ayer.txt[C[1P[1P[1@0[1@1[C[C[1P[C[C[1@0
+[zinedinne@localhost Serie01]$ touch -t 010001011454 ayer.txt[19Pls -la^[[2~[K[K[K[K[Ka
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0100 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 010001011454 ayer.txt[1P[1@2[C[C[C[1P[1P[1@1[1@8
+[zinedinne@localhost Serie01]$ touch -t 211801011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  2118 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 211801011454 ayer.txt[1P[1@o[1P[1@0
+[zinedinne@localhost Serie01]$ touch -t 201801011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  2018 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 201801011454 ayer.txt[1P[1P[1P[1P[1P[1@ 
+[zinedinne@localhost Serie01]$ touch -t 01011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1 14:54 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 01011454 ayer.txt[1@ [1@2[1@0[1@1[1@8
+touch: formato de fecha inválido «2018»
+[zinedinne@localhost Serie01]$ touch -t 2018 01011454 ayer.txt[1P
+[zinedinne@localhost Serie01]$ touch -t 201801011454 ayer.txt[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  2018 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 201801011454 ayer.txt[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[K[Kexit[K[K[K[Kls -latouch -t 201801011454 ayer.txt[C[C[1P[1P
+[zinedinne@localhost Serie01]$ touch -t 1801011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  2018 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 1801011454 ayer.txtls -la[Ktouch -t 1801011454 ayer.txt[C[C[C[C[C[C[C[C[C[1@0[C[1@1[C[C[1P[1P[1@2[C[1P[C[1@0
+touch: formato de fecha inválido «02001011454»
+[zinedinne@localhost Serie01]$ touch -t 02001011454 ayer.txt[C[1@0
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ ls
+ayer.txt  hoy.txt
+[zinedinne@localhost Serie01]$ ls -latouch -t 020001011454 ayer.txtls -la[K
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 mar 27 14:07 hoy.txt
+[zinedinne@localhost Serie01]$ cp [K[K[Kman touch
+TOUCH(1)                         User Commands                        TOUCH(1)[m
+[m
+[1mNAME[0m[m
+       touch - change file timestamps[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Update  the  access  and modification times of each FILE to the current[m
+       time.[m
+[m
+       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+       is supplied.[m
+[m
+       A  FILE  argument  string of - is handled specially and causes touch to[m
+       change the times of the file associated with standard output.[m
+[m
+       Mandatory arguments to long options are  mandatory  for  short  options[m
+       too.[m
+[m
+       [1m-a[0m     change only the access time[m
+[m
+       [1m-c[0m, [1m--no-create[0m[m
+[7m Manual page touch(1) line 1 (press h for help or q to quit)[27m[K[K              do not create any files[m
+[7m Manual page touch(1) line 2 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 5 (press h for help or q to quit)[27m[K[K       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[7m Manual page touch(1) line 6 (press h for help or q to quit)[27m[K[K              parse STRING and use it instead of current time[m
+[7m Manual page touch(1) line 7 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 8 (press h for help or q to quit)[27m[K[K       [1m-f[0m     (ignored)[m
+[7m Manual page touch(1) line 9 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 10 (press h for help or q to quit)[27m[K[K       [1m-h[0m, [1m--no-dereference[0m[m
+[7m Manual page touch(1) line 11 (press h for help or q to quit)[27m[K[K              affect each symbolic link instead of any referenced file (useful[m
+[7m Manual page touch(1) line 12 (press h for help or q to quit)[27m[K[K              only on systems that can change the timestamps of a symlink)[m
+[7m Manual page touch(1) line 13 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 14 (press h for help or q to quit)[27m[K[K       [1m-m[0m     change only the modification time[m
+[7m Manual page touch(1) line 15 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 16 (press h for help or q to quit)[27m[K[K       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[7m Manual page touch(1) line 17 (press h for help or q to quit)[27m[K[K              use this file's times instead of current time[m
+[7m Manual page touch(1) line 18 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 19 (press h for help or q to quit)[27m[K[K       [1m-t[0m STAMP[m
+[7m Manual page touch(1) line 20 (press h for help or q to quit)[27m[K[K              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[7m Manual page touch(1) line 21 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 22 (press h for help or q to quit)[27m[K[K       [1m--time[0m=[4mWORD[24m[m
+[7m Manual page touch(1) line 23 (press h for help or q to quit)[27m[K[K              change the specified time: WORD is access, atime, or use: equiv‐[m
+[7m Manual page touch(1) line 24 (press h for help or q to quit)[27m[K[K              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[7m Manual page touch(1) line 25 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 26 (press h for help or q to quit)[27m[K[K       [1m--help[0m display this help and exit[m
+[7m Manual page touch(1) line 27 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 28 (press h for help or q to quit)[27m[K[K       [1m--version[0m[m
+[7m Manual page touch(1) line 29 (press h for help or q to quit)[27m[K[K              output version information and exit[m
+[7m Manual page touch(1) line 30 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 31 (press h for help or q to quit)[27m[K[K       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[7m Manual page touch(1) line 32 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 33 (press h for help or q to quit)[27m[K[K       GNU  coreutils  online  help:  <http://www.gnu.org/software/coreutils/>[m
+[7m Manual page touch(1) line 34 (press h for help or q to quit)[27m[K[K       Report touch translation bugs to <http://translationproject.org/team/>[m
+[7m Manual page touch(1) line 35 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 36 (press h for help or q to quit)[27m[K[K[1mDATE[0m [1mSTRING[0m[m
+[7m Manual page touch(1) line 37 (press h for help or q to quit)[27m[K[K       The --date=STRING is a mostly free format human  readable  date  string[m
+[7m Manual page touch(1) line 38 (press h for help or q to quit)[27m[K[K       such  as  "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29 16:21:42" or[m
+[7m Manual page touch(1) line 39 (press h for help or q to quit)[27m[K[K       even "next Thursday".  A date string may contain items indicating  cal‐[m
+[7m Manual page touch(1) line 40 (press h for help or q to quit)[27m[K[K       endar  date,  time of day, time zone, day of week, relative time, rela‐[m
+[7m Manual page touch(1) line 41 (press h for help or q to quit)[27m[K[K       tive date, and numbers.  An empty string indicates the beginning of the[m
+[7m Manual page touch(1) line 42 (press h for help or q to quit)[27m[K[K       day.   The date string format is more complex than is easily documented[m
+[7m Manual page touch(1) line 43 (press h for help or q to quit)[27m[K[K       here but is fully described in the info documentation.[m
+[7m Manual page touch(1) line 44 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 45 (press h for help or q to quit)[27m[K[K[1mAUTHOR[0m[m
+[7m Manual page touch(1) line 46 (press h for help or q to quit)[27m[K[K       Written by Paul Rubin, Arnold Robbins, Jim  Kingdon,  David  MacKenzie,[m
+[7m Manual page touch(1) line 47 (press h for help or q to quit)[27m[K[K       and Randy Smith.[m
+[7m Manual page touch(1) line 48 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 49 (press h for help or q to quit)[27m[K[K[1mCOPYRIGHT[0m[m
+[7m Manual page touch(1) line 50 (press h for help or q to quit)[27m[K[K       Copyright  ©  2013  Free Software Foundation, Inc.  License GPLv3+: GNU[m
+[7m Manual page touch(1) line 51 (press h for help or q to quit)[27m[K[K       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[7m Manual page touch(1) line 52 (press h for help or q to quit)[27m[K[K       This is free software: you are free  to  change  and  redistribute  it.[m
+[7m Manual page touch(1) line 53 (press h for help or q to quit)[27m[K[K       There is NO WARRANTY, to the extent permitted by law.[m
+[7m Manual page touch(1) line 54 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 55 (press h for help or q to quit)[27m[K[K[1mSEE[0m [1mALSO[0m[m
+[7m Manual page touch(1) line 56 (press h for help or q to quit)[27m[K[K       The full documentation for [1mtouch[0m is maintained as a Texinfo manual.  If[m
+[7m Manual page touch(1) line 57 (press h for help or q to quit)[27m[K[K       the [1minfo[0m and [1mtouch[0m programs are properly installed at  your  site,  the[m
+[7m Manual page touch(1) line 58 (press h for help or q to quit)[27m[K[K       command[m
+[7m Manual page touch(1) line 59 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 60 (press h for help or q to quit)[27m[K[K              [1minfo[0m [1mcoreutils[0m [1m'touch[0m [1minvocation'[0m[m
+[7m Manual page touch(1) line 61 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 62 (press h for help or q to quit)[27m[K[K       should give you access to the complete manual.[m
+[7m Manual page touch(1) line 63 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 64 (press h for help or q to quit)[27m[K[KGNU coreutils 8.22               October 2018                         TOUCH(1)[m
+[7m Manual page touch(1) line 65 (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 65/90 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 65/90 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 65/90 (END) (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 65/90 (END) (press h for help or q to quit)[27m[K[K[HM       endar  date,  time of day, time zone, day of week, relative time, rela‐[m
+[HM       even "next Thursday".  A date string may contain items indicating  cal‐[m
+[HM       such  as  "Sun, 29 Feb 2004 16:21:42 -0800" or "2004-02-29 16:21:42" or[m
+[HM       The --date=STRING is a mostly free format human  readable  date  string[m
+[HM[1mDATE[0m [1mSTRING[0m[m
+[HM[m
+[HM       Report touch translation bugs to <http://translationproject.org/team/>[m
+[HM       GNU  coreutils  online  help:  <http://www.gnu.org/software/coreutils/>[m
+[HM[m
+[HM       Note that the [1m-d[0m and [1m-t[0m options accept different time-date formats.[m
+[HM[m
+[HM              output version information and exit[m
+[HM       [1m--version[0m[m
+[HM[m
+[HM       [1m--help[0m display this help and exit[m
+[HM[m
+[HM              alent to [1m-a[0m WORD is modify or mtime: equivalent to [1m-m[0m[m
+[HM              change the specified time: WORD is access, atime, or use: equiv‐[m
+[HM       [1m--time[0m=[4mWORD[24m[m
+[HM[m
+[HM              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[HM       [1m-t[0m STAMP[m
+[HM[m
+[HM              use this file's times instead of current time[m
+[25;1H[K[7m Manual page touch(1) line 41/90 68% (press h for help or q to quit)[27m[K[K[HM       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[HM[m
+[HM       [1m-m[0m     change only the modification time[m
+[HM[m
+[HM              only on systems that can change the timestamps of a symlink)[m
+[HM              affect each symbolic link instead of any referenced file (useful[m
+[HM       [1m-h[0m, [1m--no-dereference[0m[m
+[HM[m
+[HM       [1m-f[0m     (ignored)[m
+[HM[m
+[HM              parse STRING and use it instead of current time[m
+[HM       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[HM[m
+[HM              do not create any files[m
+[HM       [1m-c[0m, [1m--no-create[0m[m
+[HM[m
+[HM       [1m-a[0m     change only the access time[m
+[HM[m
+[HM       too.[m
+[HM       Mandatory arguments to long options are  mandatory  for  short  options[m
+[HM[m
+[HM       change the times of the file associated with standard output.[m
+[HM       A  FILE  argument  string of - is handled specially and causes touch to[m
+[HM[m
+[25;1H[K[7m Manual page touch(1) line 17/90 37% (press h for help or q to quit)[27m[K[K[HM       is supplied.[m
+[HM       A FILE argument that does not exist is created empty, unless [1m-c[0m  or  [1m-h[0m[m
+[HM[m
+[HM       time.[m
+[HM       Update  the  access  and modification times of each FILE to the current[m
+[HM[1mDESCRIPTION[0m[m
+[HM[m
+[HM       [1mtouch[0m [[4mOPTION[24m]... [4mFILE[24m...[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       touch - change file timestamps[m
+[HM[1mNAME[0m[m
+[HM[m
+[HMTOUCH(1)                         User Commands                        TOUCH(1)[m
+[25;1H[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K[K[7m Manual page touch(1) line 1/90 23% (press h for help or q to quit)[27m[K[K              do not create any files[m
+[7m Manual page touch(1) line 4/90 24% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 5/90 24% (press h for help or q to quit)[27m[K[K       [1m-d[0m, [1m--date[0m=[4mSTRING[24m[m
+[7m Manual page touch(1) line 6/90 25% (press h for help or q to quit)[27m[K[K              parse STRING and use it instead of current time[m
+[7m Manual page touch(1) line 7/90 27% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 8/90 27% (press h for help or q to quit)[27m[K[K       [1m-f[0m     (ignored)[m
+[7m Manual page touch(1) line 9/90 28% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 10/90 28% (press h for help or q to quit)[27m[K[K       [1m-h[0m, [1m--no-dereference[0m[m
+[7m Manual page touch(1) line 11/90 30% (press h for help or q to quit)[27m[K[K              affect each symbolic link instead of any referenced file (useful[m
+[7m Manual page touch(1) line 12/90 32% (press h for help or q to quit)[27m[K[K              only on systems that can change the timestamps of a symlink)[m
+[7m Manual page touch(1) line 13/90 34% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 14/90 34% (press h for help or q to quit)[27m[K[K       [1m-m[0m     change only the modification time[m
+[7m Manual page touch(1) line 15/90 36% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 16/90 36% (press h for help or q to quit)[27m[K[K       [1m-r[0m, [1m--reference[0m=[4mFILE[24m[m
+[7m Manual page touch(1) line 17/90 37% (press h for help or q to quit)[27m[K[K              use this file's times instead of current time[m
+[7m Manual page touch(1) line 18/90 39% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 19/90 39% (press h for help or q to quit)[27m[K[K       [1m-t[0m STAMP[m
+[7m Manual page touch(1) line 20/90 40% (press h for help or q to quit)[27m[K[K              use [[CC]YY]MMDDhhmm[.ss] instead of current time[m
+[7m Manual page touch(1) line 21/90 41% (press h for help or q to quit)[27m[K[K[m
+[7m Manual page touch(1) line 22/90 41% (press h for help or q to quit)[27m[K[K[zinedinne@localhost Serie01]$ man touch [4Pls -la[K -latouch -t 020001011454 ayer.txt[1P[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[1Payer.txt[C[C[C[C[C[C[C[C hoy.txt
+[zinedinne@localhost Serie01]$ touch -r ayer.txt hoy.txt[15Pman touch [4Pls -la
+total 0
+drwxrwxr-x. 2 zinedinne zinedinne 37 mar 27 14:11 [0m[01;34m.[0m
+drwxrwxr-x. 3 zinedinne zinedinne 39 mar 27 14:07 [01;34m..[0m
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0200 ayer.txt
+-rw-rw-r--. 1 zinedinne zinedinne  0 ene  1  0200 hoy.txt
+[zinedinne@localhost Serie01]$ mv *.[K[K[K[K[Kls
+ayer.txt  hoy.txt
+[zinedinne@localhost Serie01]$ mv *.txt *.doc
+mv: el objetivo «*.doc» no es un directorio
+[zinedinne@localhost Serie01]$ mv *.txt *.doc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kayer.txt ayer.doc|mv hoy.txt oo[K[Khoy.doc| cp hoy.d oc hoy[K[K.doc [K| hoy[K[K[Kayer.doc a.doc|rm  ayer.txt| rm hoy.txt
+mv: no se puede efectuar `stat' sobre «hoy.txt»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «hoy.doc»: No existe el fichero o el directorio
+bash: ayer.doc: no se encontró la orden
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[zinedinne@localhost Serie01]$ mv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc| ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc| ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[A*.txt *.doc[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc| ayer.doc a.doc|rm  ayer.txt| rm hoy.txt
+rm: no se puede borrar «hoy.txt»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «hoy.txt»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «hoy.doc»: No existe el fichero o el directorio
+bash: ayer.doc: no se encontró la orden
+rm: no se puede borrar «ayer.txt»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[zinedinne@localhost Serie01]$ mv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc| ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[C[1@c[1@p
+rm: no se puede borrar «hoy.txt»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «hoy.txt»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «hoy.doc»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «ayer.doc»: No existe el fichero o el directorio
+rm: no se puede borrar «ayer.txt»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[zinedinne@localhost Serie01]$ ls
+[zinedinne@localhost Serie01]$ lsmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[C[C[C[C[C[C[C[C[C[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A*.txt *.doc[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -latouch -r ayer.txt hoy.txt[15Pman touch [4Pls -la[K -latouch -t 020001011454 ayer.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[Ktouch -t 1801011454 ayer.txtls -la[Ktouch -t 201801011454 ayer.txt[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -la[Ktouch -t 1801011454 ayer.txtls -la[Ktouch -t 02001011454 ayer.txt
+touch: formato de fecha inválido «02001011454»
+[zinedinne@localhost Serie01]$ touch -t 02001011454 ayer.txt[C[C[1@0
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[C[C[C[C[C[C[C[C[C[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A*.txt *.doc[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -latouch -r ayer.txt hoy.txt
+[zinedinne@localhost Serie01]$ touch -r ayer.txt hoy.txtt 020001011454 ayer.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt
+mv: no se puede efectuar `stat' sobre «hoy.txt»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «hoy.doc»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «ayer.doc»: No existe el fichero o el directorio
+mv: no se puede efectuar `stat' sobre «ayer.txt»: No existe el fichero o el directorio
+[zinedinne@localhost Serie01]$ mv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[A[24Ptouch -r ayer.txt hoy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct 020001011454 ayer.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ktouch -t 02001011454 ayer.txt[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txtmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[A[24Ptouch -r ayer.txt hoy.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct 020001011454 ayer.txt[5Pr ayer.txt hoy.txt
+[zinedinne@localhost Serie01]$ ld
+ld: no hay ficheros de entrada
+[zinedinne@localhost Serie01]$ ls
+ayer.txt  hoy.txt
+[zinedinne@localhost Serie01]$ lsdtouch -r ayer.txt hoy.txtt 020001011454 ayer.txt[5Pr ayer.txt hoy.txtld[Ktouch -r ayer.txt hoy.txtt 020001011454 ayer.txtmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.txt| rm hoy.txt[C[1P[1P[1P[1@d[1@o[1@c[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kdoc
+rm: no se puede borrar «hoy.doc»: No existe el fichero o el directorio
+cp: no se puede efectuar `stat' sobre «ayer.doc»: No existe el fichero o el directorio
+rm: no se puede borrar «ayer.doc»: No existe el fichero o el directorio
+[zinedinne@localhost Serie01]$ ls
+ayer.doc  h.doc  hoy.doc
+[zinedinne@localhost Serie01]$ lsmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdtouch -r ayer.txt hoy.txtt 020001011454 ayer.txt
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txtls[Ktouch -t 020001011454 ayer.txt[Ktouch -t 020001011454 ayer.txtls[Kmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdtouch -r ayer.txt hoy.txt
+[zinedinne@localhost Serie01]$ touch -r ayer.txt hoy.txt[Ktouch -r ayer.txt hoy.txtt 020001011454 ayer.txtls[Kmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ayer.doc  ayer.txt  h.doc  hoy.doc  hoy.txt
+[zinedinne@localhost Serie01]$ ls[K[Krm *
+[zinedinne@localhost Serie01]$ ls
+[zinedinne@localhost Serie01]$ lsrm *[2Plstouch -r ayer.txt hoy.txtt 020001011454 ayer.txt
+[zinedinne@localhost Serie01]$ touch -t 020001011454 ayer.txtls[Krm *[2Plstouch -r ayer.txt hoy.txt
+[zinedinne@localhost Serie01]$ ls
+ayer.txt  hoy.txt
+[zinedinne@localhost Serie01]$ lstouch -r ayer.txt hoy.txtt 020001011454 ayer.txtls[Ktouch -t 020001011454 ayer.txt[5Pr ayer.txt hoy.txtls[K[Klstouch -r ayer.txt hoy.txtt 020001011454 ayer.txt[5Pr ayer.txt hoy.txtls[K[Klstouch -r ayer.txt hoy.txtt 020001011454 ayer.txtls[Krm *[2Plstouch -r ayer.txt hoy.txtt 020001011454 ayer.txtls[Kmv ayer.txt ayer.doc|mv hoy.txt hoy.doc| cp hoy.dooc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv hoy.txt hoy.doc| cp hoy.doc[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C&mv hoy.txt hoy.doc| cp hoy.do[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv hoy.txt hoy.doc| cp hoy.doc[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mv hoy.txt hoy.doc| cp hoy.do[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C mv hoy.txt hoy.doc| cp hoy.d[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& mv hoy.txt hoy.doc| cp hoy.[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc & mv hoy.txt hoy.doc| cp hoy..doc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[Als[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc & mv hoy.txt hoy.doc| cp hoy..doc h.doc|cp ayer.doc a.doc|rm  ayer.doc| rm hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cp hoy.d[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& cp hoy.[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cp hoy.d[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C cp hoy.[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& cp hoy[1@.[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& cp ho[1@y[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C& mv hoy.txt hoy.doc && cp h[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ [1@&[1@&[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@ [1@&[1@&[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1@ [1@&[1@&
+[zinedinne@localhost Serie01]$ ls
+a.doc  h.doc
+[zinedinne@localhost Serie01]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 14:40:52 CST
+)Script iniciado (mié 27 mar 2019 14:41:28 CST
+)[zinedinne@localhost ~]$ exit[2Plsmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp hoy.docc h.doc && cp ayer.doc a.doc && rm  ayer.doc && rm hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K#AQUI YA LOGRE HACER EL 6 DESPUES DE MUCHO ESFUERZO
+[zinedinne@localhost ~]$ #creo que los que se crearon son archivos .txt
+[zinedinne@localhost ~]$ file a.doc
+a.doc: cannot open (No such file or directory)
+[zinedinne@localhost ~]$ file a.doc[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mdescargas[0m  [01;34mdocumentos[0m  E1  [01;34mescritorio[0m  GuzmanZinedinne-Ejercicio1
+[zinedinne@localhost ~]$ cd documentos/[C[1P documentos/[1P documentos/l documentos/s documentos/[C[C[C[C[C[C[C[C[C[C[C[C
+prueba.doc  [0m[01;34mSerie01[0m
+[zinedinne@localhost ~]$ ls documentos/[Cserie[K[K[K[K[KSerie01/
+a.doc  h.doc
+[zinedinne@localhost ~]$ ls documentos/Serie01/[C[1P documentos/Serie01/[1P documentos/Serie01/c documentos/Serie01/d documentos/Serie01/
+[zinedinne@localhost Serie01]$ cd documentos/Serie01/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kfile a.doc#creo que los que se crearon son archivos .txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CAQUI YA LOGRE HACER EL 6 DESPUES DE MUCHO ESFUERZZO[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Plsmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp hhoy.doc h.doc && cp ayer.doc a.doc && rm  ayer.doc && rm hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ayer.txt ayer.doc && mv hoy.txt hoy.doc && cp hhoy.doc h.doc && cp ayer.doc a.doc && rm  ayer.doc && rm hoy.doc[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit#AQUI YA LOGRE HACER EL 6 DESPUES DE MUCHO ESFUERZZO[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pcreo que los que se crearon son archivos .txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfile a.doc[Kls[K documentos/Serie01/cd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd documentos/Serie01/ls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kfile a.doc
+a.doc: empty
+[zinedinne@localhost Serie01]$ type [K[K[K[K[KFile
+bash: File: no se encontró la orden
+[zinedinne@localhost Serie01]$ File[K[K[K[Kfile a.doc[1P.doch.doc
+h.doc: empty
+[zinedinne@localhost Serie01]$ man file[K[K[K[K[K[K[K[Kfile h.doc[K[K[K[K
+h: cannot open (No such file or directory)
+[zinedinne@localhost Serie01]$ file h.doc
+h.doc: empty
+[zinedinne@localhost Serie01]$ cat h.doc 
+[zinedinne@localhost Serie01]$ pues [K[K[K[K[K#al parecer no [K[K[K[K[K[K[K[K[K[K[K[Kparece[K[K[K[K[K[K parecer mi suposicion si estaba bien, pero el  ejercicio no[K[Kesta mla[K[Kal planteado porque nunca se escribe nad[K[K[Kalgo dentro de los archivo s
+[zinedinne@localhost Serie01]$ mk di[K[K[Kdir calificacionesDePrebes.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K"Lista de [K[K[K[Ks adae[K[K[K[Kde Calificaciones"[K"[K@[K""[K[1P"s"
+[zinedinne@localhost Serie01]$ cd Listas\ de\ Calificaciones/
+[zinedinne@localhost Listas de Calificaciones]$ "">calificacionesDePrebes.xls
+bash: : no se encontró la orden
+[zinedinne@localhost Listas de Calificaciones]$ "">calificacionesDePrebes.xls >calificacionesDePrebes.xls
+bash: : no se encontró la orden
+[zinedinne@localhost Listas de Calificaciones]$ "" >calificacionesDePrebes.xls[C[C[C[C[C[C[C[C calificacionesDePrebes.xlsc"" > calificacionesDePrebes.xls [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca"" > calificacionesDePrebes.xlss[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct"" > calificacionesDePrebes.xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "" > calificacionesDePrebes.xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"" > calificacionesDePrebes.xl[1Ps[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"" > calificacionesDePrebes.xls[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"" > calificacionesDePrebes.xls [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce"" > calificacionesDePrebes.xls [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc"" > calificacionesDePrebes.xlss[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch"" > calificacionesDePrebes.xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co"" > calificacionesDePrebes.xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "" > calificacionesDePrebes.xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls < <[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K<
+bash: error sintáctico cerca del elemento inesperado `newline'
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls < "
+> hola
+> mi [K[K[KZinedi[K[K[K[K[K[Kzinedinne:10
+> Brayan:10
+> Andres:10
+> Sofia [K:10
+> Amadeus:9
+> "
+bash: 
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ ls
+calificacionesDePrebes.xls
+[zinedinne@localhost Listas de Calificaciones]$ vi calificacionesDePrebes.xls 
+[1;25r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[25;1H"calificacionesDePrebes.xls" 1L, 1C[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [1;1H[?25h[?0c[25;1H[0m[25;1H[K[25;1H[zinedinne@localhost Listas de Calificaciones]$ vi calificacionesDePrebes.xls ls[Kvi calificacionesDePrebes.xls [Kvi calificacionesDePrebes.xls ls[Kcat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A"
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"
+bash: 
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pvi calificacionesDePrebes.xls 
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "" > calificacionesDePrebes..xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P"" >calificacionesDePrebes.xls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "" > calificacionesDePrebes..xls[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls < [K"
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi calificacionesDePrebes.xls cat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K.xls 
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls < <
+bash: error sintáctico cerca del elemento inesperado `newline'
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <<< "
+> hola"
+> ^C
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <<< "
+hola"[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <<< "
+hola"[K[K[K[K[K[K[A[C[C[C[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <<< "
+hola"[K[K[K[K[K[K[A[C[C[C[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K <<<[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <<<[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<""
+hola
+zinedinne:10
+Brayan:10
+Andres:10
+Sofia:10
+Amadeus:9
+"[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C
+> jjoj
+> dsds
+> "
+bash: 
+jjoj
+dsds
+: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <""
+jjoj
+dsds
+"[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho [K| cat [K[K[K[K[K[K[K[K[K[Kcat calificacionesDePrebes.xls <""
+jjoj
+dsds
+"[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C < < p[Kperro
+> hola
+> pero[Kro
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <<< perro
+hola
+perro
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <<< perro
+hola
+perro
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <""
+jjoj
+dsds
+"[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C <<< "
+hola"[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[zinedinne@localhost Listas de Calificaciones]$ ls
+calificacionesDePrebes.xls
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls 
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls < h
+bash: h: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <hh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<hh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <hh[KcalificacionesDePrebes.xls perro
+
+cat: perro: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <ccalificacionesDePrebes.xls perro[K[K[K[K[K[C[C[1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [1P [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<  " 
+> perhjfjj
+> wefwef
+> fwefwe
+> "
+bash:  
+perhjfjj
+wefwef
+fwefwe
+: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <"" 
+perhjfjj
+wefwef
+fwefwe
+"[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <"" 
+perhjfjj
+wefwef
+fwefwe
+"[A[C[C[C[C[C[C[A[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <"" 
+perhjfjj
+wefwef
+fwefwe
+"[A[A[A[AcalificacionesDePrebes.xls perro
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho "
+> fhf
+> scs
+> cscs
+> "
+bash: echo: No existe el fichero o el directorio
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls <eecho "
+fhf
+scs
+cscs
+"[A[A[A[A[4P" 
+perhjfjj
+wefwef
+fwefwe
+[C[A[A[A[AcalificacionesDePrebes.xls perro
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcat calificacionesDePrebes.xls <<< perro
+hola
+perro
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat calificacionesDePrebes.xls <""
+jjoj
+dsds
+"[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C<<  <
+bash: error sintáctico cerca del elemento inesperado `<'
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls<<  <[Kencontrado
+> hola
+> hola
+> encontrado
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls<<  encontrado
+hola
+hola
+encontrado
+[A[A[A[A[C<[K
+[K
+[K
+[K
+[K[A[A[A[A[C[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kxls<<  encontrado
+hola
+hola
+encontrado
+[K[A[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C[C[C[C[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls[Kcat calificacionesDePrebes.xls<<  encontrado
+hola
+hola
+encontrado
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat calificacionesDePrebes.xls[Kcat calificacionesDePrebes.xls[Kcat calificacionesDePrebes.xls<<  encontrado
+hola
+hola
+encontrado
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxls <eecho "
+fhf
+scs
+cscs
+"[A[A[A[A[4P" 
+perhjfjj
+wefwef
+fwefwe
+[C[K[K[A[C[C[C[C[C[C[K[K[K[K[K[K[K[A[C[C[C[C[C[C[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kxls < <[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C calificacionesDePrebes.xls <<[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> calificacionesDePrebes.xls [C<[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C encontrado
+> ho[K[KZinedinne:10
+> Ande[Kres:10
+> b[KBrayan:10
+> Amadeus:9
+> sofia:10
+> encontrado
+[zinedinne@localhost Listas de Calificaciones]$ cat > calificacionesDePrebes.xls  << encontrado
+Zinedinne:10
+Andres:10
+Brayan:10
+Amadeus:9
+sofia:10
+encontrado
+[K[A[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P calificacionesDePrebes.xls
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PcalificacionesDePrebes.xls
+Zinedinne:10
+Andres:10
+Brayan:10
+Amadeus:9
+sofia:10
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls|  head -n 3
+Zinedinne:10
+Andres:10
+Brayan:10
+[zinedinne@localhost Listas de Calificaciones]$ cat calificacionesDePrebes.xls| hhead -n 3[C[C[C[C[C[C[K2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[1P[1P[1P[1P[1@t[1@a[1@i[1@l
+Amadeus:9
+sofia:10
+[zinedinne@localhost Listas de Calificaciones]$ exit
+exit
+
+Script terminado (mié 27 mar 2019 15:11:50 CST
+)
