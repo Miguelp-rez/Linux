@@ -1,0 +1,120 @@
+Script iniciado (mar 02 abr 2019 14:22:02 CST
+)[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1
+[Andres@amm 2Abril]$ #Ejercicio1[7Pexitip addr | grep -o -m 1 "127.0.0.1/8"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P#muchos errores de protesisdedos :v[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cip addr | grep -o -m 1 "127.0.0.1/8"0"0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P 1 "127.0.0.1/8"m 1 "127.0.0.1/0"[2P127.0.0.1/0[7Pinet[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C#mi prompt se volvio loco[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "H0l4 mund0 cru3l" | sed 's/4/a/' | sed 's/0/o/g' | sed 's/3/e/'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kclearls /etc | grep confclear[Kat users.txt sort /etc/passwd > users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Purce ~/.bashrc[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C .bashrcip addr | grep -m 1 inet[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pman grepip addr | grep -A1 inet[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /etc/passwd | grep -A1 homero[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cip addr[Kvi /.bashrccat /.basrcecho "H0l4 mund0 cru3l" | sed 's/4/a/'|sed 's/0/o/g'[4P 's/0/o/g'[K/s/4/a/'[2P/s/4/a/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kls /etc | grep confclear[Kat users.txt [4Pd 2Abril/at users.txt [4Pd 2Abril/[2Ppoweroffcomm uno cuatro[2Ptres[1Pdos tres[K[3Pvi cuatro[2Ptres[1Pdosunosort got8.txt "hdsajdashkj"[1Pwc -l /etc/passwdcat bitacora | tr [a-z] [P-Q]Q-P]P-P]Q-P]P-Q][C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pwc -l /etc/passwdsort "hdsajdashkj"[1Pwc -l /etc/passwdsort "hdsajdashkj"[4Pgot8.txt [8Pvi unodostrescuatrocomm uno dos tres[Ktrescuatro[7Ppoweroffcd 2Abril/at users.txt lear[Kls /etc | grep confclear[Kat users.txt [4Pd 2Abril/at users.txt lear[Kls /etc | grep confclear[Kecho "H0l4 mund0 cru3l" | sed /s/4/a/'/s/4/a/'[1Ps/4/a/' 's/0/o/g'|sed 's/0/o/g'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /.basrc[Kvi /.bashrc[4Pip addrcat /etc/passwd | grep -A1 homero[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pipaddr | grep -A1 inet[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pman grepip addr | grep -m 1 inet[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pvi ~/ .bashrc[1P.bashrc[4@source[C[C[C[C[C[C[C[C[C[C[4Pvi[C[C[C[C[C[C[C[C[C[C[4@source[C[C[C[C[C[C[C[C[C[Crt /etc/passwd > users.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pcat users.txt lear[Kls /etc | grep confclear[K[3Plsecho "H0l4 mund0 cru3l" | sed 's/4/a/' | sed 's/0/o/g' | sed 's/3/e/'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[44P#mi prompt se volvio loco[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pip addr | grep -m 1 inet127.0.0.1/0"127.0.0.1/0"[1P 1 "127.0.0.1/8"0 -m 1 "127.0.0.1/0"o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P#muchos errores de dedos :vprotesis[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cip addr | grep -o -m 1 "127.0.0.1/8"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K#Ejercicio1[Ksort /etc/passwd > users.txt
+[Andres@amm 2Abril]$ cat users.txt 
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+Andres:x:1000:1000:Andres Martinez Martinez:/home/Andres:/bin/bash
+bart:x:1102:5083:Joaquin Villarroya Lara:/home/bart:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+burns:x:1108:1108:Eugenio Castillo Bruno:/home/burns:
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+homero:x:1100:1100:Gonzalo Cabellos Exposito:/home/homero:/bin/bash
+lisa:x:1103:1103:Ya comete la maldita naranja:/home/lisa:/bin/bash
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+maggie:x:1104:1104:Yo le dispare al senor Burns:/home/maggie:/bin/bash
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+marge:x:1101:1101:Yo amo a Homero:/home/marge:/bin/bash
+milhouse:x:1109:1109:Jose Carlos Paton Luis:/home/milhouse:/bin/bash
+moe:x:1105:1105:Jaime Barrachina Fabra:/home/moe:/bin/bash
+nflanders:x:1107:1107:Cristobal Leyva Bocanegra:/home/nflanders:/bin/csh
+nobody:x:99:99:Nobody:/:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+revlaegria:x:1106:1106:Miguel Angel Torrejon Constantin:/home/revlaegria:
+root:x:0:0:root:/root:/bin/bash
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+[Andres@amm 2Abril]$ #EJ[Kjercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ #Ejercicio2
+[Andres@amm 2Abril]$ ls /etc | grep conf
+asound.[01;31m[Kconf[m[K
+chk[01;31m[Kconf[m[Kig.d
+dracut.[01;31m[Kconf[m[K
+dracut.[01;31m[Kconf[m[K.d
+e2fsck.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K.default
+host.[01;31m[Kconf[m[K
+kdump.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K.d
+ld.so.[01;31m[Kconf[m[K
+ld.so.[01;31m[Kconf[m[K.d
+libaudit.[01;31m[Kconf[m[K
+libuser.[01;31m[Kconf[m[K
+locale.[01;31m[Kconf[m[K
+logrotate.[01;31m[Kconf[m[K
+makedumpfile.[01;31m[Kconf[m[K.sample
+man_db.[01;31m[Kconf[m[K
+mke2fs.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K.bak
+prelink.[01;31m[Kconf[m[K.d
+resolv.[01;31m[Kconf[m[K
+resolv.[01;31m[Kconf[m[K.save
+rsyncd.[01;31m[Kconf[m[K
+rsyslog.[01;31m[Kconf[m[K
+sestatus.[01;31m[Kconf[m[K
+sudo.[01;31m[Kconf[m[K
+sudo-ldap.[01;31m[Kconf[m[K
+sys[01;31m[Kconf[m[Kig
+sysctl.[01;31m[Kconf[m[K
+vconsole.[01;31m[Kconf[m[K
+yum.[01;31m[Kconf[m[K
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ 
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ #Ejercicio3
+[Andres@amm 2Abril]$ echo ""H"0"l"4" "m"u"n"d"0" "c"r"u"3"l"[C [K|s[K s/[K[Ksed ''s'/'4'/'a'/'[C | sed ''/'s/'[C0'/'o'/'g'[C | sed ''s'/'3'/'e'/'[C
+Hola mundo cruel
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ #Ejercicio4
+[Andres@amm 2Abril]$ ip addr | grep -o -m 1 ""1"2"7"."0"."0"."1"/"8"[C
+[01;31m[K127.0.0.1/8[m[K
+[Andres@amm 2Abril]$ exit
+exit
+
+Script terminado (mar 02 abr 2019 14:30:20 CST
+)

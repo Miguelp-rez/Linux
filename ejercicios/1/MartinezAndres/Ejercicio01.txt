@@ -1,0 +1,27 @@
+Script iniciado (vie 29 mar 2019 14:07:08 CST
+)[Andres@amm Prueba]$ ls rp[K[Kpractica* #LISTA TODAS LAS PRACTICAS
+practica1.sh  practica_2.txt  practica3.pdf
+[Andres@amm Prueba]$ ls *.txt #LISTA TODOS LOS ARHCIO[K[KVOS[K[K[K[K[KCHIVOS CON EXTENSION .txt
+Ejercicio01.txt  practica_2.txt  tarea1.txt
+[Andres@amm Prueba]$ ls *1.* #LISTA TODOS [K[K[K[K[K[KLA TA[K[Ka[Ktarea1 y la practica1
+Ejercicio01.txt  practica1.sh  tarea1.txt
+[Andres@amm Prueba]$ ls *[]!]\] ][C #lista [K[K[K[K[K[KLISTA LOS ARH[KCHIVS[KOS QUE NO TENGAN ESPACIOS
+Ejercicio01.txt  practica1.sh  practica_2.txt  practica3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[Andres@amm Prueba]$ ls *[]!].]s]h]
+Ejercicio01.txt  practica_2.txt  practica3.pdf  [0m[01;35mtarea02.png[0m  tarea1.txt
+[Andres@amm Prueba]$ exit
+exit
+
+Script terminado (vie 29 mar 2019 14:44:52 CST
+)Script iniciado (jue 04 abr 2019 09:57:49 CST
+)[Andres@amm Prueba]$ #El antei[Krior era el ultimo inciso que hice porque el penultimo no salia
+[Andres@amm Prueba]$ ls .I[K[K-I *_*
+Ejercicio01.txt  practica1.sh   [0m[01;32mproceso.py[0m   tarea1.txt
+[01;32meternidad.py[0m     practica3.pdf  [01;35mtarea02.png[0m  [01;32mwhileterno.py[0m
+[Andres@amm Prueba]$ #Ese es el de l[K[Klq[K listar los que no lleves guino[K[Kones
+[Andres@amm Prueba]$ #Hay otros ahr[K[Krchivos poq[Krqe[Kue lu[K[Kluego hicimos otras actividades
+[Andres@amm Prueba]$ exit
+exit
+
+Script terminado (jue 04 abr 2019 10:01:35 CST
+)
