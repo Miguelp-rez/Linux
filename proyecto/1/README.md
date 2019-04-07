@@ -20,10 +20,10 @@ Frase cifrada: Lec yre wivtmirxi ir pm fsxe
 El alumno deberá crear su propio comando para cifrar bash-scripts y debe implementar alguna técnica para que los scripts cifrados puedan ser ejecutados sin necesidad de tener su comando instalado. Además, el alumno deberá escribir el respectivo man page para que otras personas puedan entender perfectamente cómo utilizarlo.
 
 Debe manejar las siguientes banderas:
--e esta opción será utilizada para cifrar
--d esta opción será utilizada para descifrar
--s esta opción permite utilizar un desplazamiento distinto al predeterminado (45)
--a esta opción permite utilizar un alfabeto distinto al predeterminado (ASCII imprimible)
+* -e esta opción será utilizada para cifrar
+* -d esta opción será utilizada para descifrar
+* -s esta opción permite utilizar un desplazamiento distinto al predeterminado (45)
+* -a esta opción permite utilizar un alfabeto distinto al predeterminado (ASCII imprimible)
 
 **Consideraciones**
 * El desplazamiento debe ser circular, es decir, en caso de llegar al final del alfabeto y que no se haya completado el desplazamiento, deberá continuar al principio del alfabeto.
