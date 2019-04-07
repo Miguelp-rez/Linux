@@ -1,0 +1,106 @@
+Script iniciado (lun 01 abr 2019 18:20:42 CST
+)[18:20 @localhost: root->~ ]#cat modif > users.txt
+[18:20 @localhost: root->~ ]#sort users.txt
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+bart:x:1102:1102:Joaquin Villarroya Lara:/home/bart:/bin/csh
+bin:x:1:1:bin:/bin:/sbin/nologin
+burns:x:1108:1108:Eugenio Castillo Bruno:/home/burns:
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+halt:x:7:0:halt:/sbin:/sbin/halt
+homero:x:1100:1100:Gonzalo CabellosExposito:/home/homero:/bin/csh
+lisa:x:1103:1103:Ya comete la maldita naranja:/home/lisa:/bin/csh
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+maggie:x:1104:1104:Yo le dispare al senor Burns:/home/maggie:
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+marge:x:1101:1101:Yo amo a Homero:/home/marge:/bin/csh
+milhouse:x:1109:1109:Jose Carlos Paton Luis:/home/milhouse:/bin/csh
+moe:x:1105:1105:Jaime Barrachina Fabra:/home/moe:/bin/csh
+nflanders:x:1107:1107:Cristobal Leyva Bocanegra:/home/nflanders:/bin/csh
+nobody:x:99:99:Nobody:/:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+polkitd:x:999:998:User for polkitd:/:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+revalegria:x:1106:1106:Miguel Angel Torrejon Constantin:/home/revalegria:
+root:x:0:0:root:/root:/bin/bash
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+zinedinne:x:1000:1000:Zinedinne:/home/zinedinne:/bin/bash
+
+)[18:22 @localhost: root->~ ]#sort users.txt
+[7@cat modif >[C[C[C[C[C[C[C[C[C[C[7Psort[C[C[C[C[C[C[C[C[C[Cexit[K[Kls /etc | grep conf
+asound.[01;31m[Kconf[m[K
+chk[01;31m[Kconf[m[Kig.d
+dracut.[01;31m[Kconf[m[K
+dracut.[01;31m[Kconf[m[K.d
+e2fsck.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K
+GeoIP.[01;31m[Kconf[m[K.default
+host.[01;31m[Kconf[m[K
+kdump.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K
+krb5.[01;31m[Kconf[m[K.d
+ld.so.[01;31m[Kconf[m[K
+ld.so.[01;31m[Kconf[m[K.d
+libaudit.[01;31m[Kconf[m[K
+libuser.[01;31m[Kconf[m[K
+locale.[01;31m[Kconf[m[K
+logrotate.[01;31m[Kconf[m[K
+makedumpfile.[01;31m[Kconf[m[K.sample
+man_db.[01;31m[Kconf[m[K
+mke2fs.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K
+nsswitch.[01;31m[Kconf[m[K.bak
+prelink.[01;31m[Kconf[m[K.d
+resolv.[01;31m[Kconf[m[K
+resolv.[01;31m[Kconf[m[K.save
+rsyncd.[01;31m[Kconf[m[K
+rsyslog.[01;31m[Kconf[m[K
+sestatus.[01;31m[Kconf[m[K
+sudo.[01;31m[Kconf[m[K
+sudo-ldap.[01;31m[Kconf[m[K
+sys[01;31m[Kconf[m[Kig
+sysctl.[01;31m[Kconf[m[K
+vconsole.[01;31m[Kconf[m[K
+yum.[01;31m[Kconf[m[K
+[18:22 @localhost: root->~ ]#tr []0][1P][C[K[K''[1@e[1@c[1@h[1@o[1@ [1@'[1@'[1@H[1@0[1@l[1@4[1@ [1@m[1@u[1@n[1@d[1@0[1@ [1@c[1@r[1@u[1@3[1@l[C[1@|[1@ [C[C[C[C0'3'4'[C''[Co'e'a'
+tr: falta un operando después de «034oea»
+Al traducir se deben proporcionar dos cadenas.
+Pruebe 'tr --help' para más información.
+[18:24 @localhost: root->~ ]#echo 'H0l4 mund0 cru3l'| tr '034''oea' 'oea'
+Hola mundo cruel
+[18:24 @localhost: root->~ ]#ip addr
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:7d:a0:47 brd ff:ff:ff:ff:ff:ff
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic enp0s3
+       valid_lft 84682sec preferred_lft 84682sec
+[18:25 @localhost: root->~ ]#e[Kip addr | grep inet
+    [01;31m[Kinet[m[K 127.0.0.1/8 scope host lo
+    [01;31m[Kinet[m[K6 ::1/128 scope host 
+    [01;31m[Kinet[m[K 10.0.2.15/24 brd 10.0.2.255 scope global dynamic enp0s3
+[18:26 @localhost: root->~ ]#ip addr | grep inet[C inet- inete inet[C inet1 inet
+grep: inet: No existe el fichero o el directorio
+[18:27 @localhost: root->~ ]#ip addr | grep -e 1 inet[1P
+grep: inet: No existe el fichero o el directorio
+[18:27 @localhost: root->~ ]#exit
+exit
+
+Script terminado (lun 01 abr 2019 18:27:39 CST
+)Script iniciado (lun 01 abr 2019 18:30:17 CST
+)[18:30 @localhost: root->~ ]#exitip addr | grep -e1 inet[1P[1@m[1@ 
+    [01;31m[Kinet[m[K 127.0.0.1/8 scope host lo
+[18:30 @localhost: root->~ ]#exit
+exit
+
+Script terminado (lun 01 abr 2019 18:30:47 CST
+)
