@@ -10,7 +10,7 @@ Hora límite: 23:59
 ## Introducción
 En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra que se encuentra un número fijo de posiciones más adelante en el alfabeto. 
 
-**Ejemplo**
+**Ejemplo**  
 Alfabeto: 'A-Za-z'  
 Desplazamiento: 4  
 Frase a cifrar: Hay una serpiente en mi bota  
@@ -19,7 +19,7 @@ Frase cifrada: Lec yre wivtmirxi ir pm fsxe
 ## Desarrollo
 El alumno deberá crear su propio comando para cifrar bash-scripts y debe implementar alguna técnica para que los scripts cifrados puedan ser ejecutados sin necesidad de tener su comando instalado. Además, el alumno deberá escribir el respectivo man page para que otras personas puedan entender perfectamente cómo utilizarlo.
 
-Debe manejar las siguientes banderas:
+Debe manejar las siguientes banderas:  
 -e esta opción será utilizada para cifrar  
 -d esta opción será utilizada para descifrar  
 -s esta opción permite utilizar un desplazamiento distinto al predeterminado (45)  
