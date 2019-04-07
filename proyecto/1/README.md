@@ -30,9 +30,9 @@ Debe manejar las siguientes banderas:
 * El comando debe implementar alguna forma para que los scripts cifrados puedan ser ejecutados de forma usual y sin necesidad de tener el comando instalado.
 
 ## Entrega
-Agregar su script y el man page en un archivo comprimido al repositorio de GitHub en el directorio correspondiente.
-Incluir un README.md para que otras personas puedan instalar su comando y el man page.
-Incluir alguna licencia que ampare su trabajo (investigación)
+1. Agregar su script y el man page en un archivo comprimido al repositorio de GitHub en el directorio correspondiente.
+2. Incluir un README.md para que otras personas puedan instalar su comando y el man page.
+3. Incluir alguna licencia que ampare su trabajo (investigación)
 
 ## Punto extra
 Se dará un punto extra sobre la calificación de su proyecto si agregan un script que instale su programa.
