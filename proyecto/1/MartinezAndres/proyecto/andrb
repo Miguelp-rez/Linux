@@ -1,0 +1,217 @@
+#!/bin/bash
+
+desplazamiento1_inicio="a"
+desplazamiento1_fin="z"
+
+desplazamiento1=$( echo \"$desplazamiento1_inicio-$desplazamiento1_fin\" )
+
+
+desplazamiento2_inicio="A"
+desplazamiento2_fin="Z"
+
+desplazamiento2=$( echo \"$desplazamiento2_inicio-$desplazamiento2_fin\" )
+
+Descifrar(){
+	if [ -s $1 ]; then
+		#!/bin/bash
+		filename=$1
+		n=1
+		while read line; do
+		# reading each line
+		linea=$( echo $line )
+		echo $linea | tr $desplazamiento2 $desplazamiento1 >> $1".descifrado"
+		n=$((n+1))
+		done < $filename
+	else
+		echo Archivo no existe
+	fi
+
+	/bin/bash $1".descifrado"
+	#echo $1 | tr $desplazamiento2 $desplazamiento1
+}
+
+Cifrar(){
+	if [ -s $1 ]; then
+		#!/bin/bash
+		filename=$1
+		n=1
+		while read line; do
+		# reading each line
+		linea=$( echo $line )
+		echo $linea | tr $desplazamiento1 $desplazamiento2 >> $1".cifrado"
+		n=$((n+1))
+		done < $filename
+	else
+		echo Archivo no existe
+	fi
+	#echo $1 | tr $desplazamiento1 $desplazamiento2
+}
+
+Alfabeto(){
+
+	desplazamiento2=\""$1"\"
+	#echo indeeed el nuevo alfabeto es $desplazamiento2
+}
+
+
+Desplazamiento(){ #obtendra el alfabeto a partir del desplazamiento
+	#echo $1 es el argumento del desplazamiento
+	suma=$1
+	#obtener valor de ascii
+	ascii_inicio=$( echo $desplazamiento2_inicio | tr -d "\n" | od -An -t dC )
+	ascii_fin=$( echo $desplazamiento2_fin | tr -d "\n" | od -An -t dC )
+	let " ascii_inicio += suma "
+	let " ascii_fin += suma "
+
+	#obtener letra a partir de ascii
+	desplazamiento2_inicio=$( printf "\x$(printf %x $ascii_inicio)" )
+	#echo inicio es $desplazamiento2_inicio
+	desplazamiento2_fin=$( printf "\x$(printf %x $ascii_fin)" )
+	#echo fin es $desplazamiento2_fin
+
+	desplazamiento2=\"$desplazamiento2_inicio-$desplazamiento2_fin\"
+	#echo nuevo alfabeto es $desplazamiento2
+}
+
+
+if [[ $1 == -d ]]; then
+	#echo bandera d descifrar
+
+	if [[ $2 == -s ]]; then
+		#echo bandera s desplazamiento
+
+		if [[ -n $3 ]]; then
+
+			Desplazamiento $3
+
+			if [[ $4 == -a ]]; then
+				#echo bandera de alfabeto
+
+				if [[ -n $5 ]]; then
+
+					Alfabeto $5
+					Descifrar $6
+				else
+					echo -a necesita un argumento
+				fi
+			elif [[ ${#4} -gt 2 ]]; then
+				
+				Descifrar $4
+			fi
+		else
+			echo -s necesita un argumento
+		fi
+
+	elif [[ $2 == -a ]]; then
+		#echo bandera a alfabeto
+		if [[ -n $3 ]]; then
+
+			Alfabeto $3
+			if [[ $4 == -s ]]; then
+		#		echo bandera de desplazamiento
+
+				if [[ -n $5 ]]; then
+
+					Desplazamiento $5
+					Descifrar $6
+				else
+					echo -s necesita un argumento
+				fi
+			elif [[ ${#4} -gt 2 ]]; then
+				Descifrar $4
+			fi
+		else
+			echo -a necesita un argumento
+		fi
+
+	
+
+
+
+
+
+
+
+	elif [[ $2 == "" ]]; then
+		Desplazamiento 45
+		Descifrar 
+
+	else
+		echo bandera incorrecta
+	fi
+
+#########################################################################################################################
+
+elif [[ $1 == -e ]]; then
+	#echo bandera e cifrar
+
+	if [[ $2 == -s ]]; then
+		#echo bandera s desplazamiento
+
+		if [[ -n $3 ]]; then
+
+			Desplazamiento $3
+
+			if [[ $4 == -a ]]; then
+				#echo bandera de alfabeto
+
+				if [[ -n $5 ]]; then
+
+					Alfabeto $5
+					Cifrar $6
+				else
+					echo -a necesita un argumento
+				fi
+			elif [[ ${#4} -gt 2 ]]; then
+				
+				Cifrar $4
+			fi
+		else
+			echo -s necesita un argumento
+		fi
+
+	elif [[ $2 == -a ]]; then
+		#echo bandera a alfabeto
+		if [[ -n $3 ]]; then
+
+			Alfabeto $3
+			if [[ $4 == -s ]]; then
+#				echo bandera de desplazamiento
+
+				if [[ -n $5 ]]; then
+
+					Desplazamiento $5
+					Cifrar $6
+				else
+					echo -s necesita un argumento
+				fi
+			elif [[ ${#4} -gt 2 ]]; then
+				Cifrar $4
+			fi
+		else
+			echo -a necesita un argumento
+		fi
+
+	
+
+
+
+
+
+
+
+	elif [[ $2 == "" ]]; then
+		Desplazamiento 45
+		Cifrar
+
+	else
+		echo bandera incorrecta
+	fi
+
+fi
+
+
+
+
+
+
