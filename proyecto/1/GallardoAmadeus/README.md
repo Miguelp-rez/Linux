@@ -2,7 +2,9 @@ Intalacion-------------------
 Para poder ejecutar el instalador se debera tener necesariamnete en el mismo directorio los siguientes archivos:
 
 ♪ Encrip.sh
+
 ♪ Encrip.1
+
 ♪ INTS.sh
 
 Se debera compilar el archivo INTS.sh (Instalador)
