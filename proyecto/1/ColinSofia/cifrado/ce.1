@@ -1,0 +1,20 @@
+.TH ce ce
+.SH NAME
+ce -e archivo -pp opcion
+.SH SYNOPSIS
+
+.B Encripta y desencripta archivos y scripts
+
+.SH DESCRIPTION
+Encripta y desencripta archivos y scripts, en caso de ser scripts, permite ejecutar un script encriptado. Se implementa el cifrado César o cifrado por desplazamiento, tanto como el abecedario como el dezplazamiento pueden ser modificados (leer las especificaciones).  
+
+-d Desencripta archivo. Ej: ce -d archivo.sh
+
+-s Permite utilizar un desplazamiento distinto al predeterminado, el dezplazamiento predeterminado es de 4, el tamaño del desplazamiento debe ser menor a 2 veces la longitud del abecedario. Ej: ce -e archivo.sh -s 5
+
+-a Permite utilizar un alfabeto distinto al predeterminado, el alfabeto predeterminado inclute de [A..Z][a..z], si se requiere un alfabeto distinto se debera utilizar esta bandera, teniendo en consideración el desplazamiento. Ej: ce -e archivo.sh -b ABCDabcd1234
+
+-x Permite ejecutar un script encriptado. Para lo cual el script debe estar encriptado con el desplazamiento y alfabeto predeterminados, de no ser el caso se debe conocer el el desplazamiento y alfabeto que se utilizo para ser encriptado. Ej: ce -x script.sh Ej2: ce -x script.sh -s 5 -b ABCDabcd1234
+
+.SH AUTHOR
+Colín López Sofía, sofiacolinscl@gmail.com
