@@ -1,0 +1,222 @@
+#!/bin/bash
+
+#Abecedario, desplazamiento y opción a realizar
+abecedario=( {A..Z} {a..z} )
+desplazamiento=4
+caso=0
+
+#Se leen las banderas y sus respectivos parametros
+while getopts ":e:d:s:a:x:" opcion 
+do 
+	case $opcion in 
+		e) 
+			#-e opción para cifrar 
+
+			archivo=$OPTARG
+			archivoAux=$(echo aux$archivo)
+			caso=1
+		;;
+		d)
+			#-d opción para descifrar
+
+			archivo=$OPTARG
+			archivoAux=$(echo aux$archivo)
+			cp $OPTARG $(echo aux$archivo)
+			caso=2
+		;;
+		s)
+			#-s permite utilizar un desplazamiento distinto al predeterminado
+			#debe ser menor a 2(longitud del abecedario)
+
+			desplazamiento=$OPTARG
+		;;
+		a)
+			#-a permite utilizar un alfabeto distinto al predeterminado
+			#Se debe intrucir como una cadena después de la bandera
+			#ej: -a ABCDEFabcdf01234
+
+			abcAux=$OPTARG
+			unset abecedario
+			abecedario=()
+			for i in $(seq 0 $((${#abcAux} - 1))); 
+			do
+				abecedario[i]=${abcAux:$i:1}
+			done
+		;;
+		x)
+			#-x permite ejecutar un archivo encriptado, siempre y cuando las 
+			#opciones del encriptado sean las predeterminadas o se conozcan
+			#En caso de que las opciones sean diferentes a las predetrminadas 
+			#se deberán poner las banderas correspondientes
+
+			archivo=$OPTARG
+			archivoAux=$(echo aux$archivo)
+			archivoAux2=$(echo aux2$archivo)
+			caso=3
+		;;
+	esac
+done
+
+
+
+#Función que encripta
+function encriptar {
+	text=()
+	for i in $(seq 0 $((${#texto} - 1))); 
+	do
+		text[i]=${texto:$i:1}
+		
+	done
+	lenAbc=$(echo ${#abecedario[@]})
+	lenText=$(echo ${#text[@]})
+
+	aux1=0
+	for (( i=0; i<lenText; i++)) 
+	do 
+	    encontrado=`echo ${abecedario[*]} | grep "${text[i]}"`
+	    if [ "${encontrado}" != "" ]; 
+	    then 
+	    	aux=0
+	    	for j in ${abecedario[*]}
+	    	do
+	    		if [ $j == "${text[$i]}" ]
+	    		then
+	    			a=$(($aux + $desplazamiento))
+	    			if [ $a -ge $(($lenAbc)) ];
+	        		then 
+	        			while [ $a -ge $(($lenAbc)) ]
+	        			do 
+	        				a=$(($aux + $desplazamiento - $lenAbc))
+	        			done
+	        		else 
+	        			a=$(($aux + 4))
+	        		fi        		
+	        		text[$aux1]=${abecedario[$a]}
+	        		break
+	    		fi
+	    		aux=$(($aux + 1))
+	    	done 
+	    fi
+	    aux1=$(($aux1 + 1))
+	done
+	texto=""
+	for i in ${text[*]}
+	do
+		texto=$(echo $texto$i)
+	done
+}
+
+#Función que desencripta
+function desencriptar {
+	
+	text=()
+	for i in $(seq 0 $((${#texto} - 1))); 
+	do
+	    text[i]=${texto:$i:1}
+	done
+
+	lenAbc=$(echo ${#abecedario[@]})
+	lenText=$(echo ${#text[@]})
+
+	aux1=0
+	for (( i=0; i<lenText; i++)) 
+	do 
+	    encontrado=`echo ${abecedario[*]} | grep "${text[i]}"`
+	    if [ "${encontrado}" != "" ]; 
+	    then 
+	        aux=0
+	        for j in ${abecedario[*]}
+	        do
+	            if [ $j == "${text[$i]}" ]
+	            then
+	            	a=$(($aux - $desplazamiento))
+	                if [ $a -lt 0 ];
+	                then 
+	                    while [ $a -lt 0 ] 
+	                    do
+	                    	a=$(($aux - $desplazamiento + $lenAbc))
+	                    done
+	                else 
+	                    a=$(($aux - $desplazamiento))
+	                fi              
+	                text[$aux1]=${abecedario[$a]}
+	                break
+	            fi
+	            aux=$(($aux + 1))
+	        done 
+	    fi
+	    aux1=$(($aux1 + 1))
+	done
+	texto=""
+	for i in ${text[*]}
+	do
+		texto=$(echo $texto$i)
+	done
+}
+
+
+
+#Aquí se ejecutan las ordenes
+case $caso in
+	1)
+		#Encriptar
+
+		cat $archivo | sed 's/ /·/g' > | sed 's/\t/····/g' > $archivoAux 
+		true>$archivo
+		while IFS='' read -r linea || [[ -n "$linea" ]]; do
+			texto=$linea
+			if [ "$texto" != "" ]
+			then
+				encriptar
+				echo $texto | sed 's/·/ /g' >> $archivo
+			else 
+				echo $texto >> $archivo
+			fi 
+		done < $archivoAux
+		rm $archivoAux
+	;;
+	2)
+		
+		#Desencriptar
+
+		cat $archivo | sed 's/ /·/g' | sed 's/\t/····/g' > $archivoAux
+		true>$archivo
+
+		while IFS='' read -r linea || [[ -n "$linea" ]]; do
+			texto=$linea
+			if [ "$texto" != "" ]
+			then
+				desencriptar
+				echo $texto | sed 's/·/ /g' >> $archivo
+			else 
+				echo $texto >> $archivo
+			fi 
+		done < $archivoAux
+		rm $archivoAux
+	;;
+	3)
+	
+		#Ejecutar
+
+		cat $archivo | sed 's/ /·/g' | sed 's/\t/····/g' > $archivoAux
+		cat $archivo > $archivoAux2
+		true>$archivoAux2
+		while IFS='' read -r linea || [[ -n "$linea" ]]; do
+			texto=$linea
+			if [ "$texto" != "" ]
+			then
+				desencriptar
+				echo $texto | sed 's/·/ /g' >> $archivoAux2
+			else 
+				echo $texto >> $archivoAux2
+			fi 
+		done < $archivoAux
+		rm $archivoAux
+		source $archivoAux2
+		rm $archivoAux2
+esac
+
+
+
+
+
