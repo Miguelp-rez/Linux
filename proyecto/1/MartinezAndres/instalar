@@ -1,0 +1,7 @@
+
+tar -xzvf proyecto.tar.gz
+cd proyecto
+cp andrb /bin/
+cp andrb.8.gz /usr/share/man/man8
+
+echo listo
